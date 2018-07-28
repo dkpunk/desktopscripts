@@ -1,0 +1,110 @@
+
+{
+"ALERTS":{
+	"checks":["check_sdp2_serverlog_[portnumber]","check_sdp2_corelog_[portnumber]","check_sdp2_jvm_[portnumber]","check_sdp2_alertport_[portnumber]"]
+	}, 
+
+"DCSERVLETS":{
+	"checks":["check_sdp2_blockingthreads_[portnumber]","check_sdp2_telnet_[portnumber]","check_sdp2_serverlog_[portnumber]","check_sdp2_corelog_[portnumber]","check_sdp2_accesslog_[portnumber]","check_sdp2_jvm_[portnumber]"]
+	}, 
+
+"MS":{
+	"checks":["check_sdp2_port_[portnumber]","check_sdp2_serverlog_[portnumber]","check_sdp2_corelog_[portnumber]"]
+	}, 
+
+"DC":{
+	"checks":["check_sdp2_blockingthreads_[portnumber]","check_sdp2_telnet_[portnumber]","check_sdp2_serverlog_[portnumber]","check_sdp2_corelog_[portnumber]","check_sdp2_CacheRun_time_[portnumber]","check_sdp2_jvm_[portnumber]"]
+	}, 
+"PAYMON":{"checks":["check_sdp2_telnet_[portnumber]","check_sdp2_serverlog_[portnumber]","check_sdp2_corelog_[portnumber]","check_sdp2_jvm_[portnumber]","check_sdp2_accesslog_[portnumber]"]}, 
+
+
+"PAYMENTENGINE":{
+	"checks":["check_sdp2_port_[portnumber]","check_sdp2_serverlog_[portnumber]","check_sdp2_corelog_[portnumber]"]
+}, 
+
+"PFM":{
+	"checks":["check_sdp2_telnet_[portnumber]","check_sdp2_serverlog_[portnumber]","check_sdp2_corelog_[portnumber]","check_sdp2_accesslog_[portnumber]","check_sdp2_jvm_[portnumber]"]
+}, 
+
+"REST":{
+	"checks":["check_sdp2_telnet_[portnumber]","check_sdp2_serverlog_[portnumber]","check_sdp2_corelog_[portnumber]","check_sdp2_accesslog_[portnumber]","check_sdp2_jvm_[portnumber]"]
+}, 
+
+"FASTLINK":{
+	"checks":["check_sdp2_telnet_[portnumber]","check_sdp2_serverlog_[portnumber]","check_sdp2_corelog_[portnumber]","check_sdp2_accesslog_[portnumber]","check_sdp2_jvm_[portnumber]"]
+}, 
+
+"YCC":{
+	"checks":["check_sdp2_telnet_[portnumber]","check_sdp2_serverlog_[portnumber]","check_sdp2_corelog_[portnumber]","check_sdp2_accesslog_[portnumber]","check_sdp2_jvm_[portnumber]"]
+},
+
+"YSL":{
+	"checks":["check_sdp2_telnet_[portnumber]","check_sdp2_serverlog_[portnumber]","check_sdp2_corelog_[portnumber]","check_sdp2_accesslog_[portnumber]","check_sdp2_jvm_[portnumber]","check_sdp2_ysl_api_[portnumber]","check_sdp2_webhook_[portnumber]"]},
+	
+
+"SDK":{
+	"checks":["check_sdp2_telnet_[portnumber]","check_sdp2_serverlog_[portnumber]","check_sdp2_corelog_[portnumber]","check_sdp2_accesslog_[portnumber]","check_sdp2_jvm_[portnumber]"]},
+
+"ALERTS":{
+	"checks":["JBOSS-check_sdp2_serverlog_[portnumber]","check_sdp2_corelog_[portnumber]","check_sdp2_jvm_[portnumber]","check_sdp2_alertport_[portnumber]"]},
+
+"PRICEDATASERVER":{
+	"checks":["check_sdp2_port_[portnumber]","check_sdp2_serverlog_[portnumber]","check_sdp2_accesslog_[portnumber]","check_sdp2_jvm_[portnumber]"]},
+	
+
+"WEALTHSERVICE":{
+	"checks":["check_sdp2_port_[portnumber]","heck_sdp2_serverlog_[portnumber]","check_sdp2_accesslog_[portnumber]","check_sdp2_jvm_[portnumber]"]},
+
+"NEDBANK_XMLADAPTERINSTANC":{
+	"checks":["NA"]},
+"NEDBANK_XMLADAPTER":{
+	"checks":["NA"]},
+
+"PRICEFEEDSERVER":{
+	"checks":["check_sdp2_port_[portnumber]","check_sdp2_serverlog_[portnumber]","check_sdp2_accesslog_[portnumber]","check_sdp2_jvm_[portnumber]"]},
+
+"UBD":{
+	"checks":["check_sdp2_port_[portnumber]","check_sdp2_serverlog_[portnumber]","check_sdp2_accesslog_[portnumber]","check_sdp2_jvm_[portnumber]"]},
+
+"MONGOSERVER":{"checks":["check_sdp2_serverlog_[portnumber]","check_sdp2_telnet_[portnumber]","check_sdp2_jvm_[portnumber]"]},
+"RCM":{"checks":["NA"]},
+
+"DASHBOARD":{"checks":["NA"]},
+
+"NGYCC":{"checks":["check_sdp2_telnet_[portnumber]","check_sdp2_serverlog_[portnumber]","check_sdp2_corelog_[portnumber]","check_sdp2_accesslog_[portnumber]","check_sdp2_jvm_[portnumber]"]},
+
+"USAAWEBALERT":{"checks":["NA"]},
+
+"BPAAADAPTER":{"checks":["NA"]},
+
+"YTASK":{"checks":[ "check_sdp2_serverlog_[portnumber]","check_sdp2_telnet_[portnumber]","check_sdp2_corelog_[portnumber]"]},
+
+"YSLYCC":{"checks":["check_sdp2_telnet_[portnumber]","check_sdp2_serverlog_[portnumber]","check_sdp2_corelog_[portnumber]","check_sdp2_accesslog_[portnumber]","check_sdp2_jvm_[portnumber]"]},
+
+"SENSEFIAPP":{"checks":["check_sdp2_serverlog_[portnumber]","check_sdp2_accesslog_[portnumber]","check_sdp2_telnet_[portnumber]","check_sdp2_jvm_[portnumber]","check_sdp2_corelog_[portnumber]"]},
+
+"CSR-JBOSS":{"checks":["check_sdp2_serverlog_[portnumber]","check_sdp2_accesslog_[portnumber]","check_sdp2_telnet_[portnumber]","check_sdp2_jvm_[portnumber]","check_sdp2_corelog_[portnumber]"]},
+
+"SAMPLEAPPCROSSDOMAIN":{"checks":["NA"]},
+
+"YISAMPLE":{"checks":["NA"]},
+
+"CORE":{"checks":["NA"]},
+
+"YIEAPP":{"checks":["check_sdp2_port_[portnumber]","check_sdp2_serverlog_[portnumber]","check_sdp2_accesslog_[portnumber]","check_sdp2_jvm_[portnumber]"]},
+"DEVFRONTEND":{"checks":[ "check_sdp2_serverlog_[portnumber]","check_sdp2_jvm_[portnumber]","check_sdp2_port_[portnumber]"]},
+"TOOLCENTER":{"checks":["check_sdp2_serverlog_[portnumber]","check_sdp2_jvm_[portnumber]","check_sdp2_port_[portnumber]"]},
+"DEVBACKEND":{"checks":["check_sdp2_serverlog_[portnumber]","check_sdp2_jvm_[portnumber]","check_sdp2_port_[portnumber]"]},
+"QUERYCENTER2":{"checks":["NA"]},
+"DEBUGBACKEND":{"checks":["NA"]},
+"BACKEND1":{"checks":["check_sdp2_serverlog_[portnumber]","check_sdp2_jvm_[portnumber]","check_sdp2_port_[portnumber]"]},
+"EXTRACTOR":{"checks":["NA"]},
+"QUERYCENTER":{"checks":["check_sdp2_serverlog_[portnumber]","check_sdp2_telnet_[portnumber]","check_sdp2_corelog_[portnumber]","check_sdp2_firemem_jvm_[portnumber]"]},
+"DAPBACKEND":{"checks":["check_sdp2_serverlog_[portnumber]","check_sdp2_jvm_[portnumber]","check_sdp2_port_[portnumber]"]},
+"FRONTEND1":{"checks":["check_sdp2_serverlog_[portnumber]","check_sdp2_jvm_[portnumber]","check_sdp2_port_[portnumber]"]},
+"DAPFRONTEND":{"checks":["check_sdp2_serverlog_[portnumber]","check_sdp2_jvm_[portnumber]","check_sdp2_port_[portnumber]"]},
+"OPENREPORTS":{"checks":["check_sdp2_corelog_[portnumber]", "check_sdp2_serverlog_[portnumber]","check_sdp2_telnet_[portnumber]","check_sdp2_jvm_[portnumber]"]},
+"nodejs":{"checks":[ "check_sdp2_log_[portnumber]","check_sdp2_port_[portnumber]"]},
+"ES":{"checks":["check_sdp2_ES_Search_status_[portnumber]","check_sdp2_ES_Nodes_status_[portnumber]","check_sdp2_ES_JVM_status_[portnumber]","check_sdp2_ES_Node_Health_status_[portnumber]"]},
+"OAUTHCLIENT":{"checks":["check_sdp2_serverlog_[portnumber]","check_sdp2_telnet_[portnumber]","check_sdp2_jvm_[portnumber]","check_sdp2_accesslog_[portnumber]"]}
+}

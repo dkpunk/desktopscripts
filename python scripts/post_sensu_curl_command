@@ -1,0 +1,15 @@
+curl -X POST --header "Content-Type: application/json" --header "Accept: application/json" -d "{
+    \"name\": \"tde_server_check\",
+    \"command\": \"export PATH=/sbin:/bin:/usr/sbin:/usr/bin:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_server_tde.pl 2> /dev/null\",
+    \"category\": \"Application\",
+    \"handlers\": [
+      \"default\"
+    ],
+    \"subscribers\": [
+      \"role_tde_ias\"
+    ],
+    \"userdefined1\": \"http://sot.yodlee.com\",
+    \"instance\": \"Instance-1\",
+    \"check_type\": \"status\",
+    \"interval\": 300
+  }"

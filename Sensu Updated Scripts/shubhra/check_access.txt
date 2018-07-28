@@ -1,0 +1,149 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+my $today_date = `date +%Y%m%d`;
+my $today_date2 = `date +%Y-%m-%d`;
+my $yest_date = `date +%Y%m%d --date=yesterday`;
+chomp($today_date,$yest_date,$today_date2);
+my $temp_time =`date`;
+if($temp_time =~ m/\s+00\:00\:*/g){
+    sleep(300);
+}
+my $message;
+my $log_file;
+
+###################################
+#DEFINING THE LOG PATH
+###################################
+my $log_path = "/var/log/ysl/";
+my $log_temp = "/tmp/";
+
+if(! -e $log_temp)
+{
+`mkdir $log_temp`;
+`chmod 755 $log_temp`;
+}
+
+my  $Port = $ARGV[0];
+my $wcount = $log_temp . "accesslogfile." . $Port . "ct";
+
+######################################
+#ps -ef details#
+#    OK state will recover the Ticket
+######################################
+my $Object = "ysl";
+ 
+
+
+my $file;
+
+$file = `ls -ltr /var/log/ysl/access* | grep -v '\.gz' | grep '$Port' | awk -F' ' '{print \$9}'| tail -1`;
+#print "------$file\n";
+sub accesslog {
+
+	$log_file = $_[0];
+	chomp($log_file);
+	my $flag_severity = 0; #-OK STATE-#
+	if(! -e $log_file){
+        	$message =  "Port: $Port, Component: $Object, access log does not exists";
+        	$flag_severity = 1; #-CRITICAL STATE-#
+	}
+
+elsif ( -e $log_file && -s $log_file)
+    {
+        if (! -e $wcount )
+            {
+                my $temp_count = `cat $log_file | wc -l`;
+                chomp($temp_count);
+                $wcount = $log_temp . "accesslogfile." . $Port . "ct";
+                `echo "$temp_count" > $wcount`;
+                my $amp = `cat $log_file | tail -n 50 |  grep -c 'HTTP/1.1" 500'`;
+                my $amp1 = `cat $log_file | tail -n 50 |   grep 'HTTP/1.1" 200'|grep -v -c index.html`;
+
+                chomp($amp,$amp1);
+
+
+                    if($amp  > 10 && $amp > $amp1)
+                        {
+                            $message = "Port: $Port, Component: $Object, Huge no.of HTTP 500 ($amp)  errors in $log_file, than 200's($amp1)";
+                            $flag_severity = 2; #-CRITICAL STATE-#        
+                        }
+                    else
+                        {
+                            $message = "Port: $Port, Component: $Object, access log ok";
+                            $flag_severity = 0; #-OK STATE-#
+                        }
+
+
+            }
+        elsif ( -e $wcount )
+            {
+                my $cur_count = `cat $log_file | wc -l`;
+                chomp($cur_count);
+                my $temp_count = `cat $wcount`;
+                chomp($temp_count);
+                `echo "$cur_count" > $wcount`;
+                my $diff = $cur_count - $temp_count;
+
+                    if($cur_count > $temp_count)
+                        {
+                            my $amp = `cat $log_file | tail -n $diff |  grep -c 'HTTP/1.1" 500'`;
+                            my $amp1 = `cat $log_file | tail -n $diff |   grep 'HTTP/1.1" 200'| grep -v -c index.html`;
+                            chomp ($amp);
+                            chomp($amp1);
+                                if($amp  > 10 && $amp > $amp1)
+                                    {
+                                        $message = "Port: $Port, Component: $Object, Huge no.of HTTP 500 ($amp)  errors in $log_file, than 200's($amp1)";
+                                        $flag_severity = 2; #-CRITICAL STATE-#
+                                    }
+                                else
+                                    {
+                                        $message = "Port: $Port, Component: $Object, access log ok";
+                                        $flag_severity = 0; #-OK STATE-#
+                                    }
+                        }
+                   elsif($cur_count < $temp_count)
+                        {
+                            my $amp = `cat $log_file |  grep -c 'HTTP/1.1" 500'`;
+                            my $amp1 = `cat $log_file | grep 'HTTP/1.1" 200'| grep -v -c index.html`;
+                            chomp ($amp);
+                            chomp($amp1);
+                                if($amp  > 10 && $amp > $amp1)
+                                    {
+                                        $message = "Port: $Port, Component: $Object, Huge no.of HTTP 500 ($amp)  errors in $log_file, than 200's($amp1)";
+                                        $flag_severity = 2; #-CRITICAL STATE-#
+                                                                }
+                                else
+                                    {
+                                        $message = "Port: $Port, Component: $Object, access log ok";
+                                        $flag_severity = 0; #-OK STATE-#
+                                                                }
+                        } elsif($cur_count == $temp_count) {
+
+                                $message = "Port: $Port, Component: $Object, No new lines are added";
+                                $flag_severity = 0;
+
+
+                        }
+
+            }
+    }
+
+                                        return ($message,$flag_severity);
+ }
+
+
+ my ($temp,$status) = accesslog($file);
+
+##print "$temp\n";
+my $out = "[" . $Port . "]";
+chomp($out);
+if ( $status == 0 ) { print "$out: OK,$temp\n"; }
+elsif ( $status == 1 ) { print "$out: OK,$temp\n"; }
+else  { print "$out: CRITICAL,$temp\n";
+}
+
+exit($status);
+

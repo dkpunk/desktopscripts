@@ -1,0 +1,3566 @@
+{
+   "sdp2_role_DCSERVLETS_10043 : DCSERVLETS": [
+      "check_sdp2_blockingthreads_10043",
+      "check_sdp2_serverlog_10043",
+      "check_sdp2_accesslog_10043",
+      "check_sdp2_telnet_10043",
+      "check_sdp2_jvm_10043",
+      "check_sdp2_corelog_10043"
+   ],
+   "sdp2_role_DCSERVLETS_10143 : DCSERVLETS": [
+      "check_sdp2_blockingthreads_10143",
+      "check_sdp2_serverlog_10143",
+      "check_sdp2_accesslog_10143",
+      "check_sdp2_telnet_10143",
+      "check_sdp2_jvm_10143",
+      "check_sdp2_corelog_10143"
+   ],
+   "sdp2_role_DC_52541 : DC": [
+      "check_sdp2_serverlog_52541",
+      "check_sdp2_corelog_52541",
+      "check_sdp2_jvm_52541",
+      "check_sdp2_telnet_52541",
+      "check_sdp2_blockingthreads_52541",
+      "check_sdp2_CacheRun_time_52541"
+   ],
+   "sdp2_role_ALERTS_52541 : ALERTS": [
+      "check_sdp2_serverlog_52541",
+      "check_sdp2_corelog_52541",
+      "check_sdp2_jvm_52541",
+      "check_sdp2_alertport_52541"
+   ],
+   "sdp2_role_DC_53541 : DC": [
+      "check_sdp2_serverlog_53541",
+      "check_sdp2_corelog_53541",
+      "check_sdp2_jvm_53541",
+      "check_sdp2_telnet_53541",
+      "check_sdp2_blockingthreads_53541",
+      "check_sdp2_CacheRun_time_53541"
+   ],
+   "sdp2_role_ALERTS_53541 : ALERTS": [
+      "check_sdp2_serverlog_53541",
+      "check_sdp2_corelog_53541",
+      "check_sdp2_jvm_53541",
+      "check_sdp2_alertport_53541"
+   ],
+   "sdp2_role_DC_55541 : DC": [
+      "check_sdp2_serverlog_55541",
+      "check_sdp2_corelog_55541",
+      "check_sdp2_jvm_55541",
+      "check_sdp2_telnet_55541",
+      "check_sdp2_blockingthreads_55541",
+      "check_sdp2_CacheRun_time_55541"
+   ],
+   "sdp2_role_ALERTS_55541 : ALERTS": [
+      "check_sdp2_serverlog_55541",
+      "check_sdp2_corelog_55541",
+      "check_sdp2_jvm_55541",
+      "check_sdp2_alertport_55541"
+   ],
+   "sdp2_role_DC_57541 : DC": [
+      "check_sdp2_serverlog_57541",
+      "check_sdp2_corelog_57541",
+      "check_sdp2_jvm_57541",
+      "check_sdp2_telnet_57541",
+      "check_sdp2_blockingthreads_57541",
+      "check_sdp2_CacheRun_time_57541"
+   ],
+   "sdp2_role_ALERTS_57541 : ALERTS": [
+      "check_sdp2_serverlog_57541",
+      "check_sdp2_corelog_57541",
+      "check_sdp2_jvm_57541",
+      "check_sdp2_alertport_57541"
+   ],
+   "sdp2_role_DC_58541 : DC": [
+      "check_sdp2_serverlog_58541",
+      "check_sdp2_corelog_58541",
+      "check_sdp2_jvm_58541",
+      "check_sdp2_telnet_58541",
+      "check_sdp2_blockingthreads_58541",
+      "check_sdp2_CacheRun_time_58541"
+   ],
+   "sdp2_role_ALERTS_58541 : ALERTS": [
+      "check_sdp2_serverlog_58541",
+      "check_sdp2_corelog_58541",
+      "check_sdp2_jvm_58541",
+      "check_sdp2_alertport_58541"
+   ],
+   "sdp2_role_DC_54541 : DC": [
+      "check_sdp2_serverlog_54541",
+      "check_sdp2_corelog_54541",
+      "check_sdp2_jvm_54541",
+      "check_sdp2_telnet_54541",
+      "check_sdp2_blockingthreads_54541",
+      "check_sdp2_CacheRun_time_54541"
+   ],
+   "sdp2_role_ALERTS_54541 : ALERTS": [
+      "check_sdp2_serverlog_54541",
+      "check_sdp2_corelog_54541",
+      "check_sdp2_jvm_54541",
+      "check_sdp2_alertport_54541"
+   ],
+   "sdp2_role_DC_56541 : DC": [
+      "check_sdp2_serverlog_56541",
+      "check_sdp2_corelog_56541",
+      "check_sdp2_jvm_56541",
+      "check_sdp2_telnet_56541",
+      "check_sdp2_blockingthreads_56541",
+      "check_sdp2_CacheRun_time_56541"
+   ],
+   "sdp2_role_ALERTS_56541 : ALERTS": [
+      "check_sdp2_serverlog_56541",
+      "check_sdp2_corelog_56541",
+      "check_sdp2_jvm_56541",
+      "check_sdp2_alertport_56541"
+   ],
+   "sdp2_role_DC_59541 : DC": [
+      "check_sdp2_serverlog_59541",
+      "check_sdp2_corelog_59541",
+      "check_sdp2_jvm_59541",
+      "check_sdp2_telnet_59541",
+      "check_sdp2_blockingthreads_59541",
+      "check_sdp2_CacheRun_time_59541"
+   ],
+   "sdp2_role_ALERTS_59541 : ALERTS": [
+      "check_sdp2_serverlog_59541",
+      "check_sdp2_corelog_59541",
+      "check_sdp2_jvm_59541",
+      "check_sdp2_alertport_59541"
+   ],
+   "sdp2_role_DC_63541 : DC": [
+      "check_sdp2_serverlog_63541",
+      "check_sdp2_corelog_63541",
+      "check_sdp2_jvm_63541",
+      "check_sdp2_telnet_63541",
+      "check_sdp2_blockingthreads_63541",
+      "check_sdp2_CacheRun_time_63541"
+   ],
+   "sdp2_role_ALERTS_63541 : ALERTS": [
+      "check_sdp2_serverlog_63541",
+      "check_sdp2_corelog_63541",
+      "check_sdp2_jvm_63541",
+      "check_sdp2_alertport_63541"
+   ],
+   "sdp2_role_DC_64541 : DC": [
+      "check_sdp2_serverlog_64541",
+      "check_sdp2_corelog_64541",
+      "check_sdp2_jvm_64541",
+      "check_sdp2_telnet_64541",
+      "check_sdp2_blockingthreads_64541",
+      "check_sdp2_CacheRun_time_64541"
+   ],
+   "sdp2_role_ALERTS_64541 : ALERTS": [
+      "check_sdp2_serverlog_64541",
+      "check_sdp2_corelog_64541",
+      "check_sdp2_jvm_64541",
+      "check_sdp2_alertport_64541"
+   ],
+   "sdp2_role_DC_60541 : DC": [
+      "check_sdp2_serverlog_60541",
+      "check_sdp2_corelog_60541",
+      "check_sdp2_jvm_60541",
+      "check_sdp2_telnet_60541",
+      "check_sdp2_blockingthreads_60541",
+      "check_sdp2_CacheRun_time_60541"
+   ],
+   "sdp2_role_ALERTS_60541 : ALERTS": [
+      "check_sdp2_serverlog_60541",
+      "check_sdp2_corelog_60541",
+      "check_sdp2_jvm_60541",
+      "check_sdp2_alertport_60541"
+   ],
+   "sdp2_role_DC_61541 : DC": [
+      "check_sdp2_serverlog_61541",
+      "check_sdp2_corelog_61541",
+      "check_sdp2_jvm_61541",
+      "check_sdp2_telnet_61541",
+      "check_sdp2_blockingthreads_61541",
+      "check_sdp2_CacheRun_time_61541"
+   ],
+   "sdp2_role_ALERTS_61541 : ALERTS": [
+      "check_sdp2_serverlog_61541",
+      "check_sdp2_corelog_61541",
+      "check_sdp2_jvm_61541",
+      "check_sdp2_alertport_61541"
+   ],
+   "sdp2_role_DC_62541 : DC": [
+      "check_sdp2_serverlog_62541",
+      "check_sdp2_corelog_62541",
+      "check_sdp2_jvm_62541",
+      "check_sdp2_telnet_62541",
+      "check_sdp2_blockingthreads_62541",
+      "check_sdp2_CacheRun_time_62541"
+   ],
+   "sdp2_role_ALERTS_62541 : ALERTS": [
+      "check_sdp2_serverlog_62541",
+      "check_sdp2_corelog_62541",
+      "check_sdp2_jvm_62541",
+      "check_sdp2_alertport_62541"
+   ],
+   "sdp2_role_DC_22541 : DC": [
+      "check_sdp2_serverlog_22541",
+      "check_sdp2_corelog_22541",
+      "check_sdp2_jvm_22541",
+      "check_sdp2_telnet_22541",
+      "check_sdp2_blockingthreads_22541",
+      "check_sdp2_CacheRun_time_22541"
+   ],
+   "sdp2_role_DC_23541 : DC": [
+      "check_sdp2_serverlog_23541",
+      "check_sdp2_corelog_23541",
+      "check_sdp2_jvm_23541",
+      "check_sdp2_telnet_23541",
+      "check_sdp2_blockingthreads_23541"
+   ],
+   "sdp2_role_DC_27541 : DC": [
+      "check_sdp2_serverlog_27541",
+      "check_sdp2_corelog_27541",
+      "check_sdp2_jvm_27541",
+      "check_sdp2_telnet_27541",
+      "check_sdp2_blockingthreads_27541",
+      "check_sdp2_CacheRun_time_27541"
+   ],
+   "sdp2_role_DC_24541 : DC": [
+      "check_sdp2_serverlog_24541",
+      "check_sdp2_corelog_24541",
+      "check_sdp2_jvm_24541",
+      "check_sdp2_telnet_24541",
+      "check_sdp2_blockingthreads_24541",
+      "check_sdp2_CacheRun_time_24541"
+   ],
+   "sdp2_role_DC_26541 : DC": [
+      "check_sdp2_serverlog_26541",
+      "check_sdp2_corelog_26541",
+      "check_sdp2_jvm_26541",
+      "check_sdp2_telnet_26541",
+      "check_sdp2_blockingthreads_26541",
+      "check_sdp2_CacheRun_time_26541"
+   ],
+   "sdp2_role_DC_25541 : DC": [
+      "check_sdp2_serverlog_25541",
+      "check_sdp2_corelog_25541",
+      "check_sdp2_jvm_25541",
+      "check_sdp2_telnet_25541",
+      "check_sdp2_blockingthreads_25541",
+      "check_sdp2_CacheRun_time_25541"
+   ],
+   "sdp2_role_DC_28541 : DC": [
+      "check_sdp2_serverlog_28541",
+      "check_sdp2_corelog_28541",
+      "check_sdp2_jvm_28541",
+      "check_sdp2_telnet_28541",
+      "check_sdp2_blockingthreads_28541",
+      "check_sdp2_CacheRun_time_28541"
+   ],
+   "sdp2_role_DC_29541 : DC": [
+      "check_sdp2_serverlog_29541",
+      "check_sdp2_corelog_29541",
+      "check_sdp2_jvm_29541",
+      "check_sdp2_telnet_29541",
+      "check_sdp2_blockingthreads_29541",
+      "check_sdp2_CacheRun_time_29541"
+   ],
+   "sdp2_role_YSL_10743 : YSL": [
+      "check_sdp2_webhook_10743",
+      "check_sdp2_ysl_api_10743",
+      "check_sdp2_serverlog_10743",
+      "check_sdp2_telnet_10743",
+      "check_sdp2_jvm_10743",
+      "check_sdp2_corelog_10743"
+   ],
+   "sdp2_role_YSL_9743 : YSL": [
+      "check_sdp2_ysl_api_9743",
+      "check_sdp2_webhook_9743",
+      "check_sdp2_serverlog_9743",
+      "check_sdp2_telnet_9743",
+      "check_sdp2_jvm_9743",
+      "check_sdp2_corelog_9743",
+      "check_sdp2_accesslog_9743"
+   ],
+   "sdp2_role_YSL_10843 : YSL": [
+      "check_sdp2_webhook_10843",
+      "check_sdp2_ysl_api_10843",
+      "check_sdp2_accesslog_10843",
+      "check_sdp2_jvm_10843",
+      "check_sdp2_accesslog_10743",
+      "check_sdp2_telnet_10843",
+      "check_sdp2_serverlog_10843",
+      "check_sdp2_corelog_10843"
+   ],
+   "sdp2_role_YSL_9843 : YSL": [
+      "check_sdp2_ysl_api_9843",
+      "check_sdp2_webhook_9843",
+      "check_sdp2_serverlog_9843",
+      "check_sdp2_telnet_9843",
+      "check_sdp2_jvm_9843",
+      "check_sdp2_corelog_9843",
+      "check_sdp2_accesslog_9843"
+   ],
+   "sdp2_role_YSL_9943 : YSL": [
+      "check_sdp2_ysl_api_9943",
+      "check_sdp2_webhook_9943",
+      "check_sdp2_serverlog_9943",
+      "check_sdp2_telnet_9943",
+      "check_sdp2_jvm_9943",
+      "check_sdp2_corelog_9943",
+      "check_sdp2_accesslog_9943"
+   ],
+   "sdp2_role_YSL_10043 : YSL": [
+      "check_sdp2_ysl_api_10043",
+      "check_sdp2_webhook_10043",
+      "check_sdp2_serverlog_10043",
+      "check_sdp2_accesslog_10043",
+      "check_sdp2_telnet_10043",
+      "check_sdp2_jvm_10043",
+      "check_sdp2_corelog_10043"
+   ],
+   "sdp2_role_YSL_10143 : YSL": [
+      "check_sdp2_ysl_api_10143",
+      "check_sdp2_webhook_10143",
+      "check_sdp2_serverlog_10143",
+      "check_sdp2_accesslog_10143",
+      "check_sdp2_telnet_10143",
+      "check_sdp2_jvm_10143",
+      "check_sdp2_corelog_10143"
+   ],
+   "sdp2_role_YSL_10243 : YSL": [
+      "check_sdp2_ysl_api_10243",
+      "check_sdp2_webhook_10243",
+      "check_sdp2_serverlog_10243",
+      "check_sdp2_accesslog_10243",
+      "check_sdp2_telnet_10243",
+      "check_sdp2_jvm_10243",
+      "check_sdp2_corelog_10243"
+   ],
+   "sdp2_role_YSL_10343 : YSL": [
+      "check_sdp2_ysl_api_10343",
+      "check_sdp2_webhook_10343",
+      "check_sdp2_serverlog_10343",
+      "check_sdp2_accesslog_10343",
+      "check_sdp2_telnet_10343",
+      "check_sdp2_jvm_10343",
+      "check_sdp2_corelog_10343"
+   ],
+   "sdp2_role_YSL_8643 : YSL": [
+      "check_sdp2_ysl_api_8643",
+      "check_sdp2_webhook_8643",
+      "check_sdp2_corelog_8643",
+      "check_sdp2_serverlog_8643",
+      "check_sdp2_telnet_8643",
+      "check_sdp2_jvm_8643",
+      "check_sdp2_accesslog_8643"
+   ],
+   "sdp2_role_YSL_11043 : YSL": [
+      "check_sdp2_ysl_api_11043",
+      "check_sdp2_webhook_11043",
+      "check_sdp2_accesslog_11043",
+      "check_sdp2_jvm_11043",
+      "check_sdp2_serverlog_11043",
+      "check_sdp2_corelog_11043"
+   ],
+   "sdp2_role_YSL_10443 : YSL": [
+      "check_sdp2_ysl_api_10443",
+      "check_sdp2_webhook_10443",
+      "check_sdp2_serverlog_10443",
+      "check_sdp2_accesslog_10443",
+      "check_sdp2_telnet_10443",
+      "check_sdp2_jvm_10443",
+      "check_sdp2_corelog_10443"
+   ],
+   "sdp2_role_YSL_10643 : YSL": [
+      "check_sdp2_ysl_api_10643",
+      "check_sdp2_webhook_10643",
+      "check_sdp2_accesslog_10643",
+      "check_sdp2_serverlog_10643",
+      "check_sdp2_telnet_10643",
+      "check_sdp2_jvm_10643",
+      "check_sdp2_corelog_10643"
+   ],
+   "sdp2_role_YSL_10943 : YSL": [
+      "check_sdp2_ysl_api_10943",
+      "check_sdp2_webhook_10943",
+      "check_sdp2_accesslog_10943",
+      "check_sdp2_jvm_10943",
+      "check_sdp2_serverlog_10943",
+      "check_sdp2_telnet_10943",
+      "check_sdp2_corelog_10943"
+   ],
+   "sdp2_role_YSL_11343 : YSL": [
+      "check_sdp2_ysl_api_11343",
+      "check_sdp2_accesslog_11343",
+      "check_sdp2_telnet_11343",
+      "check_sdp2_jvm_11343",
+      "check_sdp2_serverlog_11343",
+      "check_sdp2_webhook_11343",
+      "check_sdp2_corelog_11343"
+   ],
+   "sdp2_role_YSL_11143 : YSL": [
+      "check_sdp2_ysl_api_11143",
+      "check_sdp2_accesslog_11143",
+      "check_sdp2_telnet_11143",
+      "check_sdp2_jvm_11143",
+      "check_sdp2_serverlog_11143",
+      "check_sdp2_webhook_11143",
+      "check_sdp2_corelog_11143"
+   ],
+   "sdp2_role_YSL_8743 : YSL": [
+      "check_sdp2_ysl_api_8743",
+      "check_sdp2_webhook_8743",
+      "check_sdp2_corelog_8743",
+      "check_sdp2_serverlog_8743",
+      "check_sdp2_telnet_8743",
+      "check_sdp2_jvm_8743",
+      "check_sdp2_accesslog_8743"
+   ],
+   "sdp2_role_YSL_11243 : YSL": [
+      "check_sdp2_ysl_api_11243",
+      "check_sdp2_accesslog_11243",
+      "check_sdp2_serverlog_11243",
+      "check_sdp2_telnet_11243",
+      "check_sdp2_webhook_11243",
+      "check_sdp2_corelog_11243"
+   ],
+   "sdp2_role_YSL_11443 : YSL": [
+      "check_sdp2_ysl_api_11443",
+      "check_sdp2_telnet_11043",
+      "check_sdp2_serverlog_11443",
+      "check_sdp2_telnet_11443",
+      "check_sdp2_accesslog_11443",
+      "check_sdp2_jvm_11443",
+      "check_sdp2_webhook_11443",
+      "check_sdp2_corelog_11443"
+   ],
+   "sdp2_role_YSL_11543 : YSL": [
+      "check_sdp2_ysl_api_11543",
+      "check_sdp2_accesslog_11543",
+      "check_sdp2_serverlog_11543",
+      "check_sdp2_telnet_11543",
+      "check_sdp2_jvm_11543",
+      "check_sdp2_webhook_11543",
+      "check_sdp2_corelog_11543"
+   ],
+   "sdp2_role_YSL_11643 : YSL": [
+      "check_sdp2_ysl_api_11643",
+      "check_sdp2_serverlog_11643",
+      "check_sdp2_telnet_11643",
+      "check_sdp2_accesslog_11643",
+      "check_sdp2_jvm_11643",
+      "check_sdp2_webhook_11643",
+      "check_sdp2_corelog_11643"
+   ],
+   "sdp2_role_YSL_11743 : YSL": [
+      "check_sdp2_ysl_api_11743",
+      "check_sdp2_accesslog_11743",
+      "check_sdp2_serverlog_11743",
+      "check_sdp2_telnet_11743",
+      "check_sdp2_jvm_11743",
+      "check_sdp2_webhook_11743",
+      "check_sdp2_corelog_11743"
+   ],
+   "sdp2_role_YSL_12143 : YSL": [
+      "check_sdp2_ysl_api_12143",
+      "check_sdp2_webhook_12143",
+      "check_sdp2_serverlog_12143",
+      "check_sdp2_telnet_12143",
+      "check_sdp2_accesslog_12143",
+      "check_sdp2_jvm_12143",
+      "check_sdp2_corelog_12143"
+   ],
+   "sdp2_role_YSL_12243 : YSL": [
+      "check_sdp2_ysl_api_12243",
+      "check_sdp2_webhook_12243",
+      "check_sdp2_jvm_11243",
+      "check_sdp2_telnet_12243",
+      "check_sdp2_accesslog_12243",
+      "check_sdp2_serverlog_12243",
+      "check_sdp2_jvm_12243",
+      "check_sdp2_corelog_12243"
+   ],
+   "sdp2_role_YSL_10543 : YSL": [
+      "check_sdp2_webhook_10543",
+      "check_sdp2_accesslog_10543",
+      "check_sdp2_jvm_10543",
+      "check_sdp2_serverlog_10543",
+      "check_sdp2_telnet_10543",
+      "check_sdp2_ysl_api_10543",
+      "check_sdp2_corelog_10543"
+   ],
+   "sdp2_role_YSL_11843 : YSL": [
+      "check_sdp2_ysl_api_11843",
+      "check_sdp2_telnet_11843",
+      "check_sdp2_accesslog_11843",
+      "check_sdp2_serverlog_11843",
+      "check_sdp2_jvm_11843",
+      "check_sdp2_webhook_11843",
+      "check_sdp2_corelog_11843"
+   ],
+   "sdp2_role_YSL_11943 : YSL": [
+      "check_sdp2_ysl_api_11943",
+      "check_sdp2_accesslog_11943",
+      "check_sdp2_serverlog_11943",
+      "check_sdp2_telnet_11943",
+      "check_sdp2_jvm_11943",
+      "check_sdp2_webhook_11943",
+      "check_sdp2_corelog_11943"
+   ],
+   "sdp2_role_YSL_12043 : YSL": [
+      "check_sdp2_ysl_api_12043",
+      "check_sdp2_webhook_12043",
+      "check_sdp2_accesslog_12043",
+      "check_sdp2_serverlog_12043",
+      "check_sdp2_telnet_12043",
+      "check_sdp2_jvm_12043",
+      "check_sdp2_corelog_12043"
+   ],
+   "sdp2_role_YSL_8843 : YSL": [
+      "check_sdp2_ysl_api_8843",
+      "check_sdp2_webhook_8843",
+      "check_sdp2_serverlog_8843",
+      "check_sdp2_telnet_8843",
+      "check_sdp2_jvm_8843",
+      "check_sdp2_corelog_8843",
+      "check_sdp2_accesslog_8843"
+   ],
+   "sdp2_role_YSL_9343 : YSL": [
+      "check_sdp2_ysl_api_9343",
+      "check_sdp2_webhook_9343",
+      "check_sdp2_serverlog_9343",
+      "check_sdp2_telnet_9343",
+      "check_sdp2_jvm_9343",
+      "check_sdp2_corelog_9343",
+      "check_sdp2_accesslog_9343"
+   ],
+   "sdp2_role_fglam_process : fglam": [
+      "check_sdp2_fglam_process"
+   ],
+   "sdp2_role_hadoop_slave : hadoop": [
+      "check_sdp2_hadoop_telnet_50075",
+      "check_sdp2_hadoop_telnet_8042",
+      "check_sdp2_cpu",
+      "check_sdp2_memory",
+      "check_sdp2_disk",
+      "check_sdp2_inode_disk",
+      "check_sdp2_disk_io",
+      "check_sdp2_hostname",
+      "check_sdp2_outofmemory",
+      "check_sdp2_ntp",
+      "check_sdp2_load",
+      "check_sdp2_zombie",
+      "check_sdp2_hadoop_nodemanager_health",
+      "check_sdp2_hadoop_telnet_9000",
+      "check_sdp2_log_messages"
+   ],
+   "sdp2_role_YSL_9043 : YSL": [
+      "check_sdp2_ysl_api_9043",
+      "check_sdp2_webhook_9043",
+      "check_sdp2_corelog_9043",
+      "check_sdp2_serverlog_9043",
+      "check_sdp2_telnet_9043",
+      "check_sdp2_jvm_9043",
+      "check_sdp2_accesslog_9043"
+   ],
+   "sdp2_role_YSL_9143 : YSL": [
+      "check_sdp2_ysl_api_9143",
+      "check_sdp2_webhook_9143",
+      "check_sdp2_serverlog_9143",
+      "check_sdp2_telnet_9143",
+      "check_sdp2_jvm_9143",
+      "check_sdp2_corelog_9143",
+      "check_sdp2_accesslog_9143"
+   ],
+   "sdp2_role_YSL_9243 : YSL": [
+      "check_sdp2_ysl_api_9243",
+      "check_sdp2_webhook_9243",
+      "check_sdp2_serverlog_9243",
+      "check_sdp2_telnet_9243",
+      "check_sdp2_jvm_9243",
+      "check_sdp2_corelog_9243",
+      "check_sdp2_accesslog_9243"
+   ],
+   "sdp2_role_CUSTOM_11243 : CUSTOM": [
+      "check_sdp2_port_11243",
+      "check_sdp2_accesslog_11243",
+      "check_sdp2_jvm_11243",
+      "check_sdp2_serverlog_11243",
+      "check_sdp2_corelog_11243"
+   ],
+   "sdp2_role_CUSTOM_10543 : CUSTOM": [
+      "check_sdp2_port_10543",
+      "check_sdp2_accesslog_10543",
+      "check_sdp2_jvm_10543",
+      "check_sdp2_serverlog_10543",
+      "check_sdp2_corelog_10543"
+   ],
+   "sdp2_role_CUSTOM_11343 : CUSTOM": [
+      "check_sdp2_port_11343",
+      "check_sdp2_accesslog_11343",
+      "check_sdp2_jvm_11343",
+      "check_sdp2_serverlog_11343",
+      "check_sdp2_corelog_11343"
+   ],
+   "sdp2_role_CUSTOM_11543 : CUSTOM": [
+      "check_sdp2_port_11543",
+      "check_sdp2_accesslog_11543",
+      "check_sdp2_serverlog_11543",
+      "check_sdp2_jvm_11543",
+      "check_sdp2_corelog_11543"
+   ],
+   "sdp2_role_CUSTOM_11643 : CUSTOM": [
+      "check_sdp2_port_11643",
+      "check_sdp2_serverlog_11643",
+      "check_sdp2_accesslog_11643",
+      "check_sdp2_jvm_11643",
+      "check_sdp2_corelog_11643"
+   ],
+   "sdp2_role_CUSTOM_11843 : CUSTOM": [
+      "check_sdp2_port_11843",
+      "check_sdp2_accesslog_11843",
+      "check_sdp2_serverlog_11843",
+      "check_sdp2_jvm_11843",
+      "check_sdp2_corelog_11843"
+   ],
+   "sdp2_role_CUSTOM_12143 : CUSTOM": [
+      "check_sdp2_port_12143",
+      "check_sdp2_serverlog_12143",
+      "check_sdp2_accesslog_12143",
+      "check_sdp2_jvm_12143",
+      "check_sdp2_corelog_12143"
+   ],
+   "sdp2_role_CUSTOM_11743 : CUSTOM": [
+      "check_sdp2_port_11743",
+      "check_sdp2_accesslog_11743",
+      "check_sdp2_serverlog_11743",
+      "check_sdp2_jvm_11743",
+      "check_sdp2_corelog_11743"
+   ],
+   "sdp2_role_CUSTOM_11943 : CUSTOM": [
+      "check_sdp2_port_11943",
+      "check_sdp2_accesslog_11943",
+      "check_sdp2_serverlog_11943",
+      "check_sdp2_jvm_11943",
+      "check_sdp2_corelog_11943"
+   ],
+   "sdp2_role_CUSTOM_12043 : CUSTOM": [
+      "check_sdp2_port_12043",
+      "check_sdp2_accesslog_12043",
+      "check_sdp2_serverlog_12043",
+      "check_sdp2_jvm_12043",
+      "check_sdp2_corelog_12043"
+   ],
+   "sdp2_role_CUSTOM_10243 : CUSTOM": [
+      "check_sdp2_port_10243",
+      "check_sdp2_serverlog_10243",
+      "check_sdp2_accesslog_10243",
+      "check_sdp2_jvm_10243",
+      "check_sdp2_corelog_10243"
+   ],
+   "sdp2_role_CUSTOM_9043 : CUSTOM": [
+      "check_sdp2_port_9043",
+      "check_sdp2_corelog_9043",
+      "check_sdp2_serverlog_9043",
+      "check_sdp2_jvm_9043",
+      "check_sdp2_accesslog_9043"
+   ],
+   "sdp2_role_CUSTOM_12243 : CUSTOM": [
+      "check_sdp2_port_12243",
+      "check_sdp2_accesslog_12243",
+      "check_sdp2_serverlog_12243",
+      "check_sdp2_jvm_12243",
+      "check_sdp2_corelog_12243"
+   ],
+   "sdp2_role_CUSTOM_10643 : CUSTOM": [
+      "check_sdp2_port_10643",
+      "check_sdp2_accesslog_10643",
+      "check_sdp2_serverlog_10643",
+      "check_sdp2_jvm_10643",
+      "check_sdp2_corelog_10643"
+   ],
+   "sdp2_role_CUSTOM_9143 : CUSTOM": [
+      "check_sdp2_port_9143",
+      "check_sdp2_serverlog_9143",
+      "check_sdp2_jvm_9143",
+      "check_sdp2_corelog_9143",
+      "check_sdp2_accesslog_9143"
+   ],
+   "sdp2_role_CUSTOM_8443 : CUSTOM": [
+      "check_sdp2_port_8443",
+      "check_sdp2_corelog_8443",
+      "check_sdp2_serverlog_8443",
+      "check_sdp2_jvm_8443",
+      "check_sdp2_accesslog_8443"
+   ],
+   "sdp2_role_CUSTOM_8943 : CUSTOM": [
+      "check_sdp2_port_8943",
+      "check_sdp2_corelog_8943",
+      "check_sdp2_serverlog_8943",
+      "check_sdp2_jvm_8943",
+      "check_sdp2_accesslog_8943"
+   ],
+   "sdp2_role_CUSTOM_9243 : CUSTOM": [
+      "check_sdp2_port_9243",
+      "check_sdp2_serverlog_9243",
+      "check_sdp2_jvm_9243",
+      "check_sdp2_corelog_9243",
+      "check_sdp2_accesslog_9243"
+   ],
+   "sdp2_role_CUSTOM_8643 : CUSTOM": [
+      "check_sdp2_port_8643",
+      "check_sdp2_corelog_8643",
+      "check_sdp2_serverlog_8643",
+      "check_sdp2_jvm_8643",
+      "check_sdp2_accesslog_8643"
+   ],
+   "sdp2_role_CUSTOM_9643 : CUSTOM": [
+      "check_sdp2_port_9643",
+      "check_sdp2_serverlog_9643",
+      "check_sdp2_jvm_9643",
+      "check_sdp2_corelog_9643",
+      "check_sdp2_accesslog_9643"
+   ],
+   "sdp2_role_CUSTOM_8543 : CUSTOM": [
+      "check_sdp2_port_8543",
+      "check_sdp2_serverlog_8543",
+      "check_sdp2_jvm_8543",
+      "check_sdp2_corelog_8543",
+      "check_sdp2_accesslog_8543"
+   ],
+   "sdp2_role_CUSTOM_8743 : CUSTOM": [
+      "check_sdp2_port_8743",
+      "check_sdp2_corelog_8743",
+      "check_sdp2_serverlog_8743",
+      "check_sdp2_jvm_8743",
+      "check_sdp2_accesslog_8743"
+   ],
+   "sdp2_role_Kibana_8743 : Kibana": [
+      "check_sdp2_port_8743"
+   ],
+   "sdp2_role_CUSTOM_10343 : CUSTOM": [
+      "check_sdp2_port_10343",
+      "check_sdp2_serverlog_10343",
+      "check_sdp2_accesslog_10343",
+      "check_sdp2_jvm_10343",
+      "check_sdp2_corelog_10343"
+   ],
+   "sdp2_role_CUSTOM_8843 : CUSTOM": [
+      "check_sdp2_port_8843",
+      "check_sdp2_serverlog_8843",
+      "check_sdp2_jvm_8843",
+      "check_sdp2_corelog_8843",
+      "check_sdp2_accesslog_8843"
+   ],
+   "sdp2_role_CUSTOM_9743 : CUSTOM": [
+      "check_sdp2_port_9743",
+      "check_sdp2_serverlog_9743",
+      "check_sdp2_jvm_9743",
+      "check_sdp2_corelog_9743",
+      "check_sdp2_accesslog_9743"
+   ],
+   "sdp2_role_proxy_checks : proxy": [
+      "check_sdp2_local_users_gwmon_yodlee_com",
+      "check_sdp2_squidproxy_tcp_port_3128_192_168_213_101",
+      "check_sdp2_local_snmptrapd_proc_gwmon_yodlee_com",
+      "check_sdp2_squidproxy_tcp_port_3128_172_17_7_229",
+      "check_sdp2_local_users_gwmon1_yodlee_com",
+      "check_sdp2_squidproxy_tcp_port_3128_172_17_60_12",
+      "check_sdp2_squidproxy_tcp_port_3128_172_17_7_228",
+      "check_sdp2_local_snmptrapd_proc_gwmon1_yodlee_com",
+      "check_sdp2_squidproxy_tcp_port_3128_172_17_7_8",
+      "check_sdp2_squidproxy_tcp_port_3128_172_17_7_202",
+      "check_sdp2_squidproxy_tcp_port_3128_10_75_2_22",
+      "check_sdp2_squidproxy_tcp_port_3128_172_17_60_19",
+      "check_sdp2_dns_yodlee_dnsr2_exo_yodlee_com",
+      "check_sdp2_dns_yodlee_dnsr1_exo_yodlee_com",
+      "check_sdp2_squidproxy_tcp_port_3128_192_168_213_10",
+      "check_sdp2_squidproxy_tcp_port_3128_172_17_7_201",
+      "check_sdp2_squidproxy_tcp_port_3128_10_22_30_7",
+      "check_sdp2_squidproxy_tcp_port_3128_172_17_60_15",
+      "check_sdp2_squidproxy_tcp_port_3128_172_17_7_9",
+      "check_sdp2_squidproxy_tcp_port_3128_192_168_213_12",
+      "check_sdp2_smtp_dnsr1_exo_yodlee_com",
+      "check_sdp2_squidproxy_tcp_port_3128_172_17_7_7",
+      "check_sdp2_squidproxy_tcp_port_3128_172_17_60_16",
+      "check_sdp2_squidproxy_tcp_port_3128_172_17_60_21",
+      "check_sdp2_squidproxy_tcp_port_3128_172_17_60_20",
+      "check_sdp2_squidproxy_tcp_port_3128_172_17_60_14",
+      "check_sdp2_squidproxy_tcp_port_3128_10_22_30_4",
+      "check_sdp2_squidproxy_tcp_port_3128_172_17_7_6",
+      "check_sdp2_squidproxy_tcp_port_80_172_16_4_64-dslproxy",
+      "check_sdp2_tcp_port_1443_172_17_7_233",
+      "check_sdp2_squidproxy_tcp_port_80_192_168_213_101",
+      "check_sdp2_squidproxy_tcp_port_3128_172_17_60_17",
+      "check_sdp2_squidproxy_tcp_port_3128_172_17_26_200",
+      "check_sdp2_squidproxy_tcp_port_3128_192_168_213_11",
+      "check_sdp2_tcp_port_8080_172_18_7_250",
+      "check_sdp2_tcp_port_1443_172_18_7_250",
+      "check_sdp2_tcp_port_8080_172_17_7_233",
+      "check_sdp2_tcp_port_1443_172_17_7_232",
+      "check_sdp2_tcp_port_8080_172_17_7_232",
+      "check_sdp2_tcp_port_8180_172_17_7_233",
+      "check_sdp2_local_disk_gwmon1_yodlee_com",
+      "check_sdp2_tcp_port_8180_172_17_7_232",
+      "check_sdp2_local_disk_gwmon_yodlee_com"
+   ],
+   "sdp2_role_NODE_3300 : NODE": [
+      "check_sdp2_log_3300",
+      "check_sdp2_port_3300"
+   ],
+   "sdp2_role_NODE_3400 : NODE": [
+      "check_sdp2_log_3400",
+      "check_sdp2_port_3400"
+   ],
+   "sdp2_role_NODE_3000 : NODE": [
+      "check_sdp2_log_3000",
+      "check_sdp2_port_3000"
+   ],
+   "sdp2_role_NODE_53541 : NODE": [
+      "check_sdp2_log_3100",
+      "check_sdp2_port_3100"
+   ],
+   "sdp2_role_NODE_3200 : NODE": [
+      "check_sdp2_log_3200",
+      "check_sdp2_port_3200"
+   ],
+   "sdp2_role_NODE_3500 : NODE": [
+      "check_sdp2_log_3500",
+      "check_sdp2_port_3500"
+   ],
+   "sdp2_role_NODE_3600 : NODE": [
+      "check_sdp2_log_3600",
+      "check_sdp2_port_3600"
+   ],
+   "sdp2_role_NODE_3700 : NODE": [
+      "check_sdp2_log_3700",
+      "check_sdp2_port_3700"
+   ],
+   "sdp2_role_NODE_3800 : NODE": [
+      "check_sdp2_log_3800",
+      "check_sdp2_port_3800"
+   ],
+   "sdp2_role_NODE_4000 : NODE": [
+      "check_sdp2_log_4000",
+      "check_sdp2_port_4000"
+   ],
+   "sdp2_role_NODE_3900 : NODE": [
+      "check_sdp2_log_3900",
+      "check_sdp2_port_3900"
+   ],
+   "sdp2_role_ALERTS_24541 : ALERTS": [
+      "check_sdp2_alertport_24541"
+   ],
+   "sdp2_role_ALERTS_25541 : ALERTS": [
+      "check_sdp2_alertport_25541"
+   ],
+   "sdp2_role_ALERTS_22541 : ALERTS": [
+      "check_sdp2_alertport_22541"
+   ],
+   "sdp2_role_ALERTS_23541 : ALERTS": [
+      "check_sdp2_alertport_23541"
+   ],
+   "sdp2_role_ALERTS_27541 : ALERTS": [
+      "check_sdp2_alertport_27541"
+   ],
+   "sdp2_role_ALERTS_28541 : ALERTS": [
+      "check_sdp2_alertport_28541"
+   ],
+   "sdp2_role_ALERTS_29541 : ALERTS": [
+      "check_sdp2_alertport_29541"
+   ],
+   "sdp2_role_ALERTS_32541 : ALERTS": [
+      "check_sdp2_alertport_32541",
+      "check_sdp2_serverlog_32541",
+      "check_sdp2_corelog_32541",
+      "check_sdp2_jvm_32541"
+   ],
+   "sdp2_role_ALERTS_33541 : ALERTS": [
+      "check_sdp2_alertport_33541",
+      "check_sdp2_serverlog_33541",
+      "check_sdp2_corelog_33541",
+      "check_sdp2_jvm_33541"
+   ],
+   "sdp2_role_ALERTS_26541 : ALERTS": [
+      "check_sdp2_alertport_26541"
+   ],
+   "sdp2_role_ALERTS_37541 : ALERTS": [
+      "check_sdp2_alertport_37541",
+      "check_sdp2_serverlog_37541",
+      "check_sdp2_corelog_37541",
+      "check_sdp2_jvm_37541"
+   ],
+   "sdp2_role_ALERTS_36541 : ALERTS": [
+      "check_sdp2_alertport_36541",
+      "check_sdp2_serverlog_36541",
+      "check_sdp2_corelog_36541",
+      "check_sdp2_jvm_36541"
+   ],
+   "sdp2_role_ALERTS_34541 : ALERTS": [
+      "check_sdp2_alertport_34541",
+      "check_sdp2_serverlog_34541",
+      "check_sdp2_corelog_34541",
+      "check_sdp2_jvm_34541"
+   ],
+   "sdp2_role_ALERTS_38541 : ALERTS": [
+      "check_sdp2_alertport_38541",
+      "check_sdp2_serverlog_38541",
+      "check_sdp2_corelog_38541",
+      "check_sdp2_jvm_38541"
+   ],
+   "sdp2_role_ALERTS_35541 : ALERTS": [
+      "check_sdp2_alertport_35541",
+      "check_sdp2_serverlog_35541",
+      "check_sdp2_corelog_35541",
+      "check_sdp2_jvm_35541"
+   ],
+   "sdp2_role_ALERTS_39541 : ALERTS": [
+      "check_sdp2_alertport_39541",
+      "check_sdp2_serverlog_39541",
+      "check_sdp2_corelog_39541",
+      "check_sdp2_jvm_39541"
+   ],
+   "sdp2_role_ALERTS_40541 : ALERTS": [
+      "check_sdp2_alertport_40541",
+      "check_sdp2_serverlog_40541",
+      "check_sdp2_corelog_40541",
+      "check_sdp2_jvm_40541"
+   ],
+   "sdp2_role_ALERTS_42541 : ALERTS": [
+      "check_sdp2_alertport_42541",
+      "check_sdp2_serverlog_42541",
+      "check_sdp2_corelog_42541",
+      "check_sdp2_jvm_42541"
+   ],
+   "sdp2_role_ALERTS_45541 : ALERTS": [
+      "check_sdp2_alertport_45541",
+      "check_sdp2_serverlog_45541",
+      "check_sdp2_corelog_45541",
+      "check_sdp2_jvm_45541"
+   ],
+   "sdp2_role_ALERTS_43541 : ALERTS": [
+      "check_sdp2_alertport_43541",
+      "check_sdp2_serverlog_43541",
+      "check_sdp2_corelog_43541",
+      "check_sdp2_jvm_43541"
+   ],
+   "sdp2_role_ALERTS_44541 : ALERTS": [
+      "check_sdp2_alertport_44541",
+      "check_sdp2_serverlog_44541",
+      "check_sdp2_corelog_44541",
+      "check_sdp2_jvm_44541"
+   ],
+   "sdp2_role_ALERTS_46541 : ALERTS": [
+      "check_sdp2_alertport_46541",
+      "check_sdp2_serverlog_46541",
+      "check_sdp2_corelog_46541",
+      "check_sdp2_jvm_46541"
+   ],
+   "sdp2_role_ALERTS_41541 : ALERTS": [
+      "check_sdp2_alertport_41541",
+      "check_sdp2_serverlog_41541",
+      "check_sdp2_corelog_41541",
+      "check_sdp2_jvm_41541"
+   ],
+   "sdp2_role_ALERTS_47541 : ALERTS": [
+      "check_sdp2_alertport_47541",
+      "check_sdp2_serverlog_47541",
+      "check_sdp2_corelog_47541",
+      "check_sdp2_jvm_47541"
+   ],
+   "sdp2_role_ALERTS_50541 : ALERTS": [
+      "check_sdp2_alertport_50541",
+      "check_sdp2_serverlog_50541",
+      "check_sdp2_corelog_50541",
+      "check_sdp2_jvm_50541"
+   ],
+   "sdp2_role_ALERTS_51541 : ALERTS": [
+      "check_sdp2_alertport_51541",
+      "check_sdp2_serverlog_51541",
+      "check_sdp2_corelog_51541",
+      "check_sdp2_jvm_51541"
+   ],
+   "sdp2_role_DC_32541 : DC": [
+      "check_sdp2_serverlog_32541",
+      "check_sdp2_corelog_32541",
+      "check_sdp2_blockingthreads_32541",
+      "check_sdp2_telnet_32541",
+      "check_sdp2_CacheRun_time_32541"
+   ],
+   "sdp2_role_ALERTS_48541 : ALERTS": [
+      "check_sdp2_alertport_48541",
+      "check_sdp2_serverlog_48541",
+      "check_sdp2_corelog_48541",
+      "check_sdp2_jvm_48541"
+   ],
+   "sdp2_role_DC_33541 : DC": [
+      "check_sdp2_serverlog_33541",
+      "check_sdp2_corelog_33541",
+      "check_sdp2_blockingthreads_33541",
+      "check_sdp2_telnet_33541",
+      "check_sdp2_CacheRun_time_33541"
+   ],
+   "sdp2_role_ALERTS_49541 : ALERTS": [
+      "check_sdp2_alertport_49541",
+      "check_sdp2_serverlog_49541",
+      "check_sdp2_corelog_49541",
+      "check_sdp2_jvm_49541"
+   ],
+   "sdp2_role_DC_34541 : DC": [
+      "check_sdp2_serverlog_34541",
+      "check_sdp2_corelog_34541",
+      "check_sdp2_blockingthreads_34541",
+      "check_sdp2_telnet_34541",
+      "check_sdp2_CacheRun_time_34541"
+   ],
+   "sdp2_role_DC_36541 : DC": [
+      "check_sdp2_serverlog_36541",
+      "check_sdp2_corelog_36541",
+      "check_sdp2_jvm_36541",
+      "check_sdp2_blockingthreads_36541",
+      "check_sdp2_telnet_36541",
+      "check_sdp2_CacheRun_time_36541"
+   ],
+   "sdp2_role_DC_37541 : DC": [
+      "check_sdp2_serverlog_37541",
+      "check_sdp2_corelog_37541",
+      "check_sdp2_jvm_37541",
+      "check_sdp2_blockingthreads_37541",
+      "check_sdp2_telnet_37541",
+      "check_sdp2_CacheRun_time_37541"
+   ],
+   "sdp2_role_DC_38541 : DC": [
+      "check_sdp2_serverlog_38541",
+      "check_sdp2_corelog_38541",
+      "check_sdp2_blockingthreads_38541",
+      "check_sdp2_telnet_38541",
+      "check_sdp2_CacheRun_time_38541"
+   ],
+   "sdp2_role_DC_39541 : DC": [
+      "check_sdp2_serverlog_39541",
+      "check_sdp2_corelog_39541",
+      "check_sdp2_jvm_39541",
+      "check_sdp2_blockingthreads_39541",
+      "check_sdp2_telnet_39541",
+      "check_sdp2_CacheRun_time_39541"
+   ],
+   "sdp2_role_DC_35541 : DC": [
+      "check_sdp2_serverlog_35541",
+      "check_sdp2_corelog_35541",
+      "check_sdp2_jvm_35541",
+      "check_sdp2_blockingthreads_35541",
+      "check_sdp2_telnet_35541",
+      "check_sdp2_CacheRun_time_35541"
+   ],
+   "sdp2_role_DC_40541 : DC": [
+      "check_sdp2_serverlog_40541",
+      "check_sdp2_corelog_40541",
+      "check_sdp2_jvm_40541",
+      "check_sdp2_blockingthreads_40541",
+      "check_sdp2_telnet_40541",
+      "check_sdp2_CacheRun_time_40541"
+   ],
+   "sdp2_role_PE_1099 : PE": [
+      "check_sdp2_port_1099",
+      "check_sdp2_serverlog_1099",
+      "check_sdp2_corelog_1099"
+   ],
+   "sdp2_role_MS_1099 : MS": [
+      "check_sdp2_port_1099",
+      "check_sdp2_serverlog_1099",
+      "check_sdp2_corelog_1099"
+   ],
+   "sdp2_role_PE_1199 : PE": [
+      "check_sdp2_port_1199",
+      "check_sdp2_corelog_1199",
+      "check_sdp2_serverlog_1199"
+   ],
+   "sdp2_role_MS_1199 : MS": [
+      "check_sdp2_port_1199",
+      "check_sdp2_corelog_1199",
+      "check_sdp2_serverlog_1199"
+   ],
+   "sdp2_role_PE_1299 : PE": [
+      "check_sdp2_port_1299",
+      "check_sdp2_corelog_1299",
+      "check_sdp2_serverlog_1299"
+   ],
+   "sdp2_role_MS_1299 : MS": [
+      "check_sdp2_port_1299",
+      "check_sdp2_corelog_1299",
+      "check_sdp2_serverlog_1299"
+   ],
+   "sdp2_role_PE_1499 : PE": [
+      "check_sdp2_port_1499",
+      "check_sdp2_corelog_1499",
+      "check_sdp2_serverlog_1499"
+   ],
+   "sdp2_role_MS_1499 : MS": [
+      "check_sdp2_port_1499",
+      "check_sdp2_corelog_1499",
+      "check_sdp2_serverlog_1499"
+   ],
+   "sdp2_role_PE_1799 : PE": [
+      "check_sdp2_port_1799",
+      "check_sdp2_corelog_1799",
+      "check_sdp2_serverlog_1799"
+   ],
+   "sdp2_role_MS_1799 : MS": [
+      "check_sdp2_port_1799",
+      "check_sdp2_corelog_1799",
+      "check_sdp2_serverlog_1799"
+   ],
+   "sdp2_role_PE_1699 : PE": [
+      "check_sdp2_port_1699",
+      "check_sdp2_corelog_1699",
+      "check_sdp2_serverlog_1699"
+   ],
+   "sdp2_role_MS_1699 : MS": [
+      "check_sdp2_port_1699",
+      "check_sdp2_corelog_1699",
+      "check_sdp2_serverlog_1699"
+   ],
+   "sdp2_role_PE_1399 : PE": [
+      "check_sdp2_port_1399",
+      "check_sdp2_corelog_1399",
+      "check_sdp2_serverlog_1399"
+   ],
+   "sdp2_role_MS_1399 : MS": [
+      "check_sdp2_port_1399",
+      "check_sdp2_corelog_1399",
+      "check_sdp2_serverlog_1399"
+   ],
+   "sdp2_role_PE_1599 : PE": [
+      "check_sdp2_port_1599",
+      "check_sdp2_corelog_1599",
+      "check_sdp2_serverlog_1599"
+   ],
+   "sdp2_role_MS_1599 : MS": [
+      "check_sdp2_port_1599",
+      "check_sdp2_corelog_1599",
+      "check_sdp2_serverlog_1599"
+   ],
+   "sdp2_role_PE_1899 : PE": [
+      "check_sdp2_port_1899",
+      "check_sdp2_corelog_1899",
+      "check_sdp2_serverlog_1899"
+   ],
+   "sdp2_role_MS_1899 : MS": [
+      "check_sdp2_port_1899",
+      "check_sdp2_corelog_1899",
+      "check_sdp2_serverlog_1899"
+   ],
+   "sdp2_role_PE_2299 : PE": [
+      "check_sdp2_port_2299",
+      "check_sdp2_corelog_2299",
+      "check_sdp2_serverlog_2299"
+   ],
+   "sdp2_role_MS_2299 : MS": [
+      "check_sdp2_port_2299",
+      "check_sdp2_corelog_2299",
+      "check_sdp2_serverlog_2299"
+   ],
+   "sdp2_role_PE_2399 : PE": [
+      "check_sdp2_port_2399",
+      "check_sdp2_corelog_2399",
+      "check_sdp2_serverlog_2399"
+   ],
+   "sdp2_role_MS_2399 : MS": [
+      "check_sdp2_port_2399",
+      "check_sdp2_corelog_2399",
+      "check_sdp2_serverlog_2399"
+   ],
+   "sdp2_role_PE_1999 : PE": [
+      "check_sdp2_port_1999",
+      "check_sdp2_corelog_1999",
+      "check_sdp2_serverlog_1999"
+   ],
+   "sdp2_role_MS_1999 : MS": [
+      "check_sdp2_port_1999",
+      "check_sdp2_corelog_1999",
+      "check_sdp2_serverlog_1999"
+   ],
+   "sdp2_role_PE_2099 : PE": [
+      "check_sdp2_port_2099",
+      "check_sdp2_corelog_2099",
+      "check_sdp2_serverlog_2099"
+   ],
+   "sdp2_role_MS_2099 : MS": [
+      "check_sdp2_port_2099",
+      "check_sdp2_corelog_2099",
+      "check_sdp2_serverlog_2099"
+   ],
+   "sdp2_role_PE_2199 : PE": [
+      "check_sdp2_port_2199",
+      "check_sdp2_corelog_2199",
+      "check_sdp2_serverlog_2199"
+   ],
+   "sdp2_role_MS_2199 : MS": [
+      "check_sdp2_port_2199",
+      "check_sdp2_corelog_2199",
+      "check_sdp2_serverlog_2199"
+   ],
+   "sdp2_role_PE_2499 : PE": [
+      "check_sdp2_port_2499",
+      "check_sdp2_corelog_2499",
+      "check_sdp2_serverlog_2499"
+   ],
+   "sdp2_role_MS_2499 : MS": [
+      "check_sdp2_port_2499",
+      "check_sdp2_corelog_2499",
+      "check_sdp2_serverlog_2499"
+   ],
+   "sdp2_role_PE_2699 : PE": [
+      "check_sdp2_port_2699",
+      "check_sdp2_corelog_2699",
+      "check_sdp2_serverlog_2699"
+   ],
+   "sdp2_role_MS_2699 : MS": [
+      "check_sdp2_port_2699",
+      "check_sdp2_corelog_2699",
+      "check_sdp2_serverlog_2699"
+   ],
+   "sdp2_role_PE_2899 : PE": [
+      "check_sdp2_port_2899",
+      "check_sdp2_corelog_2899",
+      "check_sdp2_serverlog_2899"
+   ],
+   "sdp2_role_MS_2899 : MS": [
+      "check_sdp2_port_2899",
+      "check_sdp2_corelog_2899",
+      "check_sdp2_serverlog_2899"
+   ],
+   "sdp2_role_PE_2999 : PE": [
+      "check_sdp2_port_2999",
+      "check_sdp2_corelog_2999",
+      "check_sdp2_serverlog_2999"
+   ],
+   "sdp2_role_MS_2999 : MS": [
+      "check_sdp2_port_2999",
+      "check_sdp2_corelog_2999",
+      "check_sdp2_serverlog_2999"
+   ],
+   "sdp2_role_PE_3099 : PE": [
+      "check_sdp2_port_3099",
+      "check_sdp2_corelog_3099",
+      "check_sdp2_serverlog_3099"
+   ],
+   "sdp2_role_MS_3099 : MS": [
+      "check_sdp2_port_3099",
+      "check_sdp2_corelog_3099",
+      "check_sdp2_serverlog_3099"
+   ],
+   "sdp2_role_PE_2599 : PE": [
+      "check_sdp2_port_2599",
+      "check_sdp2_corelog_2599",
+      "check_sdp2_serverlog_2599"
+   ],
+   "sdp2_role_MS_2599 : MS": [
+      "check_sdp2_port_2599",
+      "check_sdp2_corelog_2599",
+      "check_sdp2_serverlog_2599"
+   ],
+   "sdp2_role_PE_2799 : PE": [
+      "check_sdp2_port_2799",
+      "check_sdp2_corelog_2799",
+      "check_sdp2_serverlog_2799"
+   ],
+   "sdp2_role_MS_2799 : MS": [
+      "check_sdp2_port_2799",
+      "check_sdp2_corelog_2799",
+      "check_sdp2_serverlog_2799"
+   ],
+   "sdp2_role_PE_3199 : PE": [
+      "check_sdp2_port_3199",
+      "check_sdp2_corelog_3199",
+      "check_sdp2_serverlog_3199"
+   ],
+   "sdp2_role_MS_3199 : MS": [
+      "check_sdp2_port_3199",
+      "check_sdp2_corelog_3199",
+      "check_sdp2_serverlog_3199"
+   ],
+   "sdp2_role_PE_3399 : PE": [
+      "check_sdp2_port_3399",
+      "check_sdp2_corelog_3399",
+      "check_sdp2_serverlog_3399"
+   ],
+   "sdp2_role_MS_3399 : MS": [
+      "check_sdp2_port_3399",
+      "check_sdp2_corelog_3399",
+      "check_sdp2_serverlog_3399"
+   ],
+   "sdp2_role_PE_3599 : PE": [
+      "check_sdp2_port_3599",
+      "check_sdp2_corelog_3599",
+      "check_sdp2_serverlog_3599"
+   ],
+   "sdp2_role_MS_3599 : MS": [
+      "check_sdp2_port_3599",
+      "check_sdp2_corelog_3599",
+      "check_sdp2_serverlog_3599"
+   ],
+   "sdp2_role_PE_3499 : PE": [
+      "check_sdp2_port_3499",
+      "check_sdp2_corelog_3499",
+      "check_sdp2_serverlog_3499"
+   ],
+   "sdp2_role_MS_3499 : MS": [
+      "check_sdp2_port_3499",
+      "check_sdp2_corelog_3499",
+      "check_sdp2_serverlog_3499"
+   ],
+   "sdp2_role_PE_3699 : PE": [
+      "check_sdp2_port_3699",
+      "check_sdp2_corelog_3699",
+      "check_sdp2_serverlog_3699"
+   ],
+   "sdp2_role_MS_3699 : MS": [
+      "check_sdp2_port_3699",
+      "check_sdp2_corelog_3699",
+      "check_sdp2_serverlog_3699"
+   ],
+   "sdp2_role_PE_3799 : PE": [
+      "check_sdp2_port_3799",
+      "check_sdp2_corelog_3799",
+      "check_sdp2_serverlog_3799"
+   ],
+   "sdp2_role_MS_3799 : MS": [
+      "check_sdp2_port_3799",
+      "check_sdp2_corelog_3799",
+      "check_sdp2_serverlog_3799"
+   ],
+   "sdp2_role_PE_3299 : PE": [
+      "check_sdp2_port_3299",
+      "check_sdp2_corelog_3299",
+      "check_sdp2_serverlog_3299"
+   ],
+   "sdp2_role_MS_3299 : MS": [
+      "check_sdp2_port_3299",
+      "check_sdp2_corelog_3299",
+      "check_sdp2_serverlog_3299"
+   ],
+   "sdp2_role_strimm : strimm": [
+      "check_sdp2_cpu",
+      "check_sdp2_hostname",
+      "check_sdp2_strimm_load"
+   ],
+   "sdp2_role_hostchecks : hostchecks": [
+      "check_sdp2_cpu",
+      "check_sdp2_memory",
+      "check_sdp2_disk",
+      "check_sdp2_inode_disk",
+      "check_sdp2_disk_io",
+      "check_sdp2_hostname",
+      "check_sdp2_outofmemory",
+      "check_sdp2_ntp",
+      "check_sdp2_load",
+      "check_sdp2_zombie",
+      "sdp2_cpu-metrics",
+      "sdp2_cpu-pcnt-usage-metrics",
+      "sdp2_disk-metrics",
+      "sdp2_cpu-load",
+      "sdp2_memory-metrics",
+      "sdp2_cpu-load-average-metrics",
+      "sdp2_network-count-metrics",
+      "sdp2_interface-count-metrics",
+      "sdp2_disk-readonly-metric",
+      "sdp2_disk-capacity-metrics",
+      "sdp2_disk-usage-metric",
+      "sdp2_openfiles-metric",
+      "sdp2_memory-percent-metric",
+      "sdp2_net-rate-metric"
+   ],
+   "sdp2_role_hadoop_master : hadoop": [
+      "check_sdp2_cpu",
+      "check_sdp2_memory",
+      "check_sdp2_disk",
+      "check_sdp2_inode_disk",
+      "check_sdp2_disk_io",
+      "check_sdp2_hostname",
+      "check_sdp2_outofmemory",
+      "check_sdp2_ntp",
+      "check_sdp2_load",
+      "check_sdp2_zombie",
+      "check_sdp2_hadoop_deadnodes",
+      "check_sdp2_hadoop_heap",
+      "check_sdp2_hadoop_jps",
+      "check_sdp2_hadoop_failed_jobs_report",
+      "check_sdp2_hadoop_mount",
+      "check_sdp2_hadoop_DFS",
+      "check_sdp2_heap_resourcemanager",
+      "check_sdp2_cloudera_scm_agent",
+      "check_sdp2_cloudera_scm_server",
+      "check_sdp2_hadoop_nodemanagers",
+      "check_sdp2_hadoop_namenode_heap",
+      "check_sdp2_hadoop_mysql",
+      "check_sdp2_hadoop_oozie_log_CDH4",
+      "check_sdp2_hadoop_telnet_10000",
+      "check_sdp2_hadoop_telnet_10020",
+      "check_sdp2_hadoop_oozie_status",
+      "check_sdp2_hadoop_telnet_11000",
+      "check_sdp2_hadoop_telnet_2181",
+      "check_sdp2_hadoop_telnet_7182",
+      "check_sdp2_hadoop_telnet_8020",
+      "check_sdp2_hadoop_telnet_9083",
+      "check_sdp2_hadoop_telnet_50070",
+      "check_sdp2_hadoop_telnet_9000",
+      "check_sdp2_hadoop_telnet_7180",
+      "check_sdp2_log_messages"
+   ],
+   "sdp2_role_hostchecks_striim : hostchecks": [
+      "check_sdp2_cpu",
+      "check_sdp2_memory",
+      "check_sdp2_disk",
+      "check_sdp2_inode_disk",
+      "check_sdp2_disk_io",
+      "check_sdp2_hostname",
+      "check_sdp2_outofmemory",
+      "check_sdp2_ntp",
+      "check_sdp2_zombie",
+      "check_sdp2_load_striim_recon_PE"
+   ],
+   "sdp2_role_hostchecks_recon_master : hostchecks": [
+      "check_sdp2_cpu",
+      "check_sdp2_memory",
+      "check_sdp2_disk",
+      "check_sdp2_inode_disk",
+      "check_sdp2_disk_io",
+      "check_sdp2_hostname",
+      "check_sdp2_outofmemory",
+      "check_sdp2_ntp",
+      "check_sdp2_zombie",
+      "check_sdp2_load_striim_recon_PE"
+   ],
+   "sdp2_role_hostchecks_recon_datanodes : hostchecks": [
+      "check_sdp2_cpu",
+      "check_sdp2_memory",
+      "check_sdp2_inode_disk",
+      "check_sdp2_disk_io",
+      "check_sdp2_hostname",
+      "check_sdp2_outofmemory",
+      "check_sdp2_ntp",
+      "check_sdp2_zombie",
+      "check_sdp2_load_striim_recon_PE",
+      "check_sdp2_disk_recon_datanodes"
+   ],
+   "sdp2_role_hostchecks_PE_master : hostchecks": [
+      "check_sdp2_cpu",
+      "check_sdp2_memory",
+      "check_sdp2_disk",
+      "check_sdp2_inode_disk",
+      "check_sdp2_disk_io",
+      "check_sdp2_hostname",
+      "check_sdp2_outofmemory",
+      "check_sdp2_ntp",
+      "check_sdp2_zombie",
+      "check_sdp2_load_striim_recon_PE"
+   ],
+   "sdp2_role_hostchecks_PE_datanodes : hostchecks": [
+      "check_sdp2_cpu",
+      "check_sdp2_memory",
+      "check_sdp2_inode_disk",
+      "check_sdp2_disk_io",
+      "check_sdp2_hostname",
+      "check_sdp2_outofmemory",
+      "check_sdp2_ntp",
+      "check_sdp2_zombie",
+      "check_sdp2_load_striim_recon_PE",
+      "check_sdp2_disk_PE"
+   ],
+   "sdp2_role_YSL_8543 : YSL": [
+      "check_sdp2_webhook_8543",
+      "check_sdp2_serverlog_8543",
+      "check_sdp2_telnet_8543",
+      "check_sdp2_jvm_8543",
+      "check_sdp2_corelog_8543",
+      "check_sdp2_ysl_api_8543",
+      "check_sdp2_accesslog_8543"
+   ],
+   "sdp2_role_YSL_8443 : YSL": [
+      "check_sdp2_webhook_8443",
+      "check_sdp2_corelog_8443",
+      "check_sdp2_serverlog_8443",
+      "check_sdp2_telnet_8443",
+      "check_sdp2_jvm_8443",
+      "check_sdp2_ysl_api_8443",
+      "check_sdp2_accesslog_8443"
+   ],
+   "sdp2_role_YSL_8943 : YSL": [
+      "check_sdp2_webhook_8943",
+      "check_sdp2_corelog_8943",
+      "check_sdp2_serverlog_8943",
+      "check_sdp2_telnet_8943",
+      "check_sdp2_jvm_8943",
+      "check_sdp2_ysl_api_8943",
+      "check_sdp2_accesslog_8943"
+   ],
+   "sdp2_role_YSL_9543 : YSL": [
+      "check_sdp2_webhook_9543",
+      "check_sdp2_serverlog_9543",
+      "check_sdp2_telnet_9543",
+      "check_sdp2_jvm_9543",
+      "check_sdp2_corelog_9543",
+      "check_sdp2_ysl_api_9543",
+      "check_sdp2_accesslog_9543"
+   ],
+   "sdp2_role_YSL_9643 : YSL": [
+      "check_sdp2_webhook_9643",
+      "check_sdp2_serverlog_9643",
+      "check_sdp2_telnet_9643",
+      "check_sdp2_jvm_9643",
+      "check_sdp2_corelog_9643",
+      "check_sdp2_ysl_api_9643",
+      "check_sdp2_accesslog_9643"
+   ],
+   "sdp2_role_YSL_9443 : YSL": [
+      "check_sdp2_webhook_9443",
+      "check_sdp2_serverlog_9443",
+      "check_sdp2_telnet_9443",
+      "check_sdp2_jvm_9443",
+      "check_sdp2_corelog_9443",
+      "check_sdp2_ysl_api_9443",
+      "check_sdp2_accesslog_9443"
+   ],
+   "sdp2_role_DCSERVLETS_8643 : DCSERVLETS": [
+      "check_sdp2_blockingthreads_8643",
+      "check_sdp2_corelog_8643",
+      "check_sdp2_serverlog_8643",
+      "check_sdp2_telnet_8643",
+      "check_sdp2_jvm_8643",
+      "check_sdp2_accesslog_8643"
+   ],
+   "sdp2_role_DCSERVLETS_8743 : DCSERVLETS": [
+      "check_sdp2_blockingthreads_8743",
+      "check_sdp2_corelog_8743",
+      "check_sdp2_serverlog_8743",
+      "check_sdp2_telnet_8743",
+      "check_sdp2_jvm_8743",
+      "check_sdp2_accesslog_8743"
+   ],
+   "sdp2_role_DCSERVLETS_8543 : DCSERVLETS": [
+      "check_sdp2_blockingthreads_8543",
+      "check_sdp2_serverlog_8543",
+      "check_sdp2_telnet_8543",
+      "check_sdp2_jvm_8543",
+      "check_sdp2_corelog_8543",
+      "check_sdp2_accesslog_8543"
+   ],
+   "sdp2_role_DCSERVLETS_10243 : DCSERVLETS": [
+      "check_sdp2_blockingthreads_10243",
+      "check_sdp2_serverlog_10243",
+      "check_sdp2_accesslog_10243",
+      "check_sdp2_telnet_10243",
+      "check_sdp2_jvm_10243",
+      "check_sdp2_corelog_10243"
+   ],
+   "sdp2_role_DCSERVLETS_10343 : DCSERVLETS": [
+      "check_sdp2_blockingthreads_10343",
+      "check_sdp2_serverlog_10343",
+      "check_sdp2_accesslog_10343",
+      "check_sdp2_telnet_10343",
+      "check_sdp2_jvm_10343",
+      "check_sdp2_corelog_10343"
+   ],
+   "sdp2_role_DCSERVLETS_10443 : DCSERVLETS": [
+      "check_sdp2_blockingthreads_10443",
+      "check_sdp2_serverlog_10443",
+      "check_sdp2_accesslog_10443",
+      "check_sdp2_telnet_10443",
+      "check_sdp2_jvm_10443",
+      "check_sdp2_corelog_10443"
+   ],
+   "sdp2_role_DCSERVLETS_8443 : DCSERVLETS": [
+      "check_sdp2_blockingthreads_8443",
+      "check_sdp2_corelog_8443",
+      "check_sdp2_serverlog_8443",
+      "check_sdp2_telnet_8443",
+      "check_sdp2_jvm_8443",
+      "check_sdp2_accesslog_8443"
+   ],
+   "sdp2_role_DCSERVLETS_8843 : DCSERVLETS": [
+      "check_sdp2_blockingthreads_8843",
+      "check_sdp2_serverlog_8843",
+      "check_sdp2_telnet_8843",
+      "check_sdp2_jvm_8843",
+      "check_sdp2_corelog_8843",
+      "check_sdp2_accesslog_8843"
+   ],
+   "sdp2_role_DCSERVLETS_9243 : DCSERVLETS": [
+      "check_sdp2_blockingthreads_9243",
+      "check_sdp2_serverlog_9243",
+      "check_sdp2_telnet_9243",
+      "check_sdp2_jvm_9243",
+      "check_sdp2_corelog_9243",
+      "check_sdp2_accesslog_9243"
+   ],
+   "sdp2_role_DCSERVLETS_9343 : DCSERVLETS": [
+      "check_sdp2_blockingthreads_9343",
+      "check_sdp2_serverlog_9343",
+      "check_sdp2_telnet_9343",
+      "check_sdp2_jvm_9343",
+      "check_sdp2_corelog_9343",
+      "check_sdp2_accesslog_9343"
+   ],
+   "sdp2_role_DCSERVLETS_8943 : DCSERVLETS": [
+      "check_sdp2_blockingthreads_8943",
+      "check_sdp2_corelog_8943",
+      "check_sdp2_serverlog_8943",
+      "check_sdp2_telnet_8943",
+      "check_sdp2_jvm_8943",
+      "check_sdp2_accesslog_8943"
+   ],
+   "sdp2_role_DCSERVLETS_9043 : DCSERVLETS": [
+      "check_sdp2_blockingthreads_9043",
+      "check_sdp2_corelog_9043",
+      "check_sdp2_serverlog_9043",
+      "check_sdp2_telnet_9043",
+      "check_sdp2_jvm_9043",
+      "check_sdp2_accesslog_9043"
+   ],
+   "sdp2_role_DCSERVLETS_9143 : DCSERVLETS": [
+      "check_sdp2_blockingthreads_9143",
+      "check_sdp2_serverlog_9143",
+      "check_sdp2_telnet_9143",
+      "check_sdp2_jvm_9143",
+      "check_sdp2_corelog_9143",
+      "check_sdp2_accesslog_9143"
+   ],
+   "sdp2_role_DCSERVLETS_9743 : DCSERVLETS": [
+      "check_sdp2_blockingthreads_9743",
+      "check_sdp2_serverlog_9743",
+      "check_sdp2_telnet_9743",
+      "check_sdp2_jvm_9743",
+      "check_sdp2_corelog_9743",
+      "check_sdp2_accesslog_9743"
+   ],
+   "sdp2_role_DCSERVLETS_9843 : DCSERVLETS": [
+      "check_sdp2_blockingthreads_9843",
+      "check_sdp2_serverlog_9843",
+      "check_sdp2_telnet_9843",
+      "check_sdp2_jvm_9843",
+      "check_sdp2_corelog_9843",
+      "check_sdp2_accesslog_9843"
+   ],
+   "sdp2_role_DCSERVLETS_9943 : DCSERVLETS": [
+      "check_sdp2_blockingthreads_9943",
+      "check_sdp2_serverlog_9943",
+      "check_sdp2_telnet_9943",
+      "check_sdp2_jvm_9943",
+      "check_sdp2_corelog_9943",
+      "check_sdp2_accesslog_9943"
+   ],
+   "sdp2_role_DCSERVLETS_9443 : DCSERVLETS": [
+      "check_sdp2_blockingthreads_9443",
+      "check_sdp2_serverlog_9443",
+      "check_sdp2_telnet_9443",
+      "check_sdp2_jvm_9443",
+      "check_sdp2_corelog_9443",
+      "check_sdp2_accesslog_9443"
+   ],
+   "sdp2_role_DCSERVLETS_9543 : DCSERVLETS": [
+      "check_sdp2_blockingthreads_9543",
+      "check_sdp2_serverlog_9543",
+      "check_sdp2_telnet_9543",
+      "check_sdp2_jvm_9543",
+      "check_sdp2_corelog_9543",
+      "check_sdp2_accesslog_9543"
+   ],
+   "sdp2_role_DCSERVLETS_9643 : DCSERVLETS": [
+      "check_sdp2_blockingthreads_9643",
+      "check_sdp2_serverlog_9643",
+      "check_sdp2_telnet_9643",
+      "check_sdp2_jvm_9643",
+      "check_sdp2_corelog_9643",
+      "check_sdp2_accesslog_9643"
+   ],
+   "sdp2_role_ytask_proc : ytask": [
+      "check_sdp2_ytask_proc"
+   ],
+   "sdp2_role_wget_dag : wget": [
+      "check_sdp2_wget_dag"
+   ],
+   "sdp2_role_wealth_dashboard_stage_10043 : wealth": [
+      "check_sdp2_wealth_dashboard_stage_10043"
+   ],
+   "sdp2_role_USAA_batchfeed_DBFILINGS_rate : USAA": [
+      "check_sdp2_USAA_batchfeed_DBFILINGS_rate"
+   ],
+   "sdp2_role_wealth_dashboard_prod_8843 : wealth": [
+      "check_sdp2_wealth_dashboard_prod_8843"
+   ],
+   "sdp2_role_Mongo_DBLoader_process : Mongo": [
+      "check_sdp2_Mongo_DBLoader_process"
+   ],
+   "sdp2_role_telnet_uk_Proxy : telnet": [
+      "check_sdp2_telnet_uk_Proxy"
+   ],
+   "sdp2_role_telnet_port_BAC2 : telnet": [
+      "check_sdp2_telnet_port_BAC2"
+   ],
+   "sdp2_role_telnet_Australia_Proxy : telnet": [
+      "check_sdp2_telnet_Australia_Proxy"
+   ],
+   "sdp2_role_telnet_port_TIO : telnet": [
+      "check_sdp2_telnet_port_TIO"
+   ],
+   "sdp2_role_telnet_port_Paypal : telnet": [
+      "check_sdp2_telnet_port_Paypal"
+   ],
+   "sdp2_role_telnet_port_443 : telnet": [
+      "check_sdp2_telnet_port_443"
+   ],
+   "sdp2_role_telnet_port_BAC1 : telnet": [
+      "check_sdp2_telnet_port_BAC1"
+   ],
+   "sdp2_role_telnet_India_Proxy : telnet": [
+      "check_sdp2_telnet_India_Proxy"
+   ],
+   "sdp2_role_Sterling_running : Sterling": [
+      "check_sdp2_Sterling_running"
+   ],
+   "sdp2_role_smtp_port_25 : smtp": [
+      "check_sdp2_smtp_port_25"
+   ],
+   "sdp2_role_RBC_FTP : RBC": [
+      "check_sdp2_RBC_FTP"
+   ],
+   "sdp2_role_refresh_stats_loader_log : refresh": [
+      "check_sdp2_refresh_stats_loader_log"
+   ],
+   "sdp2_role_MnT_FTP_port : MnT": [
+      "check_sdp2_MnT_FTP_port"
+   ],
+   "sdp2_role_messaging_stage_rsgcor80 : messaging": [
+      "check_sdp2_messaging_stage_rsgcor80"
+   ],
+   "sdp2_role_jboss_length_dlq_1099 : jboss": [
+      "check_sdp2_jboss_length_dlq_1099"
+   ],
+   "sdp2_role_http_port_80 : http": [
+      "check_sdp2_http_port_80"
+   ],
+   "sdp2_role_RMAN_BACKUPS : RMAN": [
+      "check_sdp2_RMAN_BACKUPS"
+   ],
+   "sdp2_role_RBC_file_processing : RBC": [
+      "check_sdp2_RBC_file_processing"
+   ],
+   "sdp2_role_ingrain_11000 : ingrain": [
+      "check_sdp2_ingrain_11000"
+   ],
+   "sdp2_role_GathProxy_port_1080 : GathProxy": [
+      "check_sdp2_GathProxy_port_1080"
+   ],
+   "sdp2_role_ES_8880 : ES": [
+      "check_sdp2_ES_Search_status_8880",
+      "check_sdp2_ES_Nodes_status_8880",
+      "check_sdp2_ES_JVM_status_8880",
+      "check_sdp2_ES_Node_Health_status_8880"
+   ],
+   "sdp2_role_ES_Search_status_8880 : ES": [
+      "check_sdp2_ES_Search_status_8880"
+   ],
+   "sdp2_role_hornetQ : hornetQ": [
+      "check_sdp2_hornetQ"
+   ],
+   "sdp2_role_ES_8980 : ES": [
+      "check_sdp2_ES_Search_status_8980",
+      "check_sdp2_ES_Nodes_status_8980",
+      "check_sdp2_ES_JVM_status_8980",
+      "check_sdp2_ES_Node_Health_status_8980"
+   ],
+   "sdp2_role_ES_Search_status_8980 : ES": [
+      "check_sdp2_ES_Search_status_8980"
+   ],
+   "sdp2_role_fms_process : fms": [
+      "check_sdp2_fms_process"
+   ],
+   "sdp2_role_GathProxy_port_2080 : GathProxy": [
+      "check_sdp2_GathProxy_port_2080"
+   ],
+   "sdp2_role_ES_Search_status_8080 : ES": [
+      "check_sdp2_ES_Search_status_8080"
+   ],
+   "sdp2_role_ES_8080 : ES": [
+      "check_sdp2_ES_Search_status_8080",
+      "check_sdp2_ES_Nodes_status_8080",
+      "check_sdp2_ES_JVM_status_8080",
+      "check_sdp2_ES_Node_Health_status_8080"
+   ],
+   "sdp2_role_ES_Search_status_8180 : ES": [
+      "check_sdp2_ES_Search_status_8180"
+   ],
+   "sdp2_role_ES_8180 : ES": [
+      "check_sdp2_ES_Search_status_8180",
+      "check_sdp2_ES_Nodes_status_8180",
+      "check_sdp2_ES_JVM_status_8180",
+      "check_sdp2_ES_Node_Health_status_8180"
+   ],
+   "sdp2_role_ES_8480 : ES": [
+      "check_sdp2_ES_Search_status_8480",
+      "check_sdp2_ES_Nodes_status_8480",
+      "check_sdp2_ES_JVM_status_8480",
+      "check_sdp2_ES_Node_Health_status_8480"
+   ],
+   "sdp2_role_ES_Search_status_8480 : ES": [
+      "check_sdp2_ES_Search_status_8480"
+   ],
+   "sdp2_role_ES_Search_status_8680 : ES": [
+      "check_sdp2_ES_Search_status_8680"
+   ],
+   "sdp2_role_ES_8680 : ES": [
+      "check_sdp2_ES_Search_status_8680",
+      "check_sdp2_ES_Nodes_status_8680",
+      "check_sdp2_ES_JVM_status_8680",
+      "check_sdp2_ES_Node_Health_status_8680"
+   ],
+   "sdp2_role_ES_9280 : ES": [
+      "check_sdp2_ES_Search_status_9280",
+      "check_sdp2_ES_Nodes_status_9280",
+      "check_sdp2_ES_JVM_status_9280",
+      "check_sdp2_ES_Node_Health_status_9280"
+   ],
+   "sdp2_role_ES_Search_status_9280 : ES": [
+      "check_sdp2_ES_Search_status_9280"
+   ],
+   "sdp2_role_ES_Nodes_status_8880 : ES": [
+      "check_sdp2_ES_Nodes_status_8880"
+   ],
+   "sdp2_role_ES_Nodes_status_8980 : ES": [
+      "check_sdp2_ES_Nodes_status_8980"
+   ],
+   "sdp2_role_ES_Nodes_status_8180 : ES": [
+      "check_sdp2_ES_Nodes_status_8180"
+   ],
+   "sdp2_role_ES_Nodes_status_9280 : ES": [
+      "check_sdp2_ES_Nodes_status_9280"
+   ],
+   "sdp2_role_ES_Nodes_status_8480 : ES": [
+      "check_sdp2_ES_Nodes_status_8480"
+   ],
+   "sdp2_role_ES_Nodes_status_8080 : ES": [
+      "check_sdp2_ES_Nodes_status_8080"
+   ],
+   "sdp2_role_ES_JVM_status_8880 : ES": [
+      "check_sdp2_ES_JVM_status_8880"
+   ],
+   "sdp2_role_ES_JVM_status_8980 : ES": [
+      "check_sdp2_ES_JVM_status_8980"
+   ],
+   "sdp2_role_DCServelet_buffer_size : DCServelet": [
+      "check_sdp2_DCServelet_buffer_size"
+   ],
+   "sdp2_role_ES_JVM_status_8180 : ES": [
+      "check_sdp2_ES_JVM_status_8180"
+   ],
+   "sdp2_role_ES_JVM_status_8080 : ES": [
+      "check_sdp2_ES_JVM_status_8080"
+   ],
+   "sdp2_role_ES_JVM_status_8480 : ES": [
+      "check_sdp2_ES_JVM_status_8480"
+   ],
+   "sdp2_role_ES_JVM_status_8680 : ES": [
+      "check_sdp2_ES_JVM_status_8680"
+   ],
+   "sdp2_role_ES_JVM_status_9280 : ES": [
+      "check_sdp2_ES_JVM_status_9280"
+   ],
+   "sdp2_role_cron_wellfargo : cron": [
+      "check_sdp2_cron_wellfargo"
+   ],
+   "sdp2_role_check_all_cron_kettle : check": [
+      "check_sdp2_check_all_cron_kettle"
+   ],
+   "sdp2_role_cron_PFE_DataImport : cron": [
+      "check_sdp2_cron_PFE_DataImport"
+   ],
+   "sdp2_role_contentcache_DC : contentcache": [
+      "check_sdp2_contentcache_DC"
+   ],
+   "sdp2_role_contentcache_core : contentcache": [
+      "check_sdp2_contentcache_core"
+   ],
+   "sdp2_role_citi_batchfeed_DBFILINGS_rate : citi": [
+      "check_sdp2_citi_batchfeed_DBFILINGS_rate"
+   ],
+   "sdp2_role_report_start_end_BofA : report": [
+      "check_sdp2_report_start_end_BofA"
+   ],
+   "sdp2_role_report_start_end_CommonWealth : report": [
+      "check_sdp2_report_start_end_CommonWealth"
+   ],
+   "sdp2_role_report_start_end_BofA90 : report": [
+      "check_sdp2_report_start_end_BofA90"
+   ],
+   "sdp2_role_report_start_end_HarrisBank : report": [
+      "check_sdp2_report_start_end_HarrisBank"
+   ],
+   "sdp2_role_report_timer : report": [
+      "check_sdp2_report_timer"
+   ],
+   "sdp2_role_squid_port_3128 : squid": [
+      "check_sdp2_squid_port_3128"
+   ],
+   "sdp2_role_squid_proxy_log : squid": [
+      "check_sdp2_squid_proxy_log"
+   ],
+   "sdp2_role_foglight_port_8080 : foglight": [
+      "check_sdp2_foglight_port_8080"
+   ],
+   "sdp2_role_check_port_8080 : check": [
+      "check_sdp2_check_port_8080"
+   ],
+   "sdp2_role_telnet_port_8080 : telnet": [
+      "check_sdp2_telnet_port_8080"
+   ],
+   "sdp2_role_resin_port_11080 : resin": [
+      "check_sdp2_resin_port_11080"
+   ],
+   "sdp2_role_telnet_port_8480 : telnet": [
+      "check_sdp2_telnet_port_8480"
+   ],
+   "sdp2_role_check_port_8180 : check": [
+      "check_sdp2_check_port_8180"
+   ],
+   "sdp2_role_telnet_port_8880 : telnet": [
+      "check_sdp2_telnet_port_8880"
+   ],
+   "sdp2_role_telnet_port_8980 : telnet": [
+      "check_sdp2_telnet_port_8980"
+   ],
+   "sdp2_role_telnet_port_9080 : telnet": [
+      "check_sdp2_telnet_port_9080"
+   ],
+   "sdp2_role_telnet_port_9280 : telnet": [
+      "check_sdp2_telnet_port_9280"
+   ],
+   "sdp2_role_telnet_port_8180 : telnet": [
+      "check_sdp2_telnet_port_8180"
+   ],
+   "sdp2_role_telnet_port_8380 : telnet": [
+      "check_sdp2_telnet_port_8380"
+   ],
+   "sdp2_role_jboss_port_9280 : jboss": [
+      "check_sdp2_jboss_port_9280"
+   ],
+   "sdp2_role_si_telnet_port_9543 : si": [
+      "check_sdp2_si_telnet_port_9543"
+   ],
+   "sdp2_role_si_telnet_port_8443 : si": [
+      "check_sdp2_si_telnet_port_8443"
+   ],
+   "sdp2_role_si_telnet_port_9043 : si": [
+      "check_sdp2_si_telnet_port_9043"
+   ],
+   "sdp2_role_si_telnet_port_9343 : si": [
+      "check_sdp2_si_telnet_port_9343"
+   ],
+   "sdp2_role_si_telnet_port_10343 : si": [
+      "check_sdp2_si_telnet_port_10343"
+   ],
+   "sdp2_role_si_telnet_port_8743 : si": [
+      "check_sdp2_si_telnet_port_8743"
+   ],
+   "sdp2_role_PE_port_11843 : PE": [
+      "check_sdp2_PE_port_11843"
+   ],
+   "sdp2_role_response_accesslog_1sec : response": [
+      "check_sdp2_response_accesslog_1sec"
+   ],
+   "sdp2_role_si_telnet_port_8843 : si": [
+      "check_sdp2_si_telnet_port_8843"
+   ],
+   "sdp2_role_si_telnet_port_8543 : si": [
+      "check_sdp2_si_telnet_port_8543"
+   ],
+   "sdp2_role_si_telnet_port_8943 : si": [
+      "check_sdp2_si_telnet_port_8943"
+   ],
+   "sdp2_role_port_no_status_9243 : port": [
+      "check_sdp2_port_no_status_9243"
+   ],
+   "sdp2_role_report_log : report": [
+      "check_sdp2_report_log"
+   ],
+   "sdp2_role_cron : cron": [
+      "check_sdp2_cron"
+   ],
+   "sdp2_role_MongoProcess : MongoProcess": [
+      "check_sdp2_MongoProcess"
+   ],
+   "sdp2_role_mailq : mailq": [
+      "check_sdp2_mailq"
+   ],
+   "sdp2_role_messaging_sdbcab02 : messaging": [
+      "check_sdp2_messaging_sdbcab02"
+   ],
+   "sdp2_role_messaging_sdbcae05 : messaging": [
+      "check_sdp2_messaging_sdbcae05"
+   ],
+   "sdp2_role_messaging_sdbcaf06 : messaging": [
+      "check_sdp2_messaging_sdbcaf06"
+   ],
+   "sdp2_role_messaging_sdbcag07 : messaging": [
+      "check_sdp2_messaging_sdbcag07"
+   ],
+   "sdp2_role_messaging_sdbcaj10 : messaging": [
+      "check_sdp2_messaging_sdbcaj10"
+   ],
+   "sdp2_role_messaging_sdbcam13 : messaging": [
+      "check_sdp2_messaging_sdbcam13"
+   ],
+   "sdp2_role_messaging_sdbcad04 : messaging": [
+      "check_sdp2_messaging_sdbcad04"
+   ],
+   "sdp2_role_messaging_sdbcao15 : messaging": [
+      "check_sdp2_messaging_sdbcao15"
+   ],
+   "sdp2_role_log_core : log": [
+      "check_sdp2_log_core"
+   ],
+   "sdp2_role_log_core2 : log": [
+      "check_sdp2_log_core2"
+   ],
+   "sdp2_role_log_core11 : log": [
+      "check_sdp2_log_core11"
+   ],
+   "sdp2_role_plevo : plevo": [
+      "check_sdp2_plevo"
+   ],
+   "sdp2_role_plevo_IQBank : plevo": [
+      "check_sdp2_plevo_IQBank"
+   ],
+   "sdp2_role_messaging_sdbcayod : messaging": [
+      "check_sdp2_messaging_sdbcayod"
+   ],
+   "sdp2_role_messaging_sdbita01 : messaging": [
+      "check_sdp2_messaging_sdbita01"
+   ],
+   "sdp2_role_load_linux : load": [
+      "check_sdp2_load_linux"
+   ],
+   "sdp2_role_Kibana_Dashboard_status_8743 : Kibana": [
+      "check_sdp2_Kibana_Dashboard_status_8743"
+   ],
+   "sdp2_role_port_PE_11843 : port": [
+      "check_sdp2_port_PE_11843"
+   ],
+   "sdp2_role_kettle_report : kettle": [
+      "check_sdp2_kettle_report"
+   ],
+   "sdp2_role_accesslog_hits_8743 : accesslog": [
+      "check_sdp2_accesslog_hits_8743"
+   ],
+   "sdp2_role_mysql_port_3306 : mysql": [
+      "check_sdp2_mysql_port_3306"
+   ],
+   "sdp2_role_DCServlet_core_region_8543 : DCServlet": [
+      "check_sdp2_DCServlet_core_region_8543"
+   ],
+   "sdp2_role_DCServlet_core_region_9643 : DCServlet": [
+      "check_sdp2_DCServlet_core_region_9643"
+   ],
+   "sdp2_role_ssh : ssh": [
+      "check_sdp2_ssh"
+   ],
+   "sdp2_role_DCServlet_core_region_9243 : DCServlet": [
+      "check_sdp2_DCServlet_core_region_9243"
+   ],
+   "sdp2_role_DCServlet_core_region_10143 : DCServlet": [
+      "check_sdp2_DCServlet_core_region_10143"
+   ],
+   "sdp2_role_DCServlet_core_region_8443 : DCServlet": [
+      "check_sdp2_DCServlet_core_region_8443"
+   ],
+   "sdp2_role_DCServlet_core_region_10043 : DCServlet": [
+      "check_sdp2_DCServlet_core_region_10043"
+   ],
+   "sdp2_role_DCServlet_core_region_9343 : DCServlet": [
+      "check_sdp2_DCServlet_core_region_9343"
+   ],
+   "sdp2_role_DCServlet_core_region_8843 : DCServlet": [
+      "check_sdp2_DCServlet_core_region_8843"
+   ],
+   "sdp2_role_DCServlet_core_region_9143 : DCServlet": [
+      "check_sdp2_DCServlet_core_region_9143"
+   ],
+   "sdp2_role_DCServlet_core_buffer_8443 : DCServlet": [
+      "check_sdp2_DCServlet_core_buffer_8443"
+   ],
+   "sdp2_role_DCServlet_core_buffer_9243 : DCServlet": [
+      "check_sdp2_DCServlet_core_buffer_9243"
+   ],
+   "sdp2_role_DCServlet_core_buffer_9643 : DCServlet": [
+      "check_sdp2_DCServlet_core_buffer_9643"
+   ],
+   "sdp2_role_DCServlet_core_buffer_8543 : DCServlet": [
+      "check_sdp2_DCServlet_core_buffer_8543"
+   ],
+   "sdp2_role_DCServlet_core_buffer_10143 : DCServlet": [
+      "check_sdp2_DCServlet_core_buffer_10143"
+   ],
+   "sdp2_role_DCServlet_core_buffer_9343 : DCServlet": [
+      "check_sdp2_DCServlet_core_buffer_9343"
+   ],
+   "sdp2_role_cache_dbfiler : cache": [
+      "check_sdp2_cache_dbfiler"
+   ],
+   "sdp2_role_response_accesslog_1sec_10043 : response": [
+      "check_sdp2_response_accesslog_1sec_10043"
+   ],
+   "sdp2_role_DCServlet_core_buffer_10043 : DCServlet": [
+      "check_sdp2_DCServlet_core_buffer_10043"
+   ],
+   "sdp2_role_response_accesslog_1sec_9643 : response": [
+      "check_sdp2_response_accesslog_1sec_9643"
+   ],
+   "sdp2_role_DCServlet_core_buffer_8843 : DCServlet": [
+      "check_sdp2_DCServlet_core_buffer_8843"
+   ],
+   "sdp2_role_response_accesslog_1sec_9843 : response": [
+      "check_sdp2_response_accesslog_1sec_9843"
+   ],
+   "sdp2_role_mq_connections_1414 : mq": [
+      "check_sdp2_mq_connections_1414"
+   ],
+   "sdp2_role_mq_queue_lengths_1415 : mq": [
+      "check_sdp2_mq_queue_lengths_1415"
+   ],
+   "sdp2_role_mq_queue_length_MFA_1415 : mq": [
+      "check_sdp2_mq_queue_length_MFA_1415"
+   ],
+   "sdp2_role_mq_queue_lengths_1414 : mq": [
+      "check_sdp2_mq_queue_lengths_1414"
+   ],
+   "sdp2_role_mq_connections_1415 : mq": [
+      "check_sdp2_mq_connections_1415"
+   ],
+   "sdp2_role_mq_queue_length_MFA_1414 : mq": [
+      "check_sdp2_mq_queue_length_MFA_1414"
+   ],
+   "sdp2_role_mq_queue_length_MFA_1416 : mq": [
+      "check_sdp2_mq_queue_length_MFA_1416"
+   ],
+   "sdp2_role_mq_queue_length_MFA_1417 : mq": [
+      "check_sdp2_mq_queue_length_MFA_1417"
+   ],
+   "sdp2_role_mq_connections_1416 : mq": [
+      "check_sdp2_mq_connections_1416"
+   ],
+   "sdp2_role_mq_connections_1418 : mq": [
+      "check_sdp2_mq_connections_1418"
+   ],
+   "sdp2_role_mq_queue_lengths_1416 : mq": [
+      "check_sdp2_mq_queue_lengths_1416"
+   ],
+   "sdp2_role_mq_connections_1417 : mq": [
+      "check_sdp2_mq_connections_1417"
+   ],
+   "sdp2_role_mq_queue_lengths_1417 : mq": [
+      "check_sdp2_mq_queue_lengths_1417"
+   ],
+   "sdp2_role_mq_queue_lengths_1418 : mq": [
+      "check_sdp2_mq_queue_lengths_1418"
+   ],
+   "sdp2_role_mq_queue_length_MFA_1418 : mq": [
+      "check_sdp2_mq_queue_length_MFA_1418"
+   ],
+   "sdp2_role_mq_connections_1420 : mq": [
+      "check_sdp2_mq_connections_1420"
+   ],
+   "sdp2_role_mq_queue_lengths_1419 : mq": [
+      "check_sdp2_mq_queue_lengths_1419"
+   ],
+   "sdp2_role_mq_connections_1419 : mq": [
+      "check_sdp2_mq_connections_1419"
+   ],
+   "sdp2_role_mq_queue_length_MFA_1419 : mq": [
+      "check_sdp2_mq_queue_length_MFA_1419"
+   ],
+   "sdp2_role_mq_queue_lengths_1420 : mq": [
+      "check_sdp2_mq_queue_lengths_1420"
+   ],
+   "sdp2_role_mq_queue_length_MFA_1421 : mq": [
+      "check_sdp2_mq_queue_length_MFA_1421"
+   ],
+   "sdp2_role_mq_queue_length_MFA_1420 : mq": [
+      "check_sdp2_mq_queue_length_MFA_1420"
+   ],
+   "sdp2_role_mq_queue_lengths_1421 : mq": [
+      "check_sdp2_mq_queue_lengths_1421"
+   ],
+   "sdp2_role_mq_connections_1421 : mq": [
+      "check_sdp2_mq_connections_1421"
+   ],
+   "sdp2_role_mq_connections_1422 : mq": [
+      "check_sdp2_mq_connections_1422"
+   ],
+   "sdp2_role_mq_queue_lengths_1423 : mq": [
+      "check_sdp2_mq_queue_lengths_1423"
+   ],
+   "sdp2_role_mq_connections_1424 : mq": [
+      "check_sdp2_mq_connections_1424"
+   ],
+   "sdp2_role_mq_queue_length_MFA_1422 : mq": [
+      "check_sdp2_mq_queue_length_MFA_1422"
+   ],
+   "sdp2_role_mq_connections_1423 : mq": [
+      "check_sdp2_mq_connections_1423"
+   ],
+   "sdp2_role_mq_queue_lengths_1424 : mq": [
+      "check_sdp2_mq_queue_lengths_1424"
+   ],
+   "sdp2_role_mq_queue_lengths_1422 : mq": [
+      "check_sdp2_mq_queue_lengths_1422"
+   ],
+   "sdp2_role_mq_queue_length_MFA_1423 : mq": [
+      "check_sdp2_mq_queue_length_MFA_1423"
+   ],
+   "sdp2_role_jvm_1099 : jvm": [
+      "check_sdp2_jvm_1099"
+   ],
+   "sdp2_role_mq_queue_length_MFA_1424 : mq": [
+      "check_sdp2_mq_queue_length_MFA_1424"
+   ],
+   "sdp2_role_jvm_1199 : jvm": [
+      "check_sdp2_jvm_1199"
+   ],
+   "sdp2_role_jvm_1299 : jvm": [
+      "check_sdp2_jvm_1299"
+   ],
+   "sdp2_role_jvm_1399 : jvm": [
+      "check_sdp2_jvm_1399"
+   ],
+   "sdp2_role_jvm_1499 : jvm": [
+      "check_sdp2_jvm_1499"
+   ],
+   "sdp2_role_jvm_1599 : jvm": [
+      "check_sdp2_jvm_1599"
+   ],
+   "sdp2_role_jvm_1699 : jvm": [
+      "check_sdp2_jvm_1699"
+   ],
+   "sdp2_role_jvm_1799 : jvm": [
+      "check_sdp2_jvm_1799"
+   ],
+   "sdp2_role_jvm_1899 : jvm": [
+      "check_sdp2_jvm_1899"
+   ],
+   "sdp2_role_jvm_1999 : jvm": [
+      "check_sdp2_jvm_1999"
+   ],
+   "sdp2_role_jvm_2099 : jvm": [
+      "check_sdp2_jvm_2099"
+   ],
+   "sdp2_role_jvm_2199 : jvm": [
+      "check_sdp2_jvm_2199"
+   ],
+   "sdp2_role_jvm_2499 : jvm": [
+      "check_sdp2_jvm_2499"
+   ],
+   "sdp2_role_jvm_2599 : jvm": [
+      "check_sdp2_jvm_2599"
+   ],
+   "sdp2_role_jvm_2799 : jvm": [
+      "check_sdp2_jvm_2799"
+   ],
+   "sdp2_role_jvm_2299 : jvm": [
+      "check_sdp2_jvm_2299"
+   ],
+   "sdp2_role_jvm_2399 : jvm": [
+      "check_sdp2_jvm_2399"
+   ],
+   "sdp2_role_jvm_2699 : jvm": [
+      "check_sdp2_jvm_2699"
+   ],
+   "sdp2_role_jvm_2999 : jvm": [
+      "check_sdp2_jvm_2999"
+   ],
+   "sdp2_role_jvm_3199 : jvm": [
+      "check_sdp2_jvm_3199"
+   ],
+   "sdp2_role_jvm_3299 : jvm": [
+      "check_sdp2_jvm_3299"
+   ],
+   "sdp2_role_jvm_3499 : jvm": [
+      "check_sdp2_jvm_3499"
+   ],
+   "sdp2_role_jvm_2899 : jvm": [
+      "check_sdp2_jvm_2899"
+   ],
+   "sdp2_role_jvm_3399 : jvm": [
+      "check_sdp2_jvm_3399"
+   ],
+   "sdp2_role_jvm_3099 : jvm": [
+      "check_sdp2_jvm_3099"
+   ],
+   "sdp2_role_jvm_3999 : jvm": [
+      "check_sdp2_jvm_3999"
+   ],
+   "sdp2_role_jvm_4099 : jvm": [
+      "check_sdp2_jvm_4099"
+   ],
+   "sdp2_role_jvm_3599 : jvm": [
+      "check_sdp2_jvm_3599"
+   ],
+   "sdp2_role_jvm_3699 : jvm": [
+      "check_sdp2_jvm_3699"
+   ],
+   "sdp2_role_jvm_3799 : jvm": [
+      "check_sdp2_jvm_3799"
+   ],
+   "sdp2_role_jvm_3899 : jvm": [
+      "check_sdp2_jvm_3899"
+   ],
+   "sdp2_role_jvm_4199 : jvm": [
+      "check_sdp2_jvm_4199"
+   ],
+   "sdp2_role_jvm_4299 : jvm": [
+      "check_sdp2_jvm_4299"
+   ],
+   "sdp2_role_jvm_4499 : jvm": [
+      "check_sdp2_jvm_4499"
+   ],
+   "sdp2_role_jvm_4699 : jvm": [
+      "check_sdp2_jvm_4699"
+   ],
+   "sdp2_role_jvm_4399 : jvm": [
+      "check_sdp2_jvm_4399"
+   ],
+   "sdp2_role_jvm_4599 : jvm": [
+      "check_sdp2_jvm_4599"
+   ],
+   "sdp2_role_jvm_4799 : jvm": [
+      "check_sdp2_jvm_4799"
+   ],
+   "sdp2_role_PriceFeed_Dashboard_Prod_status_10943 : PriceFeed": [
+      "check_sdp2_PriceFeed_Dashboard_Prod_status_10943"
+   ],
+   "sdp2_role_jvm_4899 : jvm": [
+      "check_sdp2_jvm_4899"
+   ],
+   "sdp2_role_SecurityServices_Dashboard_Prod_status_9043 : SecurityServices": [
+      "check_sdp2_SecurityServices_Dashboard_Prod_status_9043"
+   ],
+   "sdp2_role_SecurityServices_Dashboard_Stage_status_9043 : SecurityServices": [
+      "check_sdp2_SecurityServices_Dashboard_Stage_status_9943"
+   ],
+   "sdp2_role_Troweprice_Dispatc_URL : Troweprice": [
+      "check_sdp2_Troweprice_Dispatc_URL"
+   ],
+   "sdp2_role_FE_8443 : FE": [
+      "check_sdp2_corelog_8443",
+      "check_sdp2_serverlog_8443",
+      "check_sdp2_telnet_8443",
+      "check_sdp2_jvm_8443",
+      "check_sdp2_accesslog_8443"
+   ],
+   "sdp2_role_PAYMON_8443 : PAYMON": [
+      "check_sdp2_corelog_8443",
+      "check_sdp2_serverlog_8443",
+      "check_sdp2_telnet_8443",
+      "check_sdp2_jvm_8443",
+      "check_sdp2_accesslog_8443"
+   ],
+   "sdp2_role_PriceFeed_YodleeLab_Dashboard_status_10843 : PriceFeed": [
+      "check_sdp2_PriceFeed_YodleeLab_Dashboard_status_10843"
+   ],
+   "sdp2_role_disk_space : disk": [
+      "check_sdp2_disk_space"
+   ],
+   "sdp2_role_NGYCC_8443 : NGYCC": [
+      "check_sdp2_core_ngycc_8443"
+   ],
+   "sdp2_role_NGYCC_9543 : NGYCC": [
+      "check_sdp2_core_ngycc_9543"
+   ],
+   "sdp2_role_PriceFeed_Dashboard_Stage_status_8943 : PriceFeed": [
+      "check_sdp2_PriceFeed_Dashboard_Stage_status_8943"
+   ],
+   "sdp2_role_FE_10043 : FE": [
+      "check_sdp2_serverlog_10043",
+      "check_sdp2_accesslog_10043",
+      "check_sdp2_telnet_10043",
+      "check_sdp2_jvm_10043",
+      "check_sdp2_corelog_10043"
+   ],
+   "sdp2_role_CUSTOM_10043 : CUSTOM": [
+      "check_sdp2_serverlog_10043",
+      "check_sdp2_accesslog_10043",
+      "check_sdp2_jvm_10043",
+      "check_sdp2_corelog_10043",
+      "check_sdp2_port_10043"
+   ],
+   "sdp2_role_PAYMON_10043 : PAYMON": [
+      "check_sdp2_serverlog_10043",
+      "check_sdp2_accesslog_10043",
+      "check_sdp2_telnet_10043",
+      "check_sdp2_jvm_10043",
+      "check_sdp2_corelog_10043"
+   ],
+   "sdp2_role_MONGOSERVER_10043 : MONGOSERVER": [
+      "check_sdp2_serverlog_10043",
+      "check_sdp2_telnet_10043",
+      "check_sdp2_jvm_10043"
+   ],
+   "sdp2_role_FE_9043 : FE": [
+      "check_sdp2_corelog_9043",
+      "check_sdp2_serverlog_9043",
+      "check_sdp2_telnet_9043",
+      "check_sdp2_jvm_9043",
+      "check_sdp2_accesslog_9043"
+   ],
+   "sdp2_role_PAYMON_9043 : PAYMON": [
+      "check_sdp2_corelog_9043",
+      "check_sdp2_serverlog_9043",
+      "check_sdp2_telnet_9043",
+      "check_sdp2_jvm_9043",
+      "check_sdp2_accesslog_9043"
+   ],
+   "sdp2_role_FIREMEM_9043 : FIREMEM": [
+      "check_sdp2_corelog_9043",
+      "check_sdp2_serverlog_9043",
+      "check_sdp2_telnet_9043",
+      "check_sdp2_firemem_jvm_9043"
+   ],
+   "sdp2_role_FE_10143 : FE": [
+      "check_sdp2_serverlog_10143",
+      "check_sdp2_accesslog_10143",
+      "check_sdp2_telnet_10143",
+      "check_sdp2_jvm_10143",
+      "check_sdp2_corelog_10143"
+   ],
+   "sdp2_role_CUSTOM_10143 : CUSTOM": [
+      "check_sdp2_serverlog_10143",
+      "check_sdp2_accesslog_10143",
+      "check_sdp2_jvm_10143",
+      "check_sdp2_corelog_10143",
+      "check_sdp2_port_10143"
+   ],
+   "sdp2_role_PAYMON_10143 : PAYMON": [
+      "check_sdp2_serverlog_10143",
+      "check_sdp2_accesslog_10143",
+      "check_sdp2_telnet_10143",
+      "check_sdp2_jvm_10143",
+      "check_sdp2_corelog_10143"
+   ],
+   "sdp2_role_MONGOSERVER_10143 : MONGOSERVER": [
+      "check_sdp2_serverlog_10143",
+      "check_sdp2_telnet_10143",
+      "check_sdp2_jvm_10143"
+   ],
+   "sdp2_role_FE_8643 : FE": [
+      "check_sdp2_corelog_8643",
+      "check_sdp2_serverlog_8643",
+      "check_sdp2_telnet_8643",
+      "check_sdp2_jvm_8643",
+      "check_sdp2_accesslog_8643"
+   ],
+   "sdp2_role_PAYMON_8643 : PAYMON": [
+      "check_sdp2_corelog_8643",
+      "check_sdp2_serverlog_8643",
+      "check_sdp2_telnet_8643",
+      "check_sdp2_jvm_8643",
+      "check_sdp2_accesslog_8643"
+   ],
+   "sdp2_role_OPENREPORTS_8643 : OPENREPORTS": [
+      "check_sdp2_corelog_8643",
+      "check_sdp2_serverlog_8643",
+      "check_sdp2_telnet_8643",
+      "check_sdp2_jvm_8643"
+   ],
+   "sdp2_role_OAUTHCLIENT_8643 : OAUTHCLIENT": [
+      "check_sdp2_corelog_8643",
+      "check_sdp2_telnet_8643",
+      "check_sdp2_jvm_8643",
+      "check_sdp2_accesslog_8643"
+   ],
+   "sdp2_role_FE_8943 : FE": [
+      "check_sdp2_corelog_8943",
+      "check_sdp2_serverlog_8943",
+      "check_sdp2_telnet_8943",
+      "check_sdp2_jvm_8943",
+      "check_sdp2_accesslog_8943"
+   ],
+   "sdp2_role_PAYMON_8943 : PAYMON": [
+      "check_sdp2_corelog_8943",
+      "check_sdp2_serverlog_8943",
+      "check_sdp2_telnet_8943",
+      "check_sdp2_jvm_8943",
+      "check_sdp2_accesslog_8943"
+   ],
+   "sdp2_role_FE_8743 : FE": [
+      "check_sdp2_corelog_8743",
+      "check_sdp2_serverlog_8743",
+      "check_sdp2_telnet_8743",
+      "check_sdp2_jvm_8743",
+      "check_sdp2_accesslog_8743"
+   ],
+   "sdp2_role_PAYMON_8743 : PAYMON": [
+      "check_sdp2_corelog_8743",
+      "check_sdp2_serverlog_8743",
+      "check_sdp2_telnet_8743",
+      "check_sdp2_jvm_8743",
+      "check_sdp2_accesslog_8743"
+   ],
+   "sdp2_role_FIREMEM_8743 : FIREMEM": [
+      "check_sdp2_corelog_8743",
+      "check_sdp2_serverlog_8743",
+      "check_sdp2_telnet_8743",
+      "check_sdp2_firemem_jvm_8743"
+   ],
+   "sdp2_role_FE_10243 : FE": [
+      "check_sdp2_serverlog_10243",
+      "check_sdp2_accesslog_10243",
+      "check_sdp2_telnet_10243",
+      "check_sdp2_jvm_10243",
+      "check_sdp2_corelog_10243"
+   ],
+   "sdp2_role_PAYMON_10243 : PAYMON": [
+      "check_sdp2_serverlog_10243",
+      "check_sdp2_accesslog_10243",
+      "check_sdp2_telnet_10243",
+      "check_sdp2_jvm_10243",
+      "check_sdp2_corelog_10243"
+   ],
+   "sdp2_role_MONGOSERVER_10243 : MONGOSERVER": [
+      "check_sdp2_serverlog_10243",
+      "check_sdp2_telnet_10243",
+      "check_sdp2_jvm_10243"
+   ],
+   "sdp2_role_OAUTHCLIENT_10243 : OAUTHCLIENT": [
+      "check_sdp2_serverlog_10243",
+      "check_sdp2_accesslog_10243",
+      "check_sdp2_telnet_10243",
+      "check_sdp2_jvm_10243"
+   ],
+   "sdp2_role_FE_10343 : FE": [
+      "check_sdp2_serverlog_10343",
+      "check_sdp2_accesslog_10343",
+      "check_sdp2_telnet_10343",
+      "check_sdp2_jvm_10343",
+      "check_sdp2_corelog_10343"
+   ],
+   "sdp2_role_PAYMON_10343 : PAYMON": [
+      "check_sdp2_serverlog_10343",
+      "check_sdp2_accesslog_10343",
+      "check_sdp2_telnet_10343",
+      "check_sdp2_jvm_10343",
+      "check_sdp2_corelog_10343"
+   ],
+   "sdp2_role_MONGOSERVER_10343 : MONGOSERVER": [
+      "check_sdp2_serverlog_10343",
+      "check_sdp2_telnet_10343",
+      "check_sdp2_jvm_10343"
+   ],
+   "sdp2_role_FE_10443 : FE": [
+      "check_sdp2_serverlog_10443",
+      "check_sdp2_accesslog_10443",
+      "check_sdp2_telnet_10443",
+      "check_sdp2_jvm_10443",
+      "check_sdp2_corelog_10443"
+   ],
+   "sdp2_role_CUSTOM_10443 : CUSTOM": [
+      "check_sdp2_serverlog_10443",
+      "check_sdp2_accesslog_10443",
+      "check_sdp2_jvm_10443",
+      "check_sdp2_corelog_10443",
+      "check_sdp2_port_10443"
+   ],
+   "sdp2_role_PAYMON_10443 : PAYMON": [
+      "check_sdp2_serverlog_10443",
+      "check_sdp2_accesslog_10443",
+      "check_sdp2_telnet_10443",
+      "check_sdp2_jvm_10443",
+      "check_sdp2_corelog_10443"
+   ],
+   "sdp2_role_MONGOSERVER_10443 : MONGOSERVER": [
+      "check_sdp2_serverlog_10443",
+      "check_sdp2_telnet_10443",
+      "check_sdp2_jvm_10443"
+   ],
+   "sdp2_role_FE_10543 : FE": [
+      "check_sdp2_accesslog_10543",
+      "check_sdp2_jvm_10543",
+      "check_sdp2_serverlog_10543",
+      "check_sdp2_telnet_10543",
+      "check_sdp2_corelog_10543"
+   ],
+   "sdp2_role_DCSERVLETS_10543 : DCSERVLETS": [
+      "check_sdp2_accesslog_10543",
+      "check_sdp2_jvm_10543",
+      "check_sdp2_serverlog_10543",
+      "check_sdp2_telnet_10543",
+      "check_sdp2_corelog_10543"
+   ],
+   "sdp2_role_PAYMON_10543 : PAYMON": [
+      "check_sdp2_accesslog_10543",
+      "check_sdp2_jvm_10543",
+      "check_sdp2_serverlog_10543",
+      "check_sdp2_telnet_10543",
+      "check_sdp2_corelog_10543"
+   ],
+   "sdp2_role_FE_10743 : FE": [
+      "check_sdp2_serverlog_10743",
+      "check_sdp2_telnet_10743",
+      "check_sdp2_accesslog_10743",
+      "check_sdp2_jvm_10743",
+      "check_sdp2_corelog_10743"
+   ],
+   "sdp2_role_DCSERVLETS_10743 : DCSERVLETS": [
+      "check_sdp2_serverlog_10743",
+      "check_sdp2_telnet_10743",
+      "check_sdp2_accesslog_10743",
+      "check_sdp2_jvm_10743",
+      "check_sdp2_corelog_10743"
+   ],
+   "sdp2_role_CUSTOM_10743 : CUSTOM": [
+      "check_sdp2_serverlog_10743",
+      "check_sdp2_accesslog_10743",
+      "check_sdp2_jvm_10743",
+      "check_sdp2_port_10743",
+      "check_sdp2_corelog_10743"
+   ],
+   "sdp2_role_PAYMON_10743 : PAYMON": [
+      "check_sdp2_serverlog_10743",
+      "check_sdp2_telnet_10743",
+      "check_sdp2_accesslog_10743",
+      "check_sdp2_jvm_10743",
+      "check_sdp2_corelog_10743"
+   ],
+   "sdp2_role_MONGOSERVER_10743 : MONGOSERVER": [
+      "check_sdp2_serverlog_10743",
+      "check_sdp2_telnet_10743",
+      "check_sdp2_jvm_10743"
+   ],
+   "sdp2_role_FE_10843 : FE": [
+      "check_sdp2_accesslog_10843",
+      "check_sdp2_jvm_10843",
+      "check_sdp2_telnet_10843",
+      "check_sdp2_serverlog_10843",
+      "check_sdp2_corelog_10843"
+   ],
+   "sdp2_role_DCSERVLETS_10843 : DCSERVLETS": [
+      "check_sdp2_accesslog_10843",
+      "check_sdp2_jvm_10843",
+      "check_sdp2_telnet_10843",
+      "check_sdp2_serverlog_10843",
+      "check_sdp2_corelog_10843"
+   ],
+   "sdp2_role_CUSTOM_10843 : CUSTOM": [
+      "check_sdp2_accesslog_10843",
+      "check_sdp2_jvm_10843",
+      "check_sdp2_serverlog_10843",
+      "check_sdp2_port_10843",
+      "check_sdp2_corelog_10843"
+   ],
+   "sdp2_role_PAYMON_10843 : PAYMON": [
+      "check_sdp2_accesslog_10843",
+      "check_sdp2_jvm_10843",
+      "check_sdp2_telnet_10843",
+      "check_sdp2_serverlog_10843",
+      "check_sdp2_corelog_10843"
+   ],
+   "sdp2_role_MONGOSERVER_10843 : MONGOSERVER": [
+      "check_sdp2_jvm_10843",
+      "check_sdp2_telnet_10843",
+      "check_sdp2_serverlog_10843"
+   ],
+   "sdp2_role_MONGOSERVER_10543 : MONGOSERVER": [
+      "check_sdp2_jvm_10543",
+      "check_sdp2_serverlog_10543",
+      "check_sdp2_telnet_10543"
+   ],
+   "sdp2_role_FE_10943 : FE": [
+      "check_sdp2_accesslog_10943",
+      "check_sdp2_jvm_10943",
+      "check_sdp2_serverlog_10943",
+      "check_sdp2_telnet_10943",
+      "check_sdp2_corelog_10943"
+   ],
+   "sdp2_role_DCSERVLETS_10943 : DCSERVLETS": [
+      "check_sdp2_accesslog_10943",
+      "check_sdp2_jvm_10943",
+      "check_sdp2_serverlog_10943",
+      "check_sdp2_telnet_10943",
+      "check_sdp2_corelog_10943"
+   ],
+   "sdp2_role_CUSTOM_10943 : CUSTOM": [
+      "check_sdp2_accesslog_10943",
+      "check_sdp2_jvm_10943",
+      "check_sdp2_serverlog_10943",
+      "check_sdp2_port_10943",
+      "check_sdp2_corelog_10943"
+   ],
+   "sdp2_role_PAYMON_10943 : PAYMON": [
+      "check_sdp2_accesslog_10943",
+      "check_sdp2_jvm_10943",
+      "check_sdp2_serverlog_10943",
+      "check_sdp2_telnet_10943",
+      "check_sdp2_corelog_10943"
+   ],
+   "sdp2_role_MONGOSERVER_10943 : MONGOSERVER": [
+      "check_sdp2_jvm_10943",
+      "check_sdp2_serverlog_10943",
+      "check_sdp2_telnet_10943"
+   ],
+   "sdp2_role_FE_11043 : FE": [
+      "check_sdp2_accesslog_11043",
+      "check_sdp2_jvm_11043",
+      "check_sdp2_serverlog_11043",
+      "check_sdp2_telnet_11043",
+      "check_sdp2_corelog_11043"
+   ],
+   "sdp2_role_DCSERVLETS_11043 : DCSERVLETS": [
+      "check_sdp2_accesslog_11043",
+      "check_sdp2_jvm_11043",
+      "check_sdp2_serverlog_11043",
+      "check_sdp2_telnet_11043",
+      "check_sdp2_corelog_11043"
+   ],
+   "sdp2_role_CUSTOM_11043 : CUSTOM": [
+      "check_sdp2_accesslog_11043",
+      "check_sdp2_jvm_11043",
+      "check_sdp2_serverlog_11043",
+      "check_sdp2_port_11043",
+      "check_sdp2_corelog_11043"
+   ],
+   "sdp2_role_PAYMON_11043 : PAYMON": [
+      "check_sdp2_accesslog_11043",
+      "check_sdp2_jvm_11043",
+      "check_sdp2_serverlog_11043",
+      "check_sdp2_telnet_11043",
+      "check_sdp2_corelog_11043"
+   ],
+   "sdp2_role_FE_11143 : FE": [
+      "check_sdp2_accesslog_11143",
+      "check_sdp2_telnet_11143",
+      "check_sdp2_jvm_11143",
+      "check_sdp2_serverlog_11143",
+      "check_sdp2_corelog_11143"
+   ],
+   "sdp2_role_DCSERVLETS_11143 : DCSERVLETS": [
+      "check_sdp2_accesslog_11143",
+      "check_sdp2_telnet_11143",
+      "check_sdp2_jvm_11143",
+      "check_sdp2_serverlog_11143",
+      "check_sdp2_corelog_11143"
+   ],
+   "sdp2_role_CUSTOM_11143 : CUSTOM": [
+      "check_sdp2_accesslog_11143",
+      "check_sdp2_jvm_11143",
+      "check_sdp2_serverlog_11143",
+      "check_sdp2_port_11143",
+      "check_sdp2_corelog_11143"
+   ],
+   "sdp2_role_PAYMON_11143 : PAYMON": [
+      "check_sdp2_accesslog_11143",
+      "check_sdp2_telnet_11143",
+      "check_sdp2_jvm_11143",
+      "check_sdp2_serverlog_11143",
+      "check_sdp2_corelog_11143"
+   ],
+   "sdp2_role_MONGOSERVER_11043 : MONGOSERVER": [
+      "check_sdp2_jvm_11043",
+      "check_sdp2_serverlog_11043",
+      "check_sdp2_telnet_11043"
+   ],
+   "sdp2_role_MONGOSERVER_11143 : MONGOSERVER": [
+      "check_sdp2_telnet_11143",
+      "check_sdp2_jvm_11143",
+      "check_sdp2_serverlog_11143"
+   ],
+   "sdp2_role_FE_11243 : FE": [
+      "check_sdp2_accesslog_11243",
+      "check_sdp2_jvm_11243",
+      "check_sdp2_serverlog_11243",
+      "check_sdp2_telnet_11243",
+      "check_sdp2_corelog_11243"
+   ],
+   "sdp2_role_DCSERVLETS_11243 : DCSERVLETS": [
+      "check_sdp2_accesslog_11243",
+      "check_sdp2_jvm_11243",
+      "check_sdp2_serverlog_11243",
+      "check_sdp2_telnet_11243",
+      "check_sdp2_corelog_11243"
+   ],
+   "sdp2_role_PAYMON_11243 : PAYMON": [
+      "check_sdp2_accesslog_11243",
+      "check_sdp2_jvm_11243",
+      "check_sdp2_serverlog_11243",
+      "check_sdp2_telnet_11243",
+      "check_sdp2_corelog_11243"
+   ],
+   "sdp2_role_MONGOSERVER_11243 : MONGOSERVER": [
+      "check_sdp2_jvm_11243",
+      "check_sdp2_serverlog_11243",
+      "check_sdp2_telnet_11243"
+   ],
+   "sdp2_role_FE_11343 : FE": [
+      "check_sdp2_accesslog_11343",
+      "check_sdp2_telnet_11343",
+      "check_sdp2_jvm_11343",
+      "check_sdp2_serverlog_11343",
+      "check_sdp2_corelog_11343"
+   ],
+   "sdp2_role_DCSERVLETS_11343 : DCSERVLETS": [
+      "check_sdp2_accesslog_11343",
+      "check_sdp2_telnet_11343",
+      "check_sdp2_jvm_11343",
+      "check_sdp2_serverlog_11343",
+      "check_sdp2_corelog_11343"
+   ],
+   "sdp2_role_PAYMON_11343 : PAYMON": [
+      "check_sdp2_accesslog_11343",
+      "check_sdp2_telnet_11343",
+      "check_sdp2_jvm_11343",
+      "check_sdp2_serverlog_11343",
+      "check_sdp2_corelog_11343"
+   ],
+   "sdp2_role_MONGOSERVER_11343 : MONGOSERVER": [
+      "check_sdp2_telnet_11343",
+      "check_sdp2_jvm_11343",
+      "check_sdp2_serverlog_11343"
+   ],
+   "sdp2_role_FE_11443 : FE": [
+      "check_sdp2_serverlog_11443",
+      "check_sdp2_telnet_11443",
+      "check_sdp2_accesslog_11443",
+      "check_sdp2_jvm_11443",
+      "check_sdp2_corelog_11443"
+   ],
+   "sdp2_role_DCSERVLETS_11443 : DCSERVLETS": [
+      "check_sdp2_serverlog_11443",
+      "check_sdp2_telnet_11443",
+      "check_sdp2_accesslog_11443",
+      "check_sdp2_jvm_11443",
+      "check_sdp2_corelog_11443"
+   ],
+   "sdp2_role_CUSTOM_11443 : CUSTOM": [
+      "check_sdp2_serverlog_11443",
+      "check_sdp2_accesslog_11443",
+      "check_sdp2_jvm_11443",
+      "check_sdp2_port_11443",
+      "check_sdp2_corelog_11443"
+   ],
+   "sdp2_role_PAYMON_11443 : PAYMON": [
+      "check_sdp2_serverlog_11443",
+      "check_sdp2_telnet_11443",
+      "check_sdp2_accesslog_11443",
+      "check_sdp2_jvm_11443",
+      "check_sdp2_corelog_11443"
+   ],
+   "sdp2_role_MONGOSERVER_11443 : MONGOSERVER": [
+      "check_sdp2_serverlog_11443",
+      "check_sdp2_telnet_11443",
+      "check_sdp2_jvm_11443"
+   ],
+   "sdp2_role_FE_10643 : FE": [
+      "check_sdp2_accesslog_10643",
+      "check_sdp2_serverlog_10643",
+      "check_sdp2_telnet_10643",
+      "check_sdp2_jvm_10643",
+      "check_sdp2_corelog_10643"
+   ],
+   "sdp2_role_DCSERVLETS_10643 : DCSERVLETS": [
+      "check_sdp2_accesslog_10643",
+      "check_sdp2_serverlog_10643",
+      "check_sdp2_telnet_10643",
+      "check_sdp2_jvm_10643",
+      "check_sdp2_corelog_10643"
+   ],
+   "sdp2_role_PAYMON_10643 : PAYMON": [
+      "check_sdp2_accesslog_10643",
+      "check_sdp2_serverlog_10643",
+      "check_sdp2_telnet_10643",
+      "check_sdp2_jvm_10643",
+      "check_sdp2_corelog_10643"
+   ],
+   "sdp2_role_FE_11543 : FE": [
+      "check_sdp2_accesslog_11543",
+      "check_sdp2_serverlog_11543",
+      "check_sdp2_telnet_11543",
+      "check_sdp2_jvm_11543",
+      "check_sdp2_corelog_11543"
+   ],
+   "sdp2_role_DCSERVLETS_11543 : DCSERVLETS": [
+      "check_sdp2_accesslog_11543",
+      "check_sdp2_serverlog_11543",
+      "check_sdp2_telnet_11543",
+      "check_sdp2_jvm_11543",
+      "check_sdp2_corelog_11543"
+   ],
+   "sdp2_role_PAYMON_11543 : PAYMON": [
+      "check_sdp2_accesslog_11543",
+      "check_sdp2_serverlog_11543",
+      "check_sdp2_telnet_11543",
+      "check_sdp2_jvm_11543",
+      "check_sdp2_corelog_11543"
+   ],
+   "sdp2_role_MONGOSERVER_11543 : MONGOSERVER": [
+      "check_sdp2_serverlog_11543",
+      "check_sdp2_telnet_11543",
+      "check_sdp2_jvm_11543"
+   ],
+   "sdp2_role_FE_11643 : FE": [
+      "check_sdp2_serverlog_11643",
+      "check_sdp2_telnet_11643",
+      "check_sdp2_accesslog_11643",
+      "check_sdp2_jvm_11643",
+      "check_sdp2_corelog_11643"
+   ],
+   "sdp2_role_DCSERVLETS_11643 : DCSERVLETS": [
+      "check_sdp2_serverlog_11643",
+      "check_sdp2_telnet_11643",
+      "check_sdp2_accesslog_11643",
+      "check_sdp2_jvm_11643",
+      "check_sdp2_corelog_11643"
+   ],
+   "sdp2_role_PAYMON_11643 : PAYMON": [
+      "check_sdp2_serverlog_11643",
+      "check_sdp2_telnet_11643",
+      "check_sdp2_accesslog_11643",
+      "check_sdp2_jvm_11643",
+      "check_sdp2_corelog_11643"
+   ],
+   "sdp2_role_MONGOSERVER_11643 : MONGOSERVER": [
+      "check_sdp2_serverlog_11643",
+      "check_sdp2_telnet_11643",
+      "check_sdp2_jvm_11643"
+   ],
+   "sdp2_role_FE_11743 : FE": [
+      "check_sdp2_accesslog_11743",
+      "check_sdp2_serverlog_11743",
+      "check_sdp2_telnet_11743",
+      "check_sdp2_jvm_11743",
+      "check_sdp2_corelog_11743"
+   ],
+   "sdp2_role_DCSERVLETS_11743 : DCSERVLETS": [
+      "check_sdp2_accesslog_11743",
+      "check_sdp2_serverlog_11743",
+      "check_sdp2_telnet_11743",
+      "check_sdp2_jvm_11743",
+      "check_sdp2_corelog_11743"
+   ],
+   "sdp2_role_PAYMON_11743 : PAYMON": [
+      "check_sdp2_accesslog_11743",
+      "check_sdp2_serverlog_11743",
+      "check_sdp2_telnet_11743",
+      "check_sdp2_jvm_11743",
+      "check_sdp2_corelog_11743"
+   ],
+   "sdp2_role_MONGOSERVER_11743 : MONGOSERVER": [
+      "check_sdp2_serverlog_11743",
+      "check_sdp2_telnet_11743",
+      "check_sdp2_jvm_11743"
+   ],
+   "sdp2_role_FE_11943 : FE": [
+      "check_sdp2_accesslog_11943",
+      "check_sdp2_serverlog_11943",
+      "check_sdp2_telnet_11943",
+      "check_sdp2_jvm_11943",
+      "check_sdp2_corelog_11943"
+   ],
+   "sdp2_role_DCSERVLETS_11943 : DCSERVLETS": [
+      "check_sdp2_accesslog_11943",
+      "check_sdp2_serverlog_11943",
+      "check_sdp2_telnet_11943",
+      "check_sdp2_jvm_11943",
+      "check_sdp2_corelog_11943"
+   ],
+   "sdp2_role_PAYMON_11943 : PAYMON": [
+      "check_sdp2_accesslog_11943",
+      "check_sdp2_serverlog_11943",
+      "check_sdp2_telnet_11943",
+      "check_sdp2_jvm_11943",
+      "check_sdp2_corelog_11943"
+   ],
+   "sdp2_role_MONGOSERVER_11943 : MONGOSERVER": [
+      "check_sdp2_serverlog_11943",
+      "check_sdp2_telnet_11943",
+      "check_sdp2_jvm_11943"
+   ],
+   "sdp2_role_FE_11843 : FE": [
+      "check_sdp2_telnet_11843",
+      "check_sdp2_accesslog_11843",
+      "check_sdp2_serverlog_11843",
+      "check_sdp2_jvm_11843",
+      "check_sdp2_corelog_11843"
+   ],
+   "sdp2_role_DCSERVLETS_11843 : DCSERVLETS": [
+      "check_sdp2_telnet_11843",
+      "check_sdp2_accesslog_11843",
+      "check_sdp2_serverlog_11843",
+      "check_sdp2_jvm_11843",
+      "check_sdp2_corelog_11843"
+   ],
+   "sdp2_role_PAYMON_11843 : PAYMON": [
+      "check_sdp2_telnet_11843",
+      "check_sdp2_accesslog_11843",
+      "check_sdp2_serverlog_11843",
+      "check_sdp2_jvm_11843",
+      "check_sdp2_corelog_11843"
+   ],
+   "sdp2_role_MONGOSERVER_11843 : MONGOSERVER": [
+      "check_sdp2_telnet_11843",
+      "check_sdp2_serverlog_11843",
+      "check_sdp2_jvm_11843"
+   ],
+   "sdp2_role_FE_12043 : FE": [
+      "check_sdp2_accesslog_12043",
+      "check_sdp2_serverlog_12043",
+      "check_sdp2_telnet_12043",
+      "check_sdp2_jvm_12043",
+      "check_sdp2_corelog_12043"
+   ],
+   "sdp2_role_DCSERVLETS_12043 : DCSERVLETS": [
+      "check_sdp2_accesslog_12043",
+      "check_sdp2_serverlog_12043",
+      "check_sdp2_telnet_12043",
+      "check_sdp2_jvm_12043",
+      "check_sdp2_corelog_12043"
+   ],
+   "sdp2_role_PAYMON_12043 : PAYMON": [
+      "check_sdp2_accesslog_12043",
+      "check_sdp2_serverlog_12043",
+      "check_sdp2_telnet_12043",
+      "check_sdp2_jvm_12043",
+      "check_sdp2_corelog_12043"
+   ],
+   "sdp2_role_FE_12143 : FE": [
+      "check_sdp2_serverlog_12143",
+      "check_sdp2_telnet_12143",
+      "check_sdp2_accesslog_12143",
+      "check_sdp2_jvm_12143",
+      "check_sdp2_corelog_12143"
+   ],
+   "sdp2_role_DCSERVLETS_12143 : DCSERVLETS": [
+      "check_sdp2_serverlog_12143",
+      "check_sdp2_telnet_12143",
+      "check_sdp2_accesslog_12143",
+      "check_sdp2_jvm_12143",
+      "check_sdp2_corelog_12143"
+   ],
+   "sdp2_role_PAYMON_12143 : PAYMON": [
+      "check_sdp2_serverlog_12143",
+      "check_sdp2_telnet_12143",
+      "check_sdp2_accesslog_12143",
+      "check_sdp2_jvm_12143",
+      "check_sdp2_corelog_12143"
+   ],
+   "sdp2_role_MONGOSERVER_12143 : MONGOSERVER": [
+      "check_sdp2_serverlog_12143",
+      "check_sdp2_telnet_12143",
+      "check_sdp2_jvm_12143"
+   ],
+   "sdp2_role_MONGOSERVER_10643 : MONGOSERVER": [
+      "check_sdp2_serverlog_10643",
+      "check_sdp2_telnet_10643",
+      "check_sdp2_jvm_10643"
+   ],
+   "sdp2_role_MONGOSERVER_12043 : MONGOSERVER": [
+      "check_sdp2_serverlog_12043",
+      "check_sdp2_telnet_12043",
+      "check_sdp2_jvm_12043"
+   ],
+   "sdp2_role_YTASK_53542 : YTASK": [
+      "check_sdp2_serverlog_53542",
+      "check_sdp2_telnet_53542",
+      "check_sdp2_corelog_53542"
+   ],
+   "sdp2_role_YTASK_52542 : YTASK": [
+      "check_sdp2_corelog_52542",
+      "check_sdp2_telnet_52542",
+      "check_sdp2_serverlog_52542"
+   ],
+   "sdp2_role_FE_12243 : FE": [
+      "check_sdp2_telnet_12243",
+      "check_sdp2_accesslog_12243",
+      "check_sdp2_serverlog_12243",
+      "check_sdp2_jvm_12243",
+      "check_sdp2_corelog_12243"
+   ],
+   "sdp2_role_DCSERVLETS_12243 : DCSERVLETS": [
+      "check_sdp2_telnet_12243",
+      "check_sdp2_accesslog_12243",
+      "check_sdp2_serverlog_12243",
+      "check_sdp2_jvm_12243",
+      "check_sdp2_corelog_12243"
+   ],
+   "sdp2_role_PAYMON_12243 : PAYMON": [
+      "check_sdp2_telnet_12243",
+      "check_sdp2_accesslog_12243",
+      "check_sdp2_serverlog_12243",
+      "check_sdp2_jvm_12243",
+      "check_sdp2_corelog_12243"
+   ],
+   "sdp2_role_MONGOSERVER_12243 : MONGOSERVER": [
+      "check_sdp2_telnet_12243",
+      "check_sdp2_serverlog_12243",
+      "check_sdp2_jvm_12243"
+   ],
+   "sdp2_role_YTASK_54542 : YTASK": [
+      "check_sdp2_serverlog_54542",
+      "check_sdp2_telnet_54542",
+      "check_sdp2_corelog_54542"
+   ],
+   "sdp2_role_YTASK_57542 : YTASK": [
+      "check_sdp2_serverlog_57542",
+      "check_sdp2_telnet_57542",
+      "check_sdp2_corelog_57542"
+   ],
+   "sdp2_role_YTASK_59542 : YTASK": [
+      "check_sdp2_serverlog_59542",
+      "check_sdp2_telnet_59542",
+      "check_sdp2_corelog_59542"
+   ],
+   "sdp2_role_YTASK_58542 : YTASK": [
+      "check_sdp2_serverlog_58542",
+      "check_sdp2_telnet_58542",
+      "check_sdp2_corelog_58542"
+   ],
+   "sdp2_role_YTASK_56542 : YTASK": [
+      "check_sdp2_serverlog_56542",
+      "check_sdp2_telnet_56542",
+      "check_sdp2_corelog_56542"
+   ],
+   "sdp2_role_YTASK_55542 : YTASK": [
+      "check_sdp2_serverlog_55542",
+      "check_sdp2_telnet_55542",
+      "check_sdp2_corelog_55542"
+   ],
+   "sdp2_role_FE_9843 : FE": [
+      "check_sdp2_serverlog_9843",
+      "check_sdp2_telnet_9843",
+      "check_sdp2_jvm_9843",
+      "check_sdp2_corelog_9843",
+      "check_sdp2_accesslog_9843"
+   ],
+   "sdp2_role_CUSTOM_9843 : CUSTOM": [
+      "check_sdp2_serverlog_9843",
+      "check_sdp2_jvm_9843",
+      "check_sdp2_corelog_9843",
+      "check_sdp2_port_9843",
+      "check_sdp2_accesslog_9843"
+   ],
+   "sdp2_role_PAYMON_9843 : PAYMON": [
+      "check_sdp2_serverlog_9843",
+      "check_sdp2_telnet_9843",
+      "check_sdp2_jvm_9843",
+      "check_sdp2_corelog_9843",
+      "check_sdp2_accesslog_9843"
+   ],
+   "sdp2_role_MONGOSERVER_9843 : MONGOSERVER": [
+      "check_sdp2_serverlog_9843",
+      "check_sdp2_telnet_9843",
+      "check_sdp2_jvm_9843"
+   ],
+   "sdp2_role_MONGOSERVER_8443 : MONGOSERVER": [
+      "check_sdp2_serverlog_8443",
+      "check_sdp2_telnet_8443",
+      "check_sdp2_jvm_8443"
+   ],
+   "sdp2_role_OAUTHCLIENT_8443 : OAUTHCLIENT": [
+      "check_sdp2_serverlog_8443",
+      "check_sdp2_telnet_8443",
+      "check_sdp2_jvm_8443",
+      "check_sdp2_accesslog_8443"
+   ],
+   "sdp2_role_MONGOSERVER_8543 : MONGOSERVER": [
+      "check_sdp2_serverlog_8743",
+      "check_sdp2_serverlog_8543",
+      "check_sdp2_serverlog_8643",
+      "check_sdp2_telnet_8543",
+      "check_sdp2_jvm_8543"
+   ],
+   "sdp2_role_OAUTHCLIENT_8743 : OAUTHCLIENT": [
+      "check_sdp2_serverlog_8743",
+      "check_sdp2_telnet_8743",
+      "check_sdp2_jvm_8743",
+      "check_sdp2_accesslog_8743"
+   ],
+   "sdp2_role_FE_8543 : FE": [
+      "check_sdp2_serverlog_8543",
+      "check_sdp2_telnet_8543",
+      "check_sdp2_jvm_8543",
+      "check_sdp2_corelog_8543",
+      "check_sdp2_accesslog_8543"
+   ],
+   "sdp2_role_PAYMON_8543 : PAYMON": [
+      "check_sdp2_serverlog_8543",
+      "check_sdp2_telnet_8543",
+      "check_sdp2_jvm_8543",
+      "check_sdp2_corelog_8543",
+      "check_sdp2_accesslog_8543"
+   ],
+   "sdp2_role_OAUTHCLIENT_8543 : OAUTHCLIENT": [
+      "check_sdp2_serverlog_8543",
+      "check_sdp2_telnet_8543",
+      "check_sdp2_jvm_8543",
+      "check_sdp2_accesslog_8543"
+   ],
+   "sdp2_role_FE_9743 : FE": [
+      "check_sdp2_serverlog_9743",
+      "check_sdp2_telnet_9743",
+      "check_sdp2_jvm_9743",
+      "check_sdp2_corelog_9743",
+      "check_sdp2_accesslog_9743"
+   ],
+   "sdp2_role_PAYMON_9743 : PAYMON": [
+      "check_sdp2_serverlog_9743",
+      "check_sdp2_telnet_9743",
+      "check_sdp2_jvm_9743",
+      "check_sdp2_corelog_9743",
+      "check_sdp2_accesslog_9743"
+   ],
+   "sdp2_role_MONGOSERVER_9743 : MONGOSERVER": [
+      "check_sdp2_serverlog_9743",
+      "check_sdp2_telnet_9743",
+      "check_sdp2_jvm_9743"
+   ],
+   "sdp2_role_FE_9943 : FE": [
+      "check_sdp2_serverlog_9943",
+      "check_sdp2_telnet_9943",
+      "check_sdp2_jvm_9943",
+      "check_sdp2_corelog_9943",
+      "check_sdp2_accesslog_9943"
+   ],
+   "sdp2_role_CUSTOM_9943 : CUSTOM": [
+      "check_sdp2_serverlog_9943",
+      "check_sdp2_jvm_9943",
+      "check_sdp2_corelog_9943",
+      "check_sdp2_port_9943",
+      "check_sdp2_accesslog_9943"
+   ],
+   "sdp2_role_PAYMON_9943 : PAYMON": [
+      "check_sdp2_serverlog_9943",
+      "check_sdp2_telnet_9943",
+      "check_sdp2_jvm_9943",
+      "check_sdp2_corelog_9943",
+      "check_sdp2_accesslog_9943"
+   ],
+   "sdp2_role_MONGOSERVER_9943 : MONGOSERVER": [
+      "check_sdp2_serverlog_9943",
+      "check_sdp2_telnet_9943",
+      "check_sdp2_jvm_9943"
+   ],
+   "sdp2_role_OAUTHCLIENT_9943 : OAUTHCLIENT": [
+      "check_sdp2_serverlog_9943",
+      "check_sdp2_telnet_9943",
+      "check_sdp2_jvm_9943",
+      "check_sdp2_accesslog_9943"
+   ],
+   "sdp2_role_MONGOSERVER_9043 : MONGOSERVER": [
+      "check_sdp2_serverlog_9043",
+      "check_sdp2_telnet_9043",
+      "check_sdp2_jvm_9043"
+   ],
+   "sdp2_role_FE_9243 : FE": [
+      "check_sdp2_serverlog_9243",
+      "check_sdp2_telnet_9243",
+      "check_sdp2_jvm_9243",
+      "check_sdp2_corelog_9243",
+      "check_sdp2_accesslog_9243"
+   ],
+   "sdp2_role_PAYMON_9243 : PAYMON": [
+      "check_sdp2_serverlog_9243",
+      "check_sdp2_telnet_9243",
+      "check_sdp2_jvm_9243",
+      "check_sdp2_corelog_9243",
+      "check_sdp2_accesslog_9243"
+   ],
+   "sdp2_role_MONGOSERVER_9243 : MONGOSERVER": [
+      "check_sdp2_serverlog_9243",
+      "check_sdp2_telnet_9243",
+      "check_sdp2_jvm_9243"
+   ],
+   "sdp2_role_FE_8843 : FE": [
+      "check_sdp2_serverlog_8843",
+      "check_sdp2_telnet_8843",
+      "check_sdp2_jvm_8843",
+      "check_sdp2_corelog_8843",
+      "check_sdp2_accesslog_8843"
+   ],
+   "sdp2_role_PAYMON_8843 : PAYMON": [
+      "check_sdp2_serverlog_8843",
+      "check_sdp2_telnet_8843",
+      "check_sdp2_jvm_8843",
+      "check_sdp2_corelog_8843",
+      "check_sdp2_accesslog_8843"
+   ],
+   "sdp2_role_MONGOSERVER_8843 : MONGOSERVER": [
+      "check_sdp2_serverlog_8843",
+      "check_sdp2_telnet_8843",
+      "check_sdp2_jvm_8843"
+   ],
+   "sdp2_role_MONGOSERVER_8943 : MONGOSERVER": [
+      "check_sdp2_serverlog_8943",
+      "check_sdp2_telnet_8943",
+      "check_sdp2_jvm_8943"
+   ],
+   "sdp2_role_FE_9143 : FE": [
+      "check_sdp2_serverlog_9143",
+      "check_sdp2_telnet_9143",
+      "check_sdp2_jvm_9143",
+      "check_sdp2_corelog_9143",
+      "check_sdp2_accesslog_9143"
+   ],
+   "sdp2_role_PAYMON_9143 : PAYMON": [
+      "check_sdp2_serverlog_9143",
+      "check_sdp2_telnet_9143",
+      "check_sdp2_jvm_9143",
+      "check_sdp2_corelog_9143",
+      "check_sdp2_accesslog_9143"
+   ],
+   "sdp2_role_MONGOSERVER_9143 : MONGOSERVER": [
+      "check_sdp2_serverlog_9143",
+      "check_sdp2_telnet_9143",
+      "check_sdp2_jvm_9143"
+   ],
+   "sdp2_role_FE_9643 : FE": [
+      "check_sdp2_serverlog_9643",
+      "check_sdp2_telnet_9643",
+      "check_sdp2_jvm_9643",
+      "check_sdp2_corelog_9643",
+      "check_sdp2_accesslog_9643"
+   ],
+   "sdp2_role_PAYMON_9643 : PAYMON": [
+      "check_sdp2_serverlog_9643",
+      "check_sdp2_telnet_9643",
+      "check_sdp2_jvm_9643",
+      "check_sdp2_corelog_9643",
+      "check_sdp2_accesslog_9643"
+   ],
+   "sdp2_role_MONGOSERVER_9643 : MONGOSERVER": [
+      "check_sdp2_serverlog_9643",
+      "check_sdp2_telnet_9643",
+      "check_sdp2_jvm_9643"
+   ],
+   "sdp2_role_MONGOSERVER_8643 : MONGOSERVER": [
+      "check_sdp2_telnet_8643",
+      "check_sdp2_jvm_8643"
+   ],
+   "sdp2_role_FE_9343 : FE": [
+      "check_sdp2_serverlog_9343",
+      "check_sdp2_telnet_9343",
+      "check_sdp2_jvm_9343",
+      "check_sdp2_corelog_9343",
+      "check_sdp2_accesslog_9343"
+   ],
+   "sdp2_role_CUSTOM_9343 : CUSTOM": [
+      "check_sdp2_serverlog_9343",
+      "check_sdp2_jvm_9343",
+      "check_sdp2_corelog_9343",
+      "check_sdp2_port_9343",
+      "check_sdp2_accesslog_9343"
+   ],
+   "sdp2_role_PAYMON_9343 : PAYMON": [
+      "check_sdp2_serverlog_9343",
+      "check_sdp2_telnet_9343",
+      "check_sdp2_jvm_9343",
+      "check_sdp2_corelog_9343",
+      "check_sdp2_accesslog_9343"
+   ],
+   "sdp2_role_MONGOSERVER_9343 : MONGOSERVER": [
+      "check_sdp2_serverlog_9343",
+      "check_sdp2_telnet_9343",
+      "check_sdp2_jvm_9343"
+   ],
+   "sdp2_role_FE_9443 : FE": [
+      "check_sdp2_serverlog_9443",
+      "check_sdp2_telnet_9443",
+      "check_sdp2_jvm_9443",
+      "check_sdp2_corelog_9443",
+      "check_sdp2_accesslog_9443"
+   ],
+   "sdp2_role_CUSTOM_9443 : CUSTOM": [
+      "check_sdp2_serverlog_9443",
+      "check_sdp2_jvm_9443",
+      "check_sdp2_corelog_9443",
+      "check_sdp2_port_9443",
+      "check_sdp2_accesslog_9443"
+   ],
+   "sdp2_role_PAYMON_9443 : PAYMON": [
+      "check_sdp2_serverlog_9443",
+      "check_sdp2_telnet_9443",
+      "check_sdp2_jvm_9443",
+      "check_sdp2_corelog_9443",
+      "check_sdp2_accesslog_9443"
+   ],
+   "sdp2_role_MONGOSERVER_9443 : MONGOSERVER": [
+      "check_sdp2_serverlog_9443",
+      "check_sdp2_telnet_9443",
+      "check_sdp2_jvm_9443"
+   ],
+   "sdp2_role_FE_9543 : FE": [
+      "check_sdp2_serverlog_9543",
+      "check_sdp2_telnet_9543",
+      "check_sdp2_jvm_9543",
+      "check_sdp2_corelog_9543",
+      "check_sdp2_accesslog_9543"
+   ],
+   "sdp2_role_CUSTOM_9543 : CUSTOM": [
+      "check_sdp2_serverlog_9543",
+      "check_sdp2_jvm_9543",
+      "check_sdp2_corelog_9543",
+      "check_sdp2_port_9543",
+      "check_sdp2_accesslog_9543"
+   ],
+   "sdp2_role_PAYMON_9543 : PAYMON": [
+      "check_sdp2_serverlog_9543",
+      "check_sdp2_telnet_9543",
+      "check_sdp2_jvm_9543",
+      "check_sdp2_corelog_9543",
+      "check_sdp2_accesslog_9543"
+   ],
+   "sdp2_role_MONGOSERVER_9543 : MONGOSERVER": [
+      "check_sdp2_serverlog_9543",
+      "check_sdp2_telnet_9543",
+      "check_sdp2_jvm_9543"
+   ],
+   "sdp2_role_MONGOSERVER_8743 : MONGOSERVER": [
+      "check_sdp2_telnet_8743",
+      "check_sdp2_jvm_8743"
+   ],
+   "sdp2_role_FIREMEM_8843 : FIREMEM": [
+      "check_sdp2_telnet_8843",
+      "check_sdp2_corelog_8843",
+      "check_sdp2_firemem_jvm_8843"
+   ],
+   "sdp2_role_CONFIGTOOL_8943 : CONFIGTOOL": [
+      "check_sdp2_telnet_8943"
+   ],
+   "sdp2_role_hadoop_client : hadoop": [
+      "check_sdp2_hadoop_telnet_9000",
+      "check_sdp2_log_messages"
+   ],
+   "sdp2_role_DC_30541 : DC": [
+      "check_sdp2_corelog_30541",
+      "check_sdp2_jvm_30541",
+      "check_sdp2_telnet_30541",
+      "check_sdp2_blockingthreads_30541",
+      "check_sdp2_CacheRun_time_30541"
+   ],
+   "sdp2_role_DC_31541 : DC": [
+      "check_sdp2_blockingthreads_31541",
+      "check_sdp2_corelog_31541",
+      "check_sdp2_serverlog_31541",
+      "check_sdp2_telnet_31541",
+      "check_sdp2_CacheRun_time_31541"
+   ],
+   "sdp2_role_log_messages : log": [
+      "check_sdp2_log_messages"
+   ],
+   "sdp2_role_striim_master_9080 : striim": [
+      "check_sdp2_port_9080"
+   ],
+   "sdp2_role_recon_8051 : recon": [
+      "check_sdp2_port_8051"
+   ],
+   "sdp2_role_recon_master_11000 : recon": [
+      "check_sdp2_port_11000"
+   ],
+   "sdp2_role_PE_master_11000 : PE": [
+      "check_sdp2_port_11000"
+   ],
+   "sdp2_role_recon_master_3306 : recon": [
+      "check_sdp2_port_3306"
+   ],
+   "sdp2_role_PE_master_3306 : PE": [
+      "check_sdp2_port_3306"
+   ],
+   "sdp2_role_recon_master_8032 : recon": [
+      "check_sdp2_port_8032"
+   ],
+   "sdp2_role_PE_master_8032 : PE": [
+      "check_sdp2_port_8032"
+   ],
+   "sdp2_role_recon_master_8020 : recon": [
+      "check_sdp2_port_8020"
+   ],
+   "sdp2_role_PE_master_8020 : PE": [
+      "check_sdp2_port_8020"
+   ],
+   "sdp2_role_recon_2181 : recon": [
+      "check_sdp2_port_2181"
+   ],
+   "sdp2_role_PE_2181 : PE": [
+      "check_sdp2_port_2181"
+   ],
+   "sdp2_role_recon_8485 : recon": [
+      "check_sdp2_port_8485"
+   ],
+   "sdp2_role_PE_8485 : PE": [
+      "check_sdp2_port_8485"
+   ],
+   "sdp2_role_recon_datanodes_21000 : recon": [
+      "check_sdp2_port_21000"
+   ],
+   "sdp2_role_recon_datanodes_9092 : recon": [
+      "check_sdp2_port_9092"
+   ],
+   "sdp2_role_PE_datanodes_9092 : PE": [
+      "check_sdp2_port_9092"
+   ],
+   "sdp2_role_recon_datanodes_7051 : recon": [
+      "check_sdp2_port_7051"
+   ],
+   "sdp2_role_ES_9080 : ES": [
+      "check_sdp2_ES_JVM_status_9080",
+      "check_sdp2_ES_Nodes_status_9080",
+      "check_sdp2_ES_Search_status_9080",
+      "check_sdp2_ES_Node_Health_status_9080"
+   ],
+   "sdp2_role_CacheRun_time_23541 : CacheRun": [
+      "check_sdp2_CacheRun_time_23541"
+   ],
+   "sdp2_role_ES_8843 : ES": [
+      "check_sdp2_ES_JVM_status_8843",
+      "check_sdp2_ES_Nodes_status_8843",
+      "check_sdp2_ES_Search_status_8843",
+      "check_sdp2_ES_Node_Health_status_8843"
+   ],
+   "sdp2_role_ES_8543 : ES": [
+      "check_sdp2_ES_JVM_status_8543",
+      "check_sdp2_ES_Nodes_status_8543",
+      "check_sdp2_ES_Search_status_8543",
+      "check_sdp2_ES_Node_Health_status_8543"
+   ],
+   "sdp2_role_ES_8443 : ES": [
+      "check_sdp2_ES_JVM_status_8443",
+      "check_sdp2_ES_Nodes_status_8443",
+      "check_sdp2_ES_Search_status_8443",
+      "check_sdp2_ES_Node_Health_status_8443"
+   ],
+   "sdp2_role_ES_8743 : ES": [
+      "check_sdp2_ES_JVM_status_8743",
+      "check_sdp2_ES_Nodes_status_8743",
+      "check_sdp2_ES_Search_status_8743",
+      "check_sdp2_ES_Node_Health_status_8743"
+   ],
+   "sdp2_role_ES_9343 : ES": [
+      "check_sdp2_ES_JVM_status_9343",
+      "check_sdp2_ES_Nodes_status_9343",
+      "check_sdp2_ES_Search_status_9343",
+      "check_sdp2_ES_Node_Health_status_9343"
+   ],
+   "sdp2_role_personalizationengine_9643 : personalizationengine": [
+      "check_sdp2_curl_PE_instance",
+      "check_sdp2_curl_PE_vip"
+   ],
+   "sdp2_role_Hadoop : Hadoop": [
+      "check_sdp2_spark_RecurTxn_log",
+      "check_sdp2_spark_TxnRecon_log"
+   ],
+   "sdp2_role_PersonalizationEngine_9643 : PersonalizationEngine": [
+      "check_sdp2_PersonalizationEngine_serverlog_9643",
+      "check_sdp2_PersonalizationEngine_corelog_9643"
+   ],
+   "sdp2_role_si_8443 : si": [
+      "check_sdp2_si_corelog_8443",
+      "check_sdp2_si_jvm_8443",
+      "check_sdp2_si_accesslog_8443",
+      "check_sdp2_si_serverlog_8443",
+      "check_sdp2_si_telnet_8443"
+   ],
+   "sdp2_role_TOOLS_2222 : TOOLS": [
+      "check_sdp2_telnet_2222"
+   ]
+}

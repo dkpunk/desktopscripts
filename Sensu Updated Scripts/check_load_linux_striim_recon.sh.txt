@@ -1,0 +1,41 @@
+#!/bin/bash
+############################################
+#
+#
+#	Version 1.0
+#	Execution: ./check_load_linux
+#
+#
+############################################
+STATE_OK=0
+STATE_WARNING=1
+STATE_CRITICAL=2
+
+Number_of_procs=`cat /proc/cpuinfo | grep processor|wc -l`
+
+load_1min=`uptime | grep "load average" | awk -F, '{print $4}' | awk '{print $3}'`
+load_5min=`uptime | grep "load average" | awk -F, '{print $5}'`
+#load_15min=`w | grep "load average" | awk -F, '{print $6}'`
+
+let "Number_of_procs_100 = Number_of_procs * 100"
+
+load_1min_100=`echo $load_1min | awk '{s=$1 * 100; print s}'|awk -F"." '{print $1}'`
+load_5min_100=`echo $load_5min | awk '{s=$1 * 100; print s}'|awk -F"." '{print $1}'`
+
+if [ $load_1min_100 -ge $load_5min_100 ]; then
+maxloadavg=`echo $load_1min_100`
+else
+maxloadavg=`echo $load_5min_100`
+fi
+percent=`expr $maxloadavg \* 100 / $Number_of_procs_100`
+cload=`expr $maxloadavg / 100`
+cload=${cload:-0}
+#echo $percent
+if [ "$percent" -gt 200 ]; then #changed 80 to 150 - dinesh(dkumar5)
+        echo "\"check_load\":CRITICAL-Current Average Load is $cload is high which should be < `expr 80 \* $Number_of_procs / 100`"
+        exit $STATE_CRITICAL
+else
+        echo "\"check_load\":OK-Current Average Load is $cload"
+        exit $STATE_OK
+fi
+

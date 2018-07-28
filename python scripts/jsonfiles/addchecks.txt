@@ -1,0 +1,46 @@
+[{
+    "name": "check_sdp2_disk_UK_datanodes",
+    "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_disk1_UK_datanodes.pl 90 2> /dev/null",
+    "category": "Application",
+    "handlers": [
+      "default"
+    ],
+    "subscribers": [
+      "sdp2_role_UK_hostchecks_datanodes"
+    ],
+    "userdefined1": "http://sot.yodlee.com",
+    "instance": "",
+    "check_type": "status",
+    "interval": 300
+  },
+  {
+    "name": "check_sdp2_disk_UK_master",
+    "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_disk1_UK_master.pl 90 2> /dev/null",
+    "category": "Application",
+    "handlers": [
+      "default"
+    ],
+    "subscribers": [
+      "sdp2_role_UK_hostchecks_master"
+    ],
+    "userdefined1": "http://sot.yodlee.com",
+    "instance": "",
+    "check_type": "status",
+    "interval": 300
+  }, 
+  {
+   "name": "check_sdp2_port_9083",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_telnet.pl 9083 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_UK_9083"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "9083",
+   "check_type": "status",
+   "interval": 300
+}
+]

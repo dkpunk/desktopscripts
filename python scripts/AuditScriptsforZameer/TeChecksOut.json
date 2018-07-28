@@ -1,0 +1,1116 @@
+{
+  "ALERTS": {
+    "checks": [ 
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_[portnumber]",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_[portnumber]",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "DCSERVLETS": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_[portnumber]",
+      "check_sdp2_corelog_[portnumber]",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_NA",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_[portnumber]",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "MS": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_[portnumber]",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_NA",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_[portnumber]",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "DC": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_[portnumber]",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_[portnumber]",
+      "check_sdp2_corelog_[portnumber]",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_NA",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_[portnumber]",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "PAYMON": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_[portnumber]",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_[portnumber]",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_[portnumber]",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "PAYMENTENGINE": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_[portnumber]",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_NA",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_[portnumber]",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "PFM": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_[portnumber]",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_[portnumber]",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_[portnumber]",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "REST": {
+    "checks": [
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_[portnumber]",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_[portnumber]",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_[portnumber]",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "FASTLINK": {
+    "checks": [
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_[portnumber]",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_[portnumber]",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_[portnumber]",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "YCC": {
+    "checks": [
+      
+    "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_[portnumber]",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_[portnumber]",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_[portnumber]",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "YSL": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_[portnumber]",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_[portnumber]",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_[portnumber]",
+      "check_sdp2_webhook_[portnumber]",
+      "check_sdp2_ysl_api_[portnumber]"
+      
+    ]
+  },
+  "SDK": {
+    "checks": [
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_[portnumber]",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_[portnumber]",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_[portnumber]",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+    ]
+  },
+  "PRICEDATASERVER": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_[portnumber]",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_[portnumber]",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "WEALTHSERVICE": {
+    "checks": [
+      
+     
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_[portnumber]",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_[portnumber]",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+    ]
+  },
+  "NEDBANK_XMLADAPTERINSTANC": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_NA",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_NA",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "NEDBANK_XMLADAPTER": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_NA",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_NA",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "PRICEFEEDSERVER": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_[portnumber]",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_[portnumber]",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "UBD": {
+    "checks": [
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_[portnumber]",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_[portnumber]",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "MONGOSERVER": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_[portnumber]",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "RCM": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_NA",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_NA",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "DASHBOARD": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_NA",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_NA",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "NGYCC": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_[portnumber]",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_[portnumber]",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_[portnumber]",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "USAAWEBALERT": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_NA",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_NA",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "BPAAADAPTER": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_NA",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_NA",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "YTASK": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_[portnumber]",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_NA",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_[portnumber]",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "YSLYCC": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_[portnumber]",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_NA",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_[portnumber]",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "SENSEFIAPP": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_[portnumber]",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_[portnumber]",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_[portnumber]",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "CSR-JBOSS": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_[portnumber]",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_[portnumber]",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_[portnumber]",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "SAMPLEAPPCROSSDOMAIN": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_NA",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_NA",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "YISAMPLE": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_NA",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_NA",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "CORE": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_NA",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_NA",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "YIEAPP": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_[portnumber]",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_[portnumber]",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "DEVFRONTEND": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_[portnumber]",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "TOOLCENTER": {
+    "checks": [
+      
+     "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_[portnumber]",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "DEVBACKEND": {
+    "checks": [
+      
+     "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_[portnumber]",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+      
+    ]
+  },
+  "QUERYCENTER2": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_NA",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_NA",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "DEBUGBACKEND": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_NA",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_NA",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "BACKEND1": {
+    "checks": [
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_[portnumber]",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+      
+    ]
+  },
+  "EXTRACTOR": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_NA",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_NA",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "QUERYCENTER": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_[portnumber]",
+      "check_sdp2_firemem_jvm_[portnumber]",
+      "check_sdp2_jvm_NA",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_[portnumber]",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "DAPBACKEND": {
+    "checks": [
+       
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_[portnumber]",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"  
+    ]
+  },
+  "FRONTEND1": {
+    "checks": [
+      
+       
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_[portnumber]",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"  
+      
+    ]
+  },
+  "DAPFRONTEND": {
+    "checks": [
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_[portnumber]",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"  
+      
+    ]
+  },
+  "OPENREPORTS": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_[portnumber]",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_[portnumber]",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "nodejs": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_NA",
+      "check_sdp2_log_[portnumber]",
+      "check_sdp2_port_[portnumber]",
+      "check_sdp2_serverlog_NA",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "ES": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_[portnumber]",
+      "check_sdp2_ES_Node_Health_status_[portnumber]",
+      "check_sdp2_ES_Nodes_status_[portnumber]",
+      "check_sdp2_ES_Search_status_[portnumber]",
+      "check_sdp2_accesslog_NA",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_NA",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_NA",
+      "check_sdp2_telnet_NA",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  },
+  "OAUTHCLIENT": {
+    "checks": [
+      
+      
+      "check_sdp2_CacheRun_time_NA",
+      "check_sdp2_ES_JVM_status_NA",
+      "check_sdp2_ES_Node_Health_status_NA",
+      "check_sdp2_ES_Nodes_status_NA",
+      "check_sdp2_ES_Search_status_NA",
+      "check_sdp2_accesslog_[portnumber]",
+      "check_sdp2_alertport_NA",
+      "check_sdp2_blockingthreads_NA",
+      "check_sdp2_corelog_NA",
+      "check_sdp2_firemem_jvm_NA",
+      "check_sdp2_jvm_[portnumber]",
+      "check_sdp2_log_NA",
+      "check_sdp2_port_NA",
+      "check_sdp2_serverlog_[portnumber]",
+      "check_sdp2_telnet_[portnumber]",
+      "check_sdp2_webhook_NA",
+      "check_sdp2_ysl_api_NA"
+      
+    ]
+  }
+}

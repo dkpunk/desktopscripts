@@ -1,0 +1,52 @@
+$filename = 'D:/files/b.csv';
+$filename2 = 'D:/files/a.csv';
+
+
+use Text::CSV;
+use Data::Dumper;
+%data=();
+$csv=Text::CSV->new({sep_char => ','});
+open($fh2,"<",$filename2) or die "Failed to open";
+while(my $line = <$fh2>)
+{
+if($csv->parse($line))
+{
+	@fields =$csv->fields();
+	@ARR=split(" ",$fields[0]);
+	#print "Client : $ARR[3]  Ip address : $ARR[-10]";
+	#print " $fields[-10] , $fields[3] \n";
+	$data{$ARR[-10]}=$ARR[3];
+}
+else
+{
+print "could not parse lines";
+}
+}
+
+print Dumper(\%data);
+print "Fetching details of Ip and cobrant";
+foreach $key(keys %data)
+{
+	$flag=0;
+	#print "Searching for Key : $key Data: $data{$key}";
+if(open($fh, '<:encoding(UTF-8)', $filename))
+{
+	while ($row = <$fh>) 
+	{
+		my $value=$data{$key};
+	if((index($row,$key) != -1) and (index($row,$value) != -1))
+	{
+		$flag++;
+	#print "IP found $row";
+	}
+	}
+	if($flag=='0')
+	{
+		print "\nIp Address : $key Cobrant Name : $data{$key} \n";
+	}
+} 
+else
+{
+  warn "Could not open file '$filename' $!";
+}
+}

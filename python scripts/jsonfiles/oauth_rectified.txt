@@ -1,0 +1,22 @@
+{
+   "name": "check_sdp2_corelog_8643",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_core.pl 8643 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_8643",
+      "sdp2_role_DCSERVLETS_8643",
+      "sdp2_role_YSL_8643",
+      "sdp2_role_CUSTOM_8643",
+      "sdp2_role_PAYMON_8643",
+      "sdp2_role_OPENREPORTS_8643",
+      "sdp2_role_OAUTHCLIENT_8643"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8643",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad0574b96ff750e314aa6d5"
+}

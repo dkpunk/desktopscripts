@@ -1,0 +1,65 @@
+#!/usr/bin/perl -w
+
+####################################################
+#script to check process for fglam
+####################################################
+
+use strict;
+
+my $datafile;
+my @data_array;
+my $loopvariable;
+my $output;
+my $res;
+my @arr;
+my $res1;
+my $message;
+my $message1;
+my $status = 0;
+#$datafile = "/home/reporter/groundwork/inputfile_fglam.txt"; #edited by dinesh dkumar5
+$datafile = "/opt/sensu/embedded/bin/scripts_ypa/inputfile_fglam.txt";
+open(DAT, $datafile);
+@data_array = <DAT>;
+
+foreach $loopvariable (@data_array)
+{
+    chomp($loopvariable);
+    #print "$loopvariable\n";
+    if($loopvariable =~ /\,/)
+	{
+		@arr = split(/\,/,$loopvariable);
+		#print "$arr[1]\n";
+    		$res = `ps -ef | grep -v grep | grep "$arr[0]" | grep "$arr[1]"`;
+		    if($res eq "")
+			{		
+			$message .= "$loopvariable not running\n";		
+			$status = 2;
+			}
+			    else{
+						$message .= "$loopvariable running\n";
+					$status = 0;}
+	}
+    else{
+		$res1 = `ps -ef | grep -v grep | grep "$loopvariable"`;
+			 if($res1 eq "")
+                        {
+                        $message .= "$loopvariable not running\n";
+			$status = 2;
+                        }
+                            else{
+								$message .= "$loopvariable running\n";
+									$status = 0;}
+        }
+
+}
+chomp($message);
+if($status == 2)
+{
+print "CRITICAL - $message\n";
+exit 2;
+}
+elsif($status == 0)
+{
+print "OK:$message\n";
+exit 0;
+}

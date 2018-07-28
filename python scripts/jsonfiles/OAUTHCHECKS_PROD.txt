@@ -1,0 +1,503 @@
+{
+   "name": "check_sdp2_corelog_8643",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_core.pl 8643 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_8643",
+      "sdp2_role_DCSERVLETS_8643",
+      "sdp2_role_YSL_8643",
+      "sdp2_role_CUSTOM_8643",
+      "sdp2_role_PAYMON_8643",
+      "sdp2_role_OPENREPORTS_8643",
+      "sdp2_role_OAUTHCLIENT_8643"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8643",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad0574b96ff750e314aa6d5"
+}{
+   "name": "check_sdp2_serverlog_10243",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_server.pl 10243 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_10243",
+      "sdp2_role_DCSERVLETS_10243",
+      "sdp2_role_YSL_10243",
+      "sdp2_role_CUSTOM_10243",
+      "sdp2_role_PAYMON_10243",
+      "sdp2_role_MONGOSERVER_10243",
+      "sdp2_role_OAUTHCLIENT_10243"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "10243",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad0574c3cd1d00ec13431a8"
+}{
+   "name": "check_sdp2_accesslog_10243",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_access.pl 10243 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_10243",
+      "sdp2_role_DCSERVLETS_10243",
+      "sdp2_role_YSL_10243",
+      "sdp2_role_CUSTOM_10243",
+      "sdp2_role_PAYMON_10243",
+      "sdp2_role_OAUTHCLIENT_10243"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "10243",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad0574cfcc1aa0e8bb8aafd"
+}{
+   "name": "check_sdp2_telnet_10243",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_wget_local_no_cert 10243 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_10243",
+      "sdp2_role_DCSERVLETS_10243",
+      "sdp2_role_YSL_10243",
+      "sdp2_role_PAYMON_10243",
+      "sdp2_role_MONGOSERVER_10243",
+      "sdp2_role_OAUTHCLIENT_10243"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "10243",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad0574d96563e0e1cf3f933"
+}{
+   "name": "check_sdp2_serverlog_8443",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_server.pl 8443 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_8443",
+      "sdp2_role_DCSERVLETS_8443",
+      "sdp2_role_YSL_8443",
+      "sdp2_role_CUSTOM_8443",
+      "sdp2_role_PAYMON_8443",
+      "sdp2_role_MONGOSERVER_8443",
+      "sdp2_role_OAUTHCLIENT_8443"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8443",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad0575b96563e0e1cf3f93e"
+}{
+   "name": "check_sdp2_serverlog_8743",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_server.pl 8743 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_8743",
+      "sdp2_role_DCSERVLETS_8743",
+      "sdp2_role_YSL_8743",
+      "sdp2_role_CUSTOM_8743",
+      "sdp2_role_PAYMON_8743",
+      "sdp2_role_MONGOSERVER_8543",
+      "sdp2_role_FIREMEM_8743",
+      "sdp2_role_OAUTHCLIENT_8743",
+      "sdp2_role_QUERYCENTER_8743"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8743",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad0575bfcc1aa0e8bb8ab12"
+}{
+   "name": "check_sdp2_serverlog_8543",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_server.pl 8543 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_8543",
+      "sdp2_role_DCSERVLETS_8543",
+      "sdp2_role_YSL_8543",
+      "sdp2_role_CUSTOM_8543",
+      "sdp2_role_PAYMON_8543",
+      "sdp2_role_MONGOSERVER_8543",
+      "sdp2_role_OAUTHCLIENT_8543",
+      "sdp2_role_TOOLCENTER_8543"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8543",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad0575bfcc1aa0e8bb8ab13"
+}{
+   "name": "check_sdp2_serverlog_9943",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_server.pl 9943 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_9943",
+      "sdp2_role_DCSERVLETS_9943",
+      "sdp2_role_YSL_9943",
+      "sdp2_role_CUSTOM_9943",
+      "sdp2_role_PAYMON_9943",
+      "sdp2_role_MONGOSERVER_9943",
+      "sdp2_role_OAUTHCLIENT_9943",
+      "sdp2_role_DAPBACKEND_9943"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "9943",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad0575bfcc1aa0e8bb8ab15"
+}{
+   "name": "check_sdp2_telnet_8643",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_wget_local_no_cert 8643 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_8643",
+      "sdp2_role_DCSERVLETS_8643",
+      "sdp2_role_YSL_8643",
+      "sdp2_role_PAYMON_8643",
+      "sdp2_role_MONGOSERVER_8643",
+      "sdp2_role_OPENREPORTS_8643",
+      "sdp2_role_OAUTHCLIENT_8643"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8643",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad0575d96ff750e314aa6e3"
+}{
+   "name": "check_sdp2_telnet_8443",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_wget_local_no_cert 8443 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_8443",
+      "sdp2_role_DCSERVLETS_8443",
+      "sdp2_role_YSL_8443",
+      "sdp2_role_PAYMON_8443",
+      "sdp2_role_MONGOSERVER_8443",
+      "sdp2_role_OAUTHCLIENT_8443"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8443",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad0575dfcc1aa0e8bb8ab19"
+}{
+   "name": "check_sdp2_telnet_8743",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_wget_local_no_cert 8743 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_8743",
+      "sdp2_role_DCSERVLETS_8743",
+      "sdp2_role_YSL_8743",
+      "sdp2_role_PAYMON_8743",
+      "sdp2_role_MONGOSERVER_8743",
+      "sdp2_role_FIREMEM_8743",
+      "sdp2_role_OAUTHCLIENT_8743"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8743",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad0575e3cd1d00ec13431c8"
+}{
+   "name": "check_sdp2_telnet_8543",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_wget_local_no_cert 8543 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_8543",
+      "sdp2_role_DCSERVLETS_8543",
+      "sdp2_role_YSL_8543",
+      "sdp2_role_PAYMON_8543",
+      "sdp2_role_MONGOSERVER_8543",
+      "sdp2_role_OAUTHCLIENT_8543"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8543",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad0575efcc1aa0e8bb8ab1a"
+}{
+   "name": "check_sdp2_telnet_9943",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_wget_local_no_cert 9943 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_9943",
+      "sdp2_role_DCSERVLETS_9943",
+      "sdp2_role_YSL_9943",
+      "sdp2_role_PAYMON_9943",
+      "sdp2_role_MONGOSERVER_9943",
+      "sdp2_role_OAUTHCLIENT_9943"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "9943",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad0575f96563e0e1cf3f941"
+}{
+   "name": "check_sdp2_jvm_8743",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_curheap.pl 8743 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_8743",
+      "sdp2_role_DCSERVLETS_8743",
+      "sdp2_role_YSL_8743",
+      "sdp2_role_CUSTOM_8743",
+      "sdp2_role_PAYMON_8743",
+      "sdp2_role_MONGOSERVER_8743",
+      "sdp2_role_OAUTHCLIENT_8743",
+      "sdp2_role_QUERYCENTER_8743"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8743",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad057603cd1d00ec13431ca"
+}{
+   "name": "check_sdp2_jvm_8643",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_curheap.pl 8643 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_8643",
+      "sdp2_role_DCSERVLETS_8643",
+      "sdp2_role_YSL_8643",
+      "sdp2_role_CUSTOM_8643",
+      "sdp2_role_PAYMON_8643",
+      "sdp2_role_MONGOSERVER_8643",
+      "sdp2_role_OPENREPORTS_8643",
+      "sdp2_role_OAUTHCLIENT_8643"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8643",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad05760a9b0370e3dba4730"
+}{
+   "name": "check_sdp2_jvm_8443",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_curheap.pl 8443 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_8443",
+      "sdp2_role_DCSERVLETS_8443",
+      "sdp2_role_YSL_8443",
+      "sdp2_role_CUSTOM_8443",
+      "sdp2_role_PAYMON_8443",
+      "sdp2_role_MONGOSERVER_8443",
+      "sdp2_role_OAUTHCLIENT_8443"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8443",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad05760fcc1aa0e8bb8ab20"
+}{
+   "name": "check_sdp2_jvm_8543",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_curheap.pl 8543 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_8543",
+      "sdp2_role_DCSERVLETS_8543",
+      "sdp2_role_YSL_8543",
+      "sdp2_role_CUSTOM_8543",
+      "sdp2_role_PAYMON_8543",
+      "sdp2_role_MONGOSERVER_8543",
+      "sdp2_role_OAUTHCLIENT_8543",
+      "sdp2_role_TOOLCENTER_8543"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8543",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad05760fcc1aa0e8bb8ab21"
+}{
+   "name": "check_sdp2_jvm_10243",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_curheap.pl 10243 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_10243",
+      "sdp2_role_DCSERVLETS_10243",
+      "sdp2_role_YSL_10243",
+      "sdp2_role_CUSTOM_10243",
+      "sdp2_role_PAYMON_10243",
+      "sdp2_role_MONGOSERVER_10243",
+      "sdp2_role_OAUTHCLIENT_10243"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "10243",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad05762784b470e58875b92"
+}{
+   "name": "check_sdp2_jvm_9943",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_curheap.pl 9943 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_9943",
+      "sdp2_role_DCSERVLETS_9943",
+      "sdp2_role_YSL_9943",
+      "sdp2_role_CUSTOM_9943",
+      "sdp2_role_PAYMON_9943",
+      "sdp2_role_MONGOSERVER_9943",
+      "sdp2_role_OAUTHCLIENT_9943",
+      "sdp2_role_DAPBACKEND_9943"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "9943",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad05763fcc1aa0e8bb8ab24"
+}{
+   "name": "check_sdp2_accesslog_8443",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_access.pl 8443 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_8443",
+      "sdp2_role_DCSERVLETS_8443",
+      "sdp2_role_YSL_8443",
+      "sdp2_role_CUSTOM_8443",
+      "sdp2_role_PAYMON_8443",
+      "sdp2_role_OAUTHCLIENT_8443"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8443",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad057773cd1d00ec13431eb"
+}{
+   "name": "check_sdp2_accesslog_8543",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_access.pl 8543 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_8543",
+      "sdp2_role_DCSERVLETS_8543",
+      "sdp2_role_YSL_8543",
+      "sdp2_role_CUSTOM_8543",
+      "sdp2_role_PAYMON_8543",
+      "sdp2_role_OAUTHCLIENT_8543"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8543",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad05777784b470e58875ba8"
+}{
+   "name": "check_sdp2_accesslog_8643",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_access.pl 8643 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_8643",
+      "sdp2_role_DCSERVLETS_8643",
+      "sdp2_role_YSL_8643",
+      "sdp2_role_CUSTOM_8643",
+      "sdp2_role_PAYMON_8643",
+      "sdp2_role_OAUTHCLIENT_8643"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8643",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad05777784b470e58875ba9"
+}{
+   "name": "check_sdp2_accesslog_8743",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_access.pl 8743 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_8743",
+      "sdp2_role_DCSERVLETS_8743",
+      "sdp2_role_YSL_8743",
+      "sdp2_role_CUSTOM_8743",
+      "sdp2_role_PAYMON_8743",
+      "sdp2_role_OAUTHCLIENT_8743"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8743",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad05777fcc1aa0e8bb8ab46"
+}{
+   "name": "check_sdp2_accesslog_9943",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_access.pl 9943 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_FE_9943",
+      "sdp2_role_DCSERVLETS_9943",
+      "sdp2_role_YSL_9943",
+      "sdp2_role_CUSTOM_9943",
+      "sdp2_role_PAYMON_9943",
+      "sdp2_role_OAUTHCLIENT_9943"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "9943",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ad057783cd1d00ec13431ec"
+}

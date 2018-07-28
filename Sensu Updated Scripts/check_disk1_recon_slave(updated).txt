@@ -1,0 +1,227 @@
+#!/usr/bin/perl
+############################################
+#
+#
+#       Version 1.0
+#       Execution: ./chceck_disk1.pl
+#
+#
+############################################
+
+use Getopt::Long qw(:config no_ignore_case bundling);
+use Pod::Usage;
+use strict;
+
+my ($opt_f, $opt_c, $opt_w, $opt_h, $opt_i,$opt_f,$opt_s,$opt_u,$opt_H,$opt_C,$opt_v,
+    $opt_html, $opt_srvperf, $opt_r, $opt_R);
+
+my $stat = 0;
+#$opt_u = "nagios";  # Utilisateur pour connexion ssh
+$opt_i = "";
+$opt_w = "0";      # Valeur par defaut de warning
+$opt_c = "40";       # Valeur par defaut de critical
+$opt_f = "10";       # Valeur par defaut de fatal
+$opt_H = "localhost";
+$opt_R = q/^$/;
+$opt_r = "";
+
+my $exclude_re = "(^//|^none)";
+
+my %alldisks; # Tous les disques trouves avec la commande df
+my %checkdisks; # seulement les disque a verifier
+my $cmd = "/bin/df -k";
+my $output ;
+my $retour = 'OK';
+my %EXIT_CODES = (
+        'UNKNOWN'       => -1,
+        'OK'            => 0,
+        'WARNING'       => 1,
+        'CRITICAL'      => 2,
+        'FATAL'         => 2
+);
+
+
+################################################################################
+# Recovery of command line options
+
+GetOptions(
+        "h"   => \$opt_h,   "help"                => \$opt_h,
+        "H=s" => \$opt_H,   "host=s"              => \$opt_H,
+        "w=s" => \$opt_w,   "warning=s"           => \$opt_w,
+        "c=s" => \$opt_c,   "critical=s"          => \$opt_c,
+        "u=s" => \$opt_u,   "user=s"              => \$opt_u,
+        "i=s" => \$opt_i,   "ignore=s"            => \$opt_i,
+        "f=s" => \$opt_f,   "filesystem=s"        => \$opt_f,
+        "C=s" => \$opt_C,   "conf=s"              => \$opt_C,
+        "v"   => \$opt_v,   "verbose"             => \$opt_v,
+        "r=s" => \$opt_r,   "R=s"                 => \$opt_R,
+        "html"   => \$opt_html,
+        "srvperf=s" => \$opt_srvperf,
+) ||  pod2usage() ;
+
+if ($opt_h) {
+    pod2usage(-verbose=>1);
+    exit $EXIT_CODES{'OK'};
+}
+if(!$opt_H) {
+    pod2usage();
+    exit $EXIT_CODES{'UNKNOWN'};
+}
+
+my $args;
+
+
+# If one is useless to local ssh
+if($opt_H ne "localhost" and $opt_H ne "127.0.0.1") {
+    $cmd = "ssh $opt_u\@$opt_H '$cmd'";
+}
+
+my @output = `$cmd`;
+
+foreach my $l (@output) {
+if ($l !~ "data2"){
+    if($l =~ /(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\%\s+([\/\w\d\.-]+)$/) {
+        next if ($l =~ m/$opt_R/);
+        next if ($l !~ m/$opt_r/);
+        next if ($l =~ m/$exclude_re/);
+        my ($s,$u,$f,$pu,$d) = ($1,$2,$3,$4,$5);
+        $alldisks{$d}->{pused} = $pu;
+        $alldisks{$d}->{pfree} = 100-$pu;
+        $alldisks{$d}->{somme} = $s*1024;
+        $alldisks{$d}->{used} = $u*1024;
+        $alldisks{$d}->{free} = $f*1024;
+
+        # default are taken Warn Crit rate and SPECIFIED
+        #updateRates($d,$opt_w,$opt_c,$alldisks{$d}->{somme});
+        updateRates($d,$opt_w,$opt_c,$opt_f,$alldisks{$d}->{somme});
+    }
+}
+}
+
+use Data::Dumper;
+
+%checkdisks= (%alldisks, %checkdisks);
+
+my $cmp_warn=0;     # counter discs warning
+my $cmp_crit=0;     # counter critical discs
+my $cmp_fata=0;     # counter fatal discs
+my $perf_data="";   # Perf data
+
+# Warn Crit and testing of all fs and creation of the output
+foreach my $f (keys %checkdisks) {
+    if($checkdisks{$f}->{pfree} < $checkdisks{$f}->{fatal}) {
+        $cmp_fata++;
+        $output .= "[$f " . byte2human($checkdisks{$f}->{free}) .
+                           " (" . $checkdisks{$f}->{pfree} . '% free)] ';
+        $output .= "<br>" if ($opt_html);
+    }
+    elsif($checkdisks{$f}->{pfree} < $checkdisks{$f}->{critical}) {
+        $cmp_crit++;
+        $output .= "[$f " . byte2human($checkdisks{$f}->{free}) .
+                           " (" . $checkdisks{$f}->{pfree} . '% free)] ';
+        $output .= "<br>" if ($opt_html);
+    }
+    else {
+        if ($opt_v) {
+            $output .= "[$f " . byte2human($checkdisks{$f}->{free}) .
+                          " (" . $checkdisks{$f}->{pfree} . '% free)] ';
+            $output .= "<br>" if ($opt_html);
+        }
+    }
+    }
+if($cmp_fata > 0) {
+    $retour='FATAL';
+} elsif($cmp_crit > 0) {
+    $retour='CRITICAL';
+} elsif ($cmp_warn > 0) {
+    $retour='WARNING';
+} else {
+    $retour='OK';
+}
+
+
+# Sortie du plugin : sans donnees de perfs qui sont stockes
+# dans d'autres fichiers
+
+my $HostName = `hostname`;
+my $HostIp = `hostname -i`;
+chomp($HostName,$HostIp);
+my $msg = "DISK $retour $output";
+my $TableName="YODLEE_CHECK_DISK";
+
+
+#print "HostIp.String.id = $HostIp\n";
+#print "HostName.String = $HostName\n";
+
+#print "DISK_MASSEGE.StringObservation.obs = $msg\n";
+if ( $retour eq "OK" ) { print "\"check_disk\": OK-All disk usage is fine\n"; }
+elsif ( $retour eq "WARNING" ) { print "\"check_disk\": WARNING-$msg\n"; }
+else  { print "\"check_disk\": CRITICAL-$msg\n";
+}
+#print "\"check_disk1\": $msg\n";
+exit $EXIT_CODES{$retour};
+
+##########################################################################
+# FONCTIONS
+
+# value : valeur a convertir
+# unit : unite : K M G ou T
+# max : valeur max en octets
+
+sub byte2percent {
+    my ($value,$unit,$max) = @_;
+    my $return;
+    #Kilo Mega Giga Tera
+    my @units = qw (K M G T);
+    if(!grep {$_ eq $unit} @units) {
+        print "Erreur : unite inconnue ($unit)\n";
+        return 0;
+    }
+    if($unit eq 'K') {
+        $return = sprintf("%d",100*(1024*$value)/$max);
+    } elsif ($unit eq 'M') {
+        $return = sprintf("%d",100*(1024*1024*$value)/$max);
+    } elsif ($unit eq 'G') {
+        $return = sprintf("%d",100*(1024*1024*1024*$value)/$max);
+    } elsif ($unit eq 'T') {
+        $return = sprintf("%d",100*(1024*1024*1024*1024*$value)/$max);
+    }
+    #Borne a 100 %
+    if($return > 100) {
+        return 100;
+    }
+    return $return;
+}
+
+sub byte2human {
+    my ($value) = @_;
+    my $i=0;
+
+    my @units = qw/B K M G T/;
+
+    while (($value / 1024) >= 1) {
+        $value /= 1024;
+        $i++;
+    }
+    return sprintf('%.1f%s',$value, $units[$i]);
+}
+
+# permet de mettre a jour les taux warn et crit en prenant en
+# compte l'unite (K M G T)
+sub updateRates {
+    my ($disk,$w,$c,$fa,$max) = @_;
+
+    if($c =~ /^(\d+)(\D)/) {
+        $alldisks{$disk}->{'critical'}=
+            byte2percent($1,$2,$alldisks{$disk}->{somme});
+    } else {
+        $alldisks{$disk}->{'critical'}=$c;
+    }
+    if($fa =~ /^(\d+)(\D)/) {
+        $alldisks{$disk}->{'fatal'}=
+            byte2percent($1,$2,$alldisks{$disk}->{somme});
+    } else {
+        $alldisks{$disk}->{'fatal'}=$fa;
+    }
+}
+

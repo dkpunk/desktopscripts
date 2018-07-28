@@ -1,0 +1,151 @@
+[{
+   "name": "check_sdp2_port_11000",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_telnet.pl 11000 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_recon_master_11000",
+      "sdp2_role_UK_11000"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "11000",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ae7145e602d856a65da1149"
+},{
+   "name": "check_sdp2_port_3306",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_telnet.pl 3306 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_recon_master_3306",
+      "sdp2_role_PE_master_3306",
+      "sdp2_role_UK_3306"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "3306",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ae71472602d856a65da114a"
+},{
+   "name": "check_sdp2_port_8020",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_telnet.pl 8020 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_recon_master_8020",
+      "sdp2_role_PE_master_8020",
+      "sdp2_role_UK_8020"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8020",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ae71494602d856a65da114c"
+},{
+   "name": "check_sdp2_port_2181",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_telnet.pl 2181 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_recon_2181",
+      "sdp2_role_PE_2181",
+      "sdp2_role_UK_2181"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "2181",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ae714a5602d856a65da1151"
+},{
+   "name": "check_sdp2_port_8485",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_telnet.pl 8485 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_recon_8485",
+      "sdp2_role_PE_8485",
+      "sdp2_role_UK_8485"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8485",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ae714b5602d856a65da1152"
+},{
+   "name": "check_sdp2_port_9092",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_telnet.pl 9092 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_recon_datanodes_9092",
+      "sdp2_role_PE_datanodes_9092",
+      "sdp2_role_UK_9092"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "9092",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5ae714da602d856a65da1154"
+},{
+   "name": "check_sdp2_port_50020",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_telnet.pl 50020 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_recon_datanodes_50020",
+      "sdp2_role_PE_datanodes_50020",
+      "sdp2_role_UK_50020"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "50020",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5b278d0279478b314959414e"
+},{
+   "name": "check_sdp2_port_8041",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_telnet.pl 8041 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_recon_datanodes_8041",
+      "sdp2_role_PE_datanodes_8041",
+      "sdp2_role_UK_8041"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8041",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5b278d03c17c33315b781d72"
+},{
+   "name": "check_sdp2_port_9083",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_telnet.pl 9083 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_UK_9083"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "9083",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5b58616fe81d3b47fcd4f288"
+}]

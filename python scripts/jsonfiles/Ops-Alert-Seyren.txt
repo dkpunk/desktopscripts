@@ -1,0 +1,552 @@
+{
+   "name": "jenkins Log Failed on <HNAME>!",
+   "description": "jenins Log returned a failure on <HNAME> (<IP_ADDRESS>)!",
+   "target": "<FQDN_R>.jenkins_log.running",
+   "warn": "1",
+   "error": "2",
+   "enabled": true,
+   "allowNoData": false,
+   "action": "create",
+   "roles": [
+      "role_jenkins_ypa"
+   ],
+   "subscriptions": [
+      {
+         "subscription_type": "HIPCHAT",
+         "target": "alerts.ypa"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "DevOps-Alerts-India@Yodlee.com"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "devops-alerts@yodlee.com"
+      }
+   ],
+   "id": "5a7d72166c4e911260bbeae4"
+}
+done
+
+
+{
+   "name": "jenkins port Failed on <HNAME>!",
+   "description": "jenins port returned a failure on <HNAME> (<IP_ADDRESS>)!",
+   "target": "<FQDN_R>.jenkins_port.running",
+   "warn": "1",
+   "error": "2",
+   "enabled": true,
+   "allowNoData": false,
+   "action": "create",
+   "roles": [
+      "role_jenkins_ypa"
+   ],
+   "subscriptions": [
+      {
+         "subscription_type": "HIPCHAT",
+         "target": "alerts.ypa"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "DevOps-Alerts-India@Yodlee.com"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "devops-alerts@yodlee.com"
+      }
+   ],
+   "id": "5a7d72476c4e911260bbeae5"
+}
+
+done
+
+{
+   "name": "jenkins process Failed on <HNAME>!",
+   "description": "jenins process returned a failure on <HNAME> (<IP_ADDRESS>)!",
+   "target": "<FQDN_R>.jenkins_process.running",
+   "warn": "1",
+   "error": "2",
+   "enabled": true,
+   "allowNoData": false,
+   "action": "create",
+   "roles": [
+      "role_jenkins_ypa"
+   ],
+   "subscriptions": [
+      {
+         "subscription_type": "HIPCHAT",
+         "target": "alerts.ypa"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "DevOps-Alerts-India@Yodlee.com"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "devops-alerts@yodlee.com"
+      }
+   ],
+   "id": "5a7d72716c4e911260bbeae6"
+}
+
+done
+
+{
+   "name": "nexus process Failed on <HNAME>!",
+   "description": "nexus process returned a failure on <HNAME> (<IP_ADDRESS>)!",
+   "target": "<FQDN_R>.nexus_process.running",
+   "warn": "1",
+   "error": "2",
+   "enabled": true,
+   "allowNoData": false,
+   "action": "create",
+   "roles": [
+      "role_nexus_ypa"
+   ],
+   "subscriptions": [
+      {
+         "subscription_type": "HIPCHAT",
+         "target": "alerts.ypa"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "DevOps-Alerts-India@Yodlee.com"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "devops-alerts@yodlee.com"
+      }
+   ],
+   "id": "5a7d72a76c4e911260bbeae7"
+}
+
+done
+
+{
+   "name": "nexus port Failed on <HNAME>!",
+   "description": "nexus port returned a failure on <HNAME> (<IP_ADDRESS>)!",
+   "target": "<FQDN_R>.nexus_port.running",
+   "warn": "1",
+   "error": "2",
+   "enabled": true,
+   "allowNoData": false,
+   "action": "create",
+   "roles": [
+      "role_nexus_ypa"
+   ],
+   "subscriptions": [
+      {
+         "subscription_type": "HIPCHAT",
+         "target": "alerts.ypa"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "DevOps-Alerts-India@Yodlee.com"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "devops-alerts@yodlee.com"
+      }
+   ],
+   "id": "5a7d72bf6c4e911260bbeae8"
+}
+
+done
+
+{
+   "name": "nexus log Failed on <HNAME>!",
+   "description": "nexus log returned a failure on <HNAME> (<IP_ADDRESS>)!",
+   "target": "<FQDN_R>.nexus_log.running",
+   "warn": "1",
+   "error": "2",
+   "enabled": true,
+   "allowNoData": false,
+   "action": "create",
+   "roles": [
+      "role_nexus_ypa"
+   ],
+   "subscriptions": [
+      {
+         "subscription_type": "HIPCHAT",
+         "target": "alerts.ypa"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "DevOps-Alerts-India@Yodlee.com"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "devops-alerts@yodlee.com"
+      }
+   ],
+   "id": "5a7d72d66c4e911260bbeae9"
+}
+
+done
+
+{
+   "name": "sdpservices log Failed on <HNAME>!",
+   "description": "sdpservices log returned a failure on <HNAME> (<IP_ADDRESS>)!",
+   "target": "<FQDN_R>.sdpservices_log.running",
+   "warn": "1",
+   "error": "2",
+   "enabled": true,
+   "allowNoData": false,
+   "action": "create",
+   "roles": [
+      "role_sdpservices_ypa"
+   ],
+   "subscriptions": [
+      {
+         "subscription_type": "HIPCHAT",
+         "target": "alerts.ypa"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "DevOps-Alerts-India@Yodlee.com"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "devops-alerts@yodlee.com"
+      }
+   ],
+   "id": "5a7d732c6c4e911260bbeaea"
+}
+done
+
+
+{
+   "name": "sdpservices port Failed on <HNAME>!",
+   "description": "sdpservices portreturned a failure on <HNAME> (<IP_ADDRESS>)!",
+   "target": "<FQDN_R>.sdpservices_port.running",
+   "warn": "1",
+   "error": "2",
+   "enabled": true,
+   "allowNoData": false,
+   "action": "create",
+   "roles": [
+      "role_sdpservices_ypa"
+   ],
+   "subscriptions": [
+      {
+         "subscription_type": "HIPCHAT",
+         "target": "alerts.ypa"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "DevOps-Alerts-India@Yodlee.com"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "devops-alerts@yodlee.com"
+      }
+   ],
+   "id": "5a7d7365504084125e927079"
+}
+
+done
+{
+   "name": "sdpservices process Failed on <HNAME>!",
+   "description": "sdpservices process returned a failure on <HNAME> (<IP_ADDRESS>)!",
+   "target": "<FQDN_R>.sdpservices_process.running",
+   "warn": "1",
+   "error": "2",
+   "enabled": true,
+   "allowNoData": false,
+   "action": "create",
+   "roles": [
+      "role_sdpservices_ypa"
+   ],
+   "subscriptions": [
+      {
+         "subscription_type": "HIPCHAT",
+         "target": "alerts.ypa"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "DevOps-Alerts-India@Yodlee.com"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "devops-alerts@yodlee.com"
+      }
+   ],
+   "id": "5a7d7382504084125e92707a"
+}
+
+
+done
+
+{
+   "name": "sdpdb process Failed on <HNAME>!",
+   "description": "sdpdb process returned a failure on <HNAME> (<IP_ADDRESS>)!",
+   "target": "<FQDN_R>.sdpdb_process.running",
+   "warn": "1",
+   "error": "2",
+   "enabled": true,
+   "allowNoData": false,
+   "action": "create",
+   "roles": [
+      "role_sdpdb_ypa"
+   ],
+   "subscriptions": [
+      {
+         "subscription_type": "HIPCHAT",
+         "target": "alerts.ypa"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "DevOps-Alerts-India@Yodlee.com"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "devops-alerts@yodlee.com"
+      }
+   ],
+   "id": "5a7d73ac6c4e911260bbeaeb"
+}
+
+{
+   "name": "sdpdb port Failed on <HNAME>!",
+   "description": "sdpdb port returned a failure on <HNAME> (<IP_ADDRESS>)!",
+   "target": "<FQDN_R>.sdpdb_port.running",
+   "warn": "1",
+   "error": "2",
+   "enabled": true,
+   "allowNoData": false,
+   "action": "create",
+   "roles": [
+      "role_sdpdb_ypa"
+   ],
+   "subscriptions": [
+      {
+         "subscription_type": "HIPCHAT",
+         "target": "alerts.ypa"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "DevOps-Alerts-India@Yodlee.com"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "devops-alerts@yodlee.com"
+      }
+   ],
+   "id": "5a7d73c86c4e911260bbeaec"
+}{
+   "name": "sdpdb log Failed on <HNAME>!",
+   "description": "sdpdb log returned a failure on <HNAME> (<IP_ADDRESS>)!",
+   "target": "<FQDN_R>.sdpdb_log.running",
+   "warn": "1",
+   "error": "2",
+   "enabled": true,
+   "allowNoData": false,
+   "action": "create",
+   "roles": [
+      "role_sdpdb_ypa"
+   ],
+   "subscriptions": [
+      {
+         "subscription_type": "HIPCHAT",
+         "target": "alerts.ypa"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "DevOps-Alerts-India@Yodlee.com"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "devops-alerts@yodlee.com"
+      }
+   ],
+   "id": "5a7d73df6c4e911260bbeaed"
+}{
+   "name": "virtcustomize log Failed on <HNAME>!",
+   "description": "virtcustomize log returned a failure on <HNAME> (<IP_ADDRESS>)!",
+   "target": "<FQDN_R>.virtcustomize_log.running",
+   "warn": "1",
+   "error": "2",
+   "enabled": true,
+   "allowNoData": false,
+   "action": "create",
+   "roles": [
+      "role_virtcustomize_ypa"
+   ],
+   "subscriptions": [
+      {
+         "subscription_type": "HIPCHAT",
+         "target": "alerts.ypa"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "DevOps-Alerts-India@Yodlee.com"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "devops-alerts@yodlee.com"
+      }
+   ],
+   "id": "5a7d740c6c4e911260bbeaee"
+}{
+   "name": "virtcustomize process Failed on <HNAME>!",
+   "description": "virtcustomize process returned a failure on <HNAME> (<IP_ADDRESS>)!",
+   "target": "<FQDN_R>.virtcustomize_process.running",
+   "warn": "1",
+   "error": "2",
+   "enabled": true,
+   "allowNoData": false,
+   "action": "create",
+   "roles": [
+      "role_virtcustomize_ypa"
+   ],
+   "subscriptions": [
+      {
+         "subscription_type": "HIPCHAT",
+         "target": "alerts.ypa"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "DevOps-Alerts-India@Yodlee.com"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "devops-alerts@yodlee.com"
+      }
+   ],
+   "id": "5a7d74276c4e911260bbeaef"
+}{
+   "name": "virtcustomize port Failed on <HNAME>!",
+   "description": "virtcustomize port returned a failure on <HNAME> (<IP_ADDRESS>)!",
+   "target": "<FQDN_R>.virtcustomize_port.running",
+   "warn": "1",
+   "error": "2",
+   "enabled": true,
+   "allowNoData": false,
+   "action": "create",
+   "roles": [
+      "role_virtcustomize_ypa"
+   ],
+   "subscriptions": [
+      {
+         "subscription_type": "HIPCHAT",
+         "target": "alerts.ypa"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "DevOps-Alerts-India@Yodlee.com"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "devops-alerts@yodlee.com"
+      }
+   ],
+   "id": "5a7d74466c4e911260bbeaf0"
+}{
+   "name": "rest api Failed on <HNAME>!",
+   "description": "rest api check returned a failure on <HNAME> (<IP_ADDRESS>)!",
+   "target": "<FQDN_R>.rest_api.running",
+   "warn": "1",
+   "error": "2",
+   "enabled": true,
+   "allowNoData": false,
+   "action": "create",
+   "roles": [
+      "role_restserver_ypa"
+   ],
+   "subscriptions": [
+      {
+         "subscription_type": "HIPCHAT",
+         "target": "alerts.ypa"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "monitoringalerts@yodlee.com"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "devops-alerts@yodlee.com"
+      }
+   ],
+   "id": "5b02ea541395a2301809f8fd"
+}{
+   "name": "ES search status check Failed on <HNAME>!",
+   "description": "ES search status Check returned a failure on <HNAME> (<IP_ADDRESS>)!",
+   "target": "<FQDN_R>.search.running",
+   "warn": "1",
+   "error": "2",
+   "enabled": true,
+   "allowNoData": false,
+   "action": "create",
+   "roles": [
+      "role_elasticsearch_ypa"
+   ],
+   "subscriptions": [
+      {
+         "subscription_type": "HIPCHAT",
+         "target": "alerts.ypa"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "devops-alerts@yodlee.com"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "monitoringalerts@yodlee.com"
+      }
+   ],
+   "id": "5b02ea541395a2301809f8fe"
+}{
+   "name": "ES jvm status check Failed on <HNAME>!",
+   "description": "ES jvm status Check returned a failure on <HNAME> (<IP_ADDRESS>)!",
+   "target": "<FQDN_R>.jvm.running",
+   "warn": "1",
+   "error": "2",
+   "enabled": true,
+   "allowNoData": false,
+   "action": "create",
+   "roles": [
+      "role_elasticsearch_ypa"
+   ],
+   "subscriptions": [
+      {
+         "subscription_type": "HIPCHAT",
+         "target": "alerts.ypa"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "devops-alerts@yodlee.com"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "monitoringalerts@yodlee.com"
+      }
+   ],
+   "id": "5b02ea547bea9c2fc75fdb73"
+}{
+   "name": "ES nodes status check Failed on <HNAME>!",
+   "description": "ES nodes status Check returned a failure on <HNAME> (<IP_ADDRESS>)!",
+   "target": "<FQDN_R>.nodes.running",
+   "warn": "1",
+   "error": "2",
+   "enabled": true,
+   "allowNoData": false,
+   "action": "create",
+   "roles": [
+      "role_elasticsearch_ypa"
+   ],
+   "subscriptions": [
+      {
+         "subscription_type": "HIPCHAT",
+         "target": "alerts.ypa"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "devops-alerts@yodlee.com"
+      },
+      {
+         "subscription_type": "EMAIL",
+         "target": "monitoringalerts@yodlee.com"
+      }
+   ],
+   "id": "5b02ea5490c8ee2feb5f306f"
+}
