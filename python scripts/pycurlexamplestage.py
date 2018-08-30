@@ -41,9 +41,9 @@ for data in jsonlist:
   #print(data)
   #print("----------------------------------------")
   #for stage 
-  response = requests.post('http://192.168.226.235:55005/api/sensu_checks', json=data,headers=headers)
+  #response = requests.post('http://192.168.226.235:55005/api/sensu_checks', json=data,headers=headers)
   #for prod
-  #response = requests.post('http://192.168.226.235:55006/api/sensu_checks', json=data,headers=headers)
+  response = requests.post('http://192.168.226.235:55006/api/sensu_checks', json=data,headers=headers)
   print(response.status_code)
   print(response.text)
 

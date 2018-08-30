@@ -45,7 +45,7 @@ for data in jsonlist:
   #for stage
   response = requests.patch('http://192.168.226.235:55005/api/sensu_checks/'+temp, json=data,headers=headers)
   #for prod
- # response = requests.patch('http://192.168.226.235:55006/api/sensu_checks/'+temp, json=data,headers=headers)
+  #response = requests.patch('http://192.168.226.235:55006/api/sensu_checks/'+temp, json=data,headers=headers)
   
   print(response.status_code)
   print(response.text)

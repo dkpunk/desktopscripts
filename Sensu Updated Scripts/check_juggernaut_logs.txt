@@ -1,0 +1,358 @@
+#!/usr/bin/perl -w
+########################################################################
+# Created for Application Log monitoring from Sensu
+#
+#   Assumptions for inputfile:
+#	1. All persistent alarms are always Critical    
+#	2. Log file not present is a Warning event
+#	 3. OK state will recover the Tickett
+#	
+#
+#
+#######################################################################
+use strict;
+my $today_date = `date +%Y%m%d`;
+my $yest_date = `date +%Y%m%d --date=yesterday`;
+chomp($today_date,$yest_date);
+###################################
+#DEFINING THE LOG PATH
+###################################
+my $log_path = "/opt/iat/logs/";
+my $log_temp = "/tmp/";
+my $pers_exist = 0;
+my $no_breach = 0;
+my $breach = 0;
+if(! -e $log_temp)
+{
+`mkdir $log_temp`;
+`chmod 755 $log_temp`;
+}
+
+my $COMP =`ps -ef | grep -i java`;
+my ($PID,$Object,$GrepPort,$Port);
+if($COMP =~ m/\w+\s+(\d+)\s+.*Dotc.component.name=(\w+)\s+/){
+$PID=$1;$Object =$2;
+}
+
+
+
+#########################################
+#-COMPONENT & INSTANCE NUMBER FROM PS -EF
+#########################################
+#-END-#
+my $message;
+my $message2;
+my $file = $log_path . "iat.out";
+#my $file = "a.txt";
+my $wcount = $log_temp . "iat.logfile." . "ct";
+my $diff;
+my $exception_file = "/opt/sensu/embedded/bin/scripts_ypa/inputfileiat";
+my $test;
+my $persistent_temp = "/tmp/persistent_iat_temp.txt";
+if (! -e $persistent_temp){
+	my $d = `touch $persistent_temp`;
+}
+
+
+sub servercore {
+
+my $log_file = $_[0];
+
+my $flag_severity = 0; #-OK STATE-#
+my $pers_severity = 0;
+my $f_severity = 0;
+my %hash;
+my ($key,$value);
+
+
+##############################
+#checking log file exists or not
+##############################
+if(! -e $log_file){
+#	print "$log_file does not exist\n";
+
+	$message .=  "\"check_juggernaut_logs\": CRITICAL - $log_file does not exist\n";
+	$flag_severity = 2; #-WARNING STATE-#
+	$breach=1;
+	return ($message,$flag_severity);
+}
+
+
+###################
+#if log file exists
+###################
+elsif ( -e $log_file && -s $log_file)
+{
+#-PERSISTENCE-#
+	if( -s $persistent_temp){
+		$f_severity = 2;
+			$breach=1;
+		open(DATA1,$persistent_temp) or die;
+		while(<DATA1>){
+		chomp($_);
+			($key,$value) = (split(/\^/,$_))[1,2];
+			$hash{$key} = $value;
+#                       $message .=$_;
+		}
+		close(DATA1);
+	}
+#-END-#
+
+
+if (! -e $wcount ){
+	my $temp_count = `cat $log_file | wc -l`;
+	chomp($temp_count);
+            $wcount = $log_temp . "iat.logfile." . "ct";
+	`echo "$temp_count" > $wcount`;
+	open(FILE , "$exception_file") or die;
+	while(<FILE>){
+	chomp;
+		my ($exception,$threshold,$persistence,$alert) = (split(/\^/,$_))[0..3];
+		$test = `cat $log_file | tail -n 50     | grep "$exception" | wc -l`;
+		chomp($test);
+			if($test >= $threshold){
+				#$message .=  "$exception occured $test times,";
+				$flag_severity = $alert;
+					if ($alert == 2){ $f_severity = 2; $breach=1;}
+						if($persistence == 1){
+							if( -s $persistent_temp){
+								if (exists $hash{$exception}){
+									my $temp_var="";
+									$temp_var = $hash{$exception};
+									$test = $temp_var + $test;
+									$hash{$exception} = $test;
+									$f_severity = 2;
+									$breach=1;
+									$pers_exist=1;
+                            }
+                            else {
+                                $hash{$exception} = $test;
+                                $f_severity = 2;
+								$breach=1;
+								 }
+                            open DATA1, ">$persistent_temp" or die $!;
+                            foreach $key (keys %hash)
+                            {
+                                my $value_hash="";
+                                $value_hash = $hash{$key};
+                                `echo "$today_date^$key^$value_hash" >> $persistent_temp`;
+                            }
+                            close(DATA1);
+                        }
+						 else {
+                            `echo "$today_date^$exception^$test" >> $persistent_temp`; $f_severity = 2;
+								$breach=1;
+                            $f_severity = 2; #-CRITICAL STATE-#
+							  }
+						} elsif ($persistence != 1 && $pers_exist != 0) {
+							$message .=  "CRITICAL - $exception occured $test times\n";
+							$breach=1;
+                    }
+                    if($pers_exist == 0) {
+							$message .=  "CRITICAL - $exception occured $test times\n";
+							$breach=1;
+                    }
+                }
+                else {
+                    $no_breach = 1;
+                }
+            }
+								}
+ elsif ( -e $wcount ){
+            my $cur_count = `cat $log_file | wc -l`;
+            chomp($cur_count);
+            my $temp_count = `cat $wcount`;
+            `echo "$cur_count" > $wcount`;
+            $diff = $cur_count - $temp_count;
+            if($diff == 0){
+			#$message .= "WARNING - No new lines added\n";
+			$breach=2;
+                $flag_severity = 0; #-WARNING STATE-#
+            }
+			elsif($cur_count > $temp_count){
+                open(FILE, "$exception_file") or die;
+                while(<FILE>){
+                    chomp;
+                    my ($exception,$threshold,$persistence,$alert) = (split(/\^/,$_))[0..3];
+                    $test = `cat $log_file | tail -n $diff | grep "$exception" | wc -l`;
+                    chomp($test);
+                    if($test >= $threshold){
+                        #$message .=  "$exception occured $test times,";
+                        $flag_severity = $alert;
+				if ($alert == 2){ $f_severity = 2;$breach=1;}
+                        if($persistence == 1){
+                            if( -s $persistent_temp){
+                                if (exists $hash{$exception}){
+                                    my $temp_var="";
+                                    $temp_var = $hash{$exception};
+                                    $test = $temp_var + $test;
+                                    $hash{$exception} = $test;
+                                    $f_severity = 2;
+									$breach=1;
+                                    $pers_exist = 1;
+                                }
+								else {					
+									$hash{$exception} = $test;
+									$f_severity = 2;
+							$breach=1;
+								}
+								open DATA1, ">$persistent_temp" or die $!;
+								foreach $key (keys %hash)
+								{
+									my $value_hash="";
+									$value_hash = $hash{$key};
+									`echo "$today_date^$key^$value_hash" >> $persistent_temp`;
+								}
+								close(DATA1);
+								}
+							else {
+								`echo "$today_date^$exception^$test" >> $persistent_temp`; $f_severity = 2;
+								$f_severity = 2; #-CRITICAL STATE-#
+								$breach=1;
+								}
+			}  elsif ($persistence != 1 && $pers_exist != 0) {
+							$message .=  "CRITICAL - $exception occured $test times\n";
+							$breach=1;
+						}
+						if($pers_exist == 0) {
+							
+					$message .=  "CRITICAL - $exception occured $test times\n";
+					$breach=1;
+						}
+					}
+					else {
+						$no_breach = 1;
+					}
+						
+
+		       }
+ 	}
+
+
+            elsif($cur_count < $temp_count){
+			$exception_file="/opt/sensu/embedded/bin/scripts_ypa/inputfileiat";
+                open(DATA3, "$exception_file") or die;
+                while(<DATA3>){
+		chomp;
+		my ($exception,$threshold,$persistence,$alert) = (split(/\^/,$_))[0..3];
+                    $test = `grep -c "$exception" $log_file`;
+		chomp($test);
+		if($test >= $threshold){
+			#$message .=  "$exception occured $test times,";
+			$flag_severity = $alert;
+					if ($alert == 2){ $f_severity = 2;$breach=1;}
+					if($persistence == 1){
+						if( -s $persistent_temp){
+							if (exists $hash{$exception}){
+							my $temp_var="";
+							$temp_var = $hash{$exception};
+							$test = $temp_var + $test;
+							$hash{$exception} = $test;
+							$f_severity = 2;
+							$breach=1;
+							$pers_exist = 1;
+							}
+						else {
+							$hash{$exception} = $test;
+							$f_severity = 2;
+									$breach=1;
+							}
+							open DATA1, ">$persistent_temp" or die $!;
+							foreach $key (keys %hash)
+							{
+							my $value_hash="";
+							$value_hash = $hash{$key};
+							`echo "$today_date^$key^$value_hash" >> $persistent_temp`;
+							}
+							close(DATA1);
+					}
+					else {
+					`echo "$today_date^$exception^$test" >> $persistent_temp`; $f_severity = 2;
+								$breach=1;
+					$f_severity = 2; #-CRITICAL STATE-#
+		             
+							$breach=1;
+                                        }
+					}  elsif ($persistence != 1 && $pers_exist != 0) {
+							$message .=  "CRITICAL - $exception occured $test times\n";
+							$breach=1;
+							}
+					 if($pers_exist == 0) {
+						$message .=  "CRITICAL - $exception occured $test times\n";
+						$breach=1;
+					}
+				}
+				else {
+                                                $no_breach = 1;
+                                        }
+
+			}
+	}
+}
+
+
+
+my $size = keys %hash;
+if($size < 1 && $no_breach == 1 && $breach == 0)
+{
+	$message = "\"check_juggernaut_logs\": OK-Server log is fine"."\n";
+}
+if($size < 1 && $breach == 1)
+{
+	$message = "\"check_juggernaut_logs\": ".$message."\n";
+}
+
+if ($size > 0 && $breach == 0){
+	foreach $key (keys %hash)
+	{
+		my $value_hash="";
+		$value_hash = $hash{$key};
+		$message .= "(P)CRITICAL - $today_date-$key occurred $value_hash times\n";
+}
+	$message = "\"check_juggernaut_logs\": ".$message."\n";
+	$flag_severity = 2;
+
+} elsif ($size > 0 && $breach == 1){
+foreach $key (keys %hash)
+{
+	my $value_hash="";
+	$value_hash = $hash{$key};
+		$message .= "(P)CRITICAL - $today_date-$key occurred $value_hash times\n";
+}
+	$message = "\"check_juggernaut_logs\": ".$message."\n";
+	$flag_severity = 2;
+} elsif ($size > 0 && $breach == 2){
+foreach $key (keys %hash)
+{
+        my $value_hash="";
+        $value_hash = $hash{$key};
+        $message2 .= "(P)CRITICAL - $today_date-$key occurred $value_hash times\n";
+}
+	$message2 .= "OK - No new lines added\n";
+        $message = "\"check_juggernaut_logs\": ".$message2."\n";
+        $flag_severity = 2;
+}elsif ($breach == 2){
+        $message = "OK - No new lines added\n";
+        $message = "\"check_juggernaut_logs\": ".$message."\n";
+        $flag_severity = 0;
+
+    }
+
+
+
+}
+if ($f_severity == 2){$flag_severity=2;}#-PERSISTENCE-#
+	chomp($message,$flag_severity);
+	return ($message,$flag_severity);
+}
+
+my ($output,$flag_severity1) = servercore("$file");
+
+print "$output";
+chomp($output);
+##print "$port_comp\n";
+#-$output - $flag_severity1\n";
+
+
+exit ($flag_severity1);
+

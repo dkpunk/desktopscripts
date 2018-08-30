@@ -2,8 +2,8 @@
 
 from socket import *
 
-HOST = '127.0.0.1'
-PORT = 5600
+HOST = 'localhost'
+PORT = 8080
 BUFSIZ = 1024
 ADDR =(HOST,PORT)
 while True:

@@ -1,0 +1,151 @@
+{
+   "name": "check_sdp2_custom_SMS_telnet_9000",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_telnet.pl 9000 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_custom_SMS_9000"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "9000",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5b34a86b6564ca24d61f1bfe"
+}{
+   "name": "check_sdp2_custom_ErrorSegment_Service_telnet_9006",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_telnet.pl 9006 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_custom_ErrorSegment_Service_9006"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "9006",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5b34a86c732a0f24b0a08dd1"
+}{
+   "name": "check_sdp2_custom_SMS_UI_telnet_8888",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_telnet.pl 8888 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_custom_SMS_UI_8888"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8888",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5b34a86cf1797624ca664d62"
+}{
+   "name": "check_sdp2_custom_SMS_UI_telnet_8888",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_telnet.pl 8888 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_custom_SMS_UI_8888"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8888",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5b34a86cf1797624ca664d62"
+}{
+   "name": "check_sdp2_custom_YUVA_service_telnet_8080",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_telnet.pl 8080 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_custom_YUVA_service_8080"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8080",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5b34a86d2705ba24bc573d1b"
+}{
+   "name": "check_sdp2_custom_ErrorSegment_Audit_telnet_9007",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_telnet.pl 9007 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_custom_ErrorSegment_Audit_9007"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "9007",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5b34a86dc76cde24b3e65383"
+}{
+   "name": "check_sdp2_custom_PreSR_UI_telnet_8899",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_telnet.pl 8899 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_custom_PreSR_UI_telnet_8899"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8899",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5b34a86e6564ca24d61f1bff"
+}{
+   "name": "check_sdp2_custom_BugR_service_telnet_8888",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_telnet.pl 8888 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_custom_BugR_service_8888"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8888",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5b34a86ef1797624ca664d63"
+}{
+   "name": "check_sdp2_custom_BugR_service_telnet_8888",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_telnet.pl 8888 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_custom_BugR_service_8888"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "8888",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5b34a86ef1797624ca664d63"
+}{
+   "name": "check_sdp2_custom_JN_Analysis_service_telnet_9008",
+   "command": "export PATH=$PATH:/opt/sensu/embedded/bin:/opt/sensu/embedded/bin/scripts_ypa && check_telnet.pl 9008 2> /dev/null",
+   "category": "Application",
+   "handlers": [
+      "default"
+   ],
+   "subscribers": [
+      "sdp2_role_custom_JN_Analysis_service_9008"
+   ],
+   "userdefined1": "http://sot.yodlee.com",
+   "instance": "9008",
+   "check_type": "status",
+   "interval": 300,
+   "id": "5b34a86f5f8e0624c56aacac"
+}
